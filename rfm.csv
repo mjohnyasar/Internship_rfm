@@ -1,0 +1,2820 @@
+customer_no,customer_id,Recency,Frequency,Monetary,Recency_score,Frequency_score,Monetary_score,RFM_SCORE,Segment,Is_Loyal
+1,1111,524,1,21.14,1,1,1,111,hibernating,Not Loyal
+2,1001,318,1,28.88,2,1,1,211,hibernating,Not Loyal
+3,1002,2,1,82.39,5,1,3,513,new_customers,Not Loyal
+4,1003,100,1,87.46,4,1,3,413,promising,Not Loyal
+5,1004,114,3,88.87,4,3,3,433,potential_loyalists,Loyal
+6,1005,421,1,56.07,1,1,2,112,hibernating,Not Loyal
+7,1006,193,1,67.29,3,1,3,313,about_to_sleep,Not Loyal
+8,1007,174,2,34.21,4,2,2,422,potential_loyalists,Loyal
+9,1008,55,3,219.46,5,3,5,535,potential_loyalists,Loyal
+10,1009,310,1,19.91,2,1,1,211,hibernating,Not Loyal
+11,1010,0,1,26.07,5,1,1,511,new_customers,Not Loyal
+12,1011,2,1,21.37,5,1,1,511,new_customers,Not Loyal
+13,1012,84,1,67.29,5,1,3,513,new_customers,Not Loyal
+14,1013,311,1,64.53,2,1,3,213,hibernating,Not Loyal
+15,1014,528,1,56.4,1,1,2,112,hibernating,Not Loyal
+16,1015,67,1,8.31,5,1,1,511,new_customers,Not Loyal
+17,1016,123,1,47.09,4,1,2,412,promising,Not Loyal
+18,1017,519,1,62.15,1,1,3,113,hibernating,Not Loyal
+19,1018,89,1,13.92,5,1,1,511,new_customers,Not Loyal
+20,1019,79,1,13.92,5,1,1,511,new_customers,Not Loyal
+21,1020,143,1,32.62,4,1,2,412,promising,Not Loyal
+22,1021,634,1,60.94,1,1,3,113,hibernating,Not Loyal
+23,1022,583,1,20.63,1,1,1,111,hibernating,Not Loyal
+24,1023,386,2,93.65,1,2,3,123,hibernating,Not Loyal
+25,1024,180,1,57.45,4,1,2,412,promising,Not Loyal
+26,1025,309,1,102.06,2,1,4,214,hibernating,Not Loyal
+27,1026,443,1,56.07,1,1,2,112,hibernating,Not Loyal
+28,1027,459,1,61.58,1,1,3,113,hibernating,Not Loyal
+29,1028,420,1,42.88,1,1,2,112,hibernating,Not Loyal
+30,1029,798,1,46.72,1,1,2,112,hibernating,Not Loyal
+31,1030,1678,2,36.35,1,2,2,122,hibernating,Not Loyal
+32,1031,301,1,29.53,2,1,1,211,hibernating,Not Loyal
+33,1032,26,1,18.59,5,1,1,511,new_customers,Not Loyal
+34,1033,1176,1,21.25,1,1,1,111,hibernating,Not Loyal
+35,1034,859,3,121.68,1,3,4,134,at_Risk,Not Loyal
+36,1035,480,1,62.62,1,1,3,113,hibernating,Not Loyal
+37,1036,66,9,761.19,5,5,5,555,champions,Loyal
+38,1037,7,2,141.51,5,2,4,524,potential_loyalists,Loyal
+39,1038,930,2,138.51,1,2,4,124,hibernating,Not Loyal
+40,1039,209,1,61.94,3,1,3,313,about_to_sleep,Not Loyal
+41,1040,529,1,61.21,1,1,3,113,hibernating,Not Loyal
+42,1041,85,4,314.15,5,4,5,545,champions,Loyal
+43,1042,559,1,9.43,1,1,1,111,hibernating,Not Loyal
+44,1043,89,8,308.86,5,5,5,555,champions,Loyal
+45,1044,462,1,64.49,1,1,3,113,hibernating,Not Loyal
+46,1045,94,1,23.25,4,1,1,411,promising,Not Loyal
+47,1046,437,1,19.48,1,1,1,111,hibernating,Not Loyal
+48,1047,18,4,258.04,5,4,5,545,champions,Loyal
+49,1048,443,1,102.8,1,1,4,114,hibernating,Not Loyal
+50,1049,185,2,40.42,3,2,2,322,about_to_sleep,Not Loyal
+51,1050,306,2,75.85,2,2,3,223,hibernating,Not Loyal
+52,1051,38,1,57.93,5,1,2,512,new_customers,Not Loyal
+53,1052,334,1,23.27,2,1,1,211,hibernating,Not Loyal
+54,1053,1431,1,33.54,1,1,2,112,hibernating,Not Loyal
+55,1054,256,1,23.25,3,1,1,311,about_to_sleep,Not Loyal
+56,1055,374,1,53.64,1,1,2,112,hibernating,Not Loyal
+57,1056,341,1,45.71,2,1,2,212,hibernating,Not Loyal
+58,1057,562,1,22.11,1,1,1,111,hibernating,Not Loyal
+59,1058,200,1,58.41,3,1,2,312,about_to_sleep,Not Loyal
+60,1059,215,1,75.7,3,1,3,313,about_to_sleep,Not Loyal
+61,1060,71,2,80.18,5,2,3,523,potential_loyalists,Loyal
+62,1061,212,1,36.52,3,1,2,312,about_to_sleep,Not Loyal
+63,1062,730,2,95.51,1,2,3,123,hibernating,Not Loyal
+64,1063,307,1,20.46,2,1,1,211,hibernating,Not Loyal
+65,1064,60,1,89.76,5,1,3,513,new_customers,Not Loyal
+66,1065,299,2,116.4,2,2,4,224,hibernating,Not Loyal
+67,1066,303,5,284.13,2,5,5,255,cant_loose,Not Loyal
+68,1067,444,1,58.88,1,1,2,112,hibernating,Not Loyal
+69,1068,402,1,20.56,1,1,1,111,hibernating,Not Loyal
+70,1069,337,1,29.72,2,1,1,211,hibernating,Not Loyal
+71,1070,418,3,189.41,1,3,5,135,at_Risk,Not Loyal
+72,1071,20,1,32.52,5,1,2,512,new_customers,Not Loyal
+73,1072,173,1,17.65,4,1,1,411,promising,Not Loyal
+74,1073,2,3,94.97,5,3,3,533,potential_loyalists,Loyal
+75,1074,87,1,43.32,5,1,2,512,new_customers,Not Loyal
+76,1075,160,3,592.55,4,3,5,435,potential_loyalists,Loyal
+77,1076,88,1,23.26,5,1,1,511,new_customers,Not Loyal
+78,1077,301,1,39.9,2,1,2,212,hibernating,Not Loyal
+79,1078,67,2,81.05,5,2,3,523,potential_loyalists,Loyal
+80,1079,1543,1,67.21,1,1,3,113,hibernating,Not Loyal
+81,1080,66,27,1301.63,5,5,5,555,champions,Loyal
+82,1081,373,1,22.42,1,1,1,111,hibernating,Not Loyal
+83,1082,1,3,88.02,5,3,3,533,potential_loyalists,Loyal
+84,1083,169,1,15.69,4,1,1,411,promising,Not Loyal
+85,1084,149,3,147.41,4,3,4,434,potential_loyalists,Loyal
+86,1085,20,7,377.72,5,5,5,555,champions,Loyal
+87,1086,320,1,30.73,2,1,2,212,hibernating,Not Loyal
+88,1087,102,1,27.47,4,1,1,411,promising,Not Loyal
+89,1088,483,1,14.94,1,1,1,111,hibernating,Not Loyal
+90,1089,247,2,40.84,3,2,2,322,about_to_sleep,Not Loyal
+91,1090,241,2,155.15,3,2,5,325,about_to_sleep,Not Loyal
+92,1091,357,1,40.33,2,1,2,212,hibernating,Not Loyal
+93,1092,372,1,26.85,1,1,1,111,hibernating,Not Loyal
+94,1093,78,1,8.31,5,1,1,511,new_customers,Not Loyal
+95,1094,1647,1,23.26,1,1,1,111,hibernating,Not Loyal
+96,1095,804,1,46.36,1,1,2,112,hibernating,Not Loyal
+97,1096,118,1,60.7,4,1,3,413,promising,Not Loyal
+98,1097,212,2,89.57,3,2,3,323,about_to_sleep,Not Loyal
+99,1098,186,1,16.73,3,1,1,311,about_to_sleep,Not Loyal
+100,1099,111,2,32.52,4,2,2,422,potential_loyalists,Loyal
+101,1100,32,2,62.18,5,2,3,523,potential_loyalists,Loyal
+102,1101,29,1,27.48,5,1,1,511,new_customers,Not Loyal
+103,1102,562,1,24.94,1,1,1,111,hibernating,Not Loyal
+104,1103,57,1,23.26,5,1,1,511,new_customers,Not Loyal
+105,1104,10,1,22.3,5,1,1,511,new_customers,Not Loyal
+106,1105,1226,6,176.91,1,5,5,155,cant_loose,Not Loyal
+107,1106,66,1,59.17,5,1,2,512,new_customers,Not Loyal
+108,1107,123,5,310.64,4,5,5,455,loyal_customers,Loyal
+109,1108,238,1,23.26,3,1,1,311,about_to_sleep,Not Loyal
+110,1109,111,1,13.91,4,1,1,411,promising,Not Loyal
+111,1110,346,1,30.75,2,1,2,212,hibernating,Not Loyal
+112,1112,117,2,57.8,4,2,2,422,potential_loyalists,Loyal
+113,1113,87,1,123.36,5,1,4,514,new_customers,Not Loyal
+114,1114,408,3,200.85,1,3,5,135,at_Risk,Not Loyal
+115,1115,184,1,74.87,3,1,3,313,about_to_sleep,Not Loyal
+116,1116,547,1,50.06,1,1,2,112,hibernating,Not Loyal
+117,1117,85,1,26.99,5,1,1,511,new_customers,Not Loyal
+118,1118,234,1,25.22,3,1,1,311,about_to_sleep,Not Loyal
+119,1119,417,1,7.85,1,1,1,111,hibernating,Not Loyal
+120,1120,357,1,29.98,2,1,1,211,hibernating,Not Loyal
+121,1121,1637,1,34.2,1,1,2,112,hibernating,Not Loyal
+122,1122,581,1,44.3,1,1,2,112,hibernating,Not Loyal
+123,1123,551,1,76.38,1,1,3,113,hibernating,Not Loyal
+124,1124,137,2,85.81,4,2,3,423,potential_loyalists,Loyal
+125,1125,23,2,55.87,5,2,2,522,potential_loyalists,Loyal
+126,1126,93,5,316.99,4,5,5,455,loyal_customers,Loyal
+127,1127,348,1,71.5,2,1,3,213,hibernating,Not Loyal
+128,1128,86,1,41.95,5,1,2,512,new_customers,Not Loyal
+129,1129,559,1,42.49,1,1,2,112,hibernating,Not Loyal
+130,1130,289,1,36.44,2,1,2,212,hibernating,Not Loyal
+131,1131,4,2,109.21,5,2,4,524,potential_loyalists,Loyal
+132,1132,389,2,77.33,1,2,3,123,hibernating,Not Loyal
+133,1133,94,1,74.77,4,1,3,413,promising,Not Loyal
+134,1134,387,1,61.21,1,1,3,113,hibernating,Not Loyal
+135,1135,72,1,76.41,5,1,3,513,new_customers,Not Loyal
+136,1136,947,1,23.22,1,1,1,111,hibernating,Not Loyal
+137,1137,1693,1,11.64,1,1,1,111,hibernating,Not Loyal
+138,1138,994,1,41.4,1,1,2,112,hibernating,Not Loyal
+139,1139,31,1,11.1,5,1,1,511,new_customers,Not Loyal
+140,1140,381,1,70.08,1,1,3,113,hibernating,Not Loyal
+141,1141,449,4,152.12,1,4,5,145,at_Risk,Not Loyal
+142,1142,363,1,175.47,2,1,5,215,hibernating,Not Loyal
+143,1143,84,1,41.93,5,1,2,512,new_customers,Not Loyal
+144,1144,1713,1,70,1,1,3,113,hibernating,Not Loyal
+145,1145,759,1,60.64,1,1,3,113,hibernating,Not Loyal
+146,1146,222,1,38.35,3,1,2,312,about_to_sleep,Not Loyal
+147,1147,86,2,70.43,5,2,3,523,potential_loyalists,Loyal
+148,1148,260,1,50.92,3,1,2,312,about_to_sleep,Not Loyal
+149,1149,86,1,92.52,5,1,3,513,new_customers,Not Loyal
+150,1150,572,1,14.01,1,1,1,111,hibernating,Not Loyal
+151,1151,96,1,50.81,4,1,2,412,promising,Not Loyal
+152,1152,50,1,8.32,5,1,1,511,new_customers,Not Loyal
+153,1153,79,3,186.68,5,3,5,535,potential_loyalists,Loyal
+154,1154,85,1,23.25,5,1,1,511,new_customers,Not Loyal
+155,1155,549,1,47.35,1,1,2,112,hibernating,Not Loyal
+156,1156,475,1,89.91,1,1,3,113,hibernating,Not Loyal
+157,1157,56,1,8.31,5,1,1,511,new_customers,Not Loyal
+158,1158,299,1,61.68,2,1,3,213,hibernating,Not Loyal
+159,1159,371,1,28.31,1,1,1,111,hibernating,Not Loyal
+160,1160,312,1,18.5,2,1,1,211,hibernating,Not Loyal
+161,1161,824,3,108.61,1,3,4,134,at_Risk,Not Loyal
+162,1162,34,2,37.2,5,2,2,522,potential_loyalists,Loyal
+163,1163,216,1,46.64,3,1,2,312,about_to_sleep,Not Loyal
+164,1164,40,1,12.06,5,1,1,511,new_customers,Not Loyal
+165,1165,36,1,31.67,5,1,2,512,new_customers,Not Loyal
+166,1166,76,5,260.77,5,5,5,555,champions,Loyal
+167,1167,63,5,344.19,5,5,5,555,champions,Loyal
+168,1168,150,1,61.39,4,1,3,413,promising,Not Loyal
+169,1169,165,1,25.79,4,1,1,411,promising,Not Loyal
+170,1170,241,1,21.5,3,1,1,311,about_to_sleep,Not Loyal
+171,1171,107,5,366.67,4,5,5,455,loyal_customers,Loyal
+172,1172,19,1,16.25,5,1,1,511,new_customers,Not Loyal
+173,1173,300,1,97.19,2,1,3,213,hibernating,Not Loyal
+174,1174,522,1,199.19,1,1,5,115,hibernating,Not Loyal
+175,1175,434,1,75.68,1,1,3,113,hibernating,Not Loyal
+176,1176,285,6,282.51,2,5,5,255,cant_loose,Not Loyal
+177,1177,213,3,99.68,3,3,3,333,need_attention,Not Loyal
+178,1178,186,1,27.9,3,1,1,311,about_to_sleep,Not Loyal
+179,1179,105,3,166.24,4,3,5,435,potential_loyalists,Loyal
+180,1180,234,1,55.67,3,1,2,312,about_to_sleep,Not Loyal
+181,1181,16,1,58.77,5,1,2,512,new_customers,Not Loyal
+182,1182,17,3,373.29,5,3,5,535,potential_loyalists,Loyal
+183,1183,124,1,16.25,4,1,1,411,promising,Not Loyal
+184,1184,359,1,28.79,2,1,1,211,hibernating,Not Loyal
+185,1185,375,1,56.53,1,1,2,112,hibernating,Not Loyal
+186,1186,98,3,54.82,4,3,2,432,potential_loyalists,Loyal
+187,1187,955,2,92.8,1,2,3,123,hibernating,Not Loyal
+188,1188,618,1,24.94,1,1,1,111,hibernating,Not Loyal
+189,1189,381,1,22.9,1,1,1,111,hibernating,Not Loyal
+190,1190,1025,1,12.05,1,1,1,111,hibernating,Not Loyal
+191,1191,156,2,131.27,4,2,4,424,potential_loyalists,Loyal
+192,1192,812,1,77.54,1,1,3,113,hibernating,Not Loyal
+193,1193,1266,1,11.56,1,1,1,111,hibernating,Not Loyal
+194,1194,94,3,850.46,4,3,5,435,potential_loyalists,Loyal
+195,1195,6,2,49.8,5,2,2,522,potential_loyalists,Loyal
+196,1196,595,1,371.14,1,1,5,115,hibernating,Not Loyal
+197,1197,35,1,14.35,5,1,1,511,new_customers,Not Loyal
+198,1198,78,1,13.18,5,1,1,511,new_customers,Not Loyal
+199,1199,231,1,13.18,3,1,1,311,about_to_sleep,Not Loyal
+200,1200,237,4,194.72,3,4,5,345,loyal_customers,Not Loyal
+201,1201,376,1,19.53,1,1,1,111,hibernating,Not Loyal
+202,1202,87,1,49.4,5,1,2,512,new_customers,Not Loyal
+203,1203,214,1,33.1,3,1,2,312,about_to_sleep,Not Loyal
+204,1204,754,1,66.11,1,1,3,113,hibernating,Not Loyal
+205,1205,438,1,38.97,1,1,2,112,hibernating,Not Loyal
+206,1206,49,1,20.82,5,1,1,511,new_customers,Not Loyal
+207,1207,1597,1,16.3,1,1,1,111,hibernating,Not Loyal
+208,1208,318,1,27,2,1,1,211,hibernating,Not Loyal
+209,1209,937,1,19.5,1,1,1,111,hibernating,Not Loyal
+210,1210,184,5,227.68,3,5,5,355,loyal_customers,Not Loyal
+211,1211,250,1,12.06,3,1,1,311,about_to_sleep,Not Loyal
+212,1212,441,2,90.26,1,2,3,123,hibernating,Not Loyal
+213,1213,562,1,42.49,1,1,2,112,hibernating,Not Loyal
+214,1214,149,1,47.28,4,1,2,412,promising,Not Loyal
+215,1215,353,1,13.92,2,1,1,211,hibernating,Not Loyal
+216,1216,254,1,11.78,3,1,1,311,about_to_sleep,Not Loyal
+217,1217,40,3,82.02,5,3,3,533,potential_loyalists,Loyal
+218,1218,84,1,56.87,5,1,2,512,new_customers,Not Loyal
+219,1219,56,1,27.7,5,1,1,511,new_customers,Not Loyal
+220,1220,510,1,57.47,1,1,2,112,hibernating,Not Loyal
+221,1221,86,4,248,5,4,5,545,champions,Loyal
+222,1222,81,3,261.88,5,3,5,535,potential_loyalists,Loyal
+223,1223,53,2,262.15,5,2,5,525,potential_loyalists,Loyal
+224,1224,144,1,35.42,4,1,2,412,promising,Not Loyal
+225,1225,247,3,249.9,3,3,5,335,need_attention,Not Loyal
+226,1226,17,2,76.07,5,2,3,523,potential_loyalists,Loyal
+227,1227,83,1,14.35,5,1,1,511,new_customers,Not Loyal
+228,1228,499,1,22.85,1,1,1,111,hibernating,Not Loyal
+229,1229,40,2,117.07,5,2,4,524,potential_loyalists,Loyal
+230,1230,65,1,71.47,5,1,3,513,new_customers,Not Loyal
+231,1231,208,1,59.04,3,1,2,312,about_to_sleep,Not Loyal
+232,1232,32,1,21.4,5,1,1,511,new_customers,Not Loyal
+233,1233,439,1,12.06,1,1,1,111,hibernating,Not Loyal
+234,1234,329,1,16.73,2,1,1,211,hibernating,Not Loyal
+235,1235,946,1,25.13,1,1,1,111,hibernating,Not Loyal
+236,1236,59,1,57.15,5,1,2,512,new_customers,Not Loyal
+237,1237,572,2,38.46,1,2,2,122,hibernating,Not Loyal
+238,1238,290,1,34.9,2,1,2,212,hibernating,Not Loyal
+239,1239,559,1,18.75,1,1,1,111,hibernating,Not Loyal
+240,1240,313,2,51.02,2,2,2,222,hibernating,Not Loyal
+241,1241,169,1,23.27,4,1,1,411,promising,Not Loyal
+242,1242,25,1,15.7,5,1,1,511,new_customers,Not Loyal
+243,1243,64,1,19.53,5,1,1,511,new_customers,Not Loyal
+244,1244,134,1,19.23,4,1,1,411,promising,Not Loyal
+245,1245,460,1,10.17,1,1,1,111,hibernating,Not Loyal
+246,1246,370,1,10.93,1,1,1,111,hibernating,Not Loyal
+247,1247,518,2,56.77,1,2,2,122,hibernating,Not Loyal
+248,1248,431,4,226.84,1,4,5,145,at_Risk,Not Loyal
+249,1249,344,1,45.68,2,1,2,212,hibernating,Not Loyal
+250,1250,7,2,81.15,5,2,3,523,potential_loyalists,Loyal
+251,1251,261,2,161.42,3,2,5,325,about_to_sleep,Not Loyal
+252,1252,286,1,19.53,2,1,1,211,hibernating,Not Loyal
+253,1253,226,1,23.73,3,1,1,311,about_to_sleep,Not Loyal
+254,1254,255,1,67.29,3,1,3,313,about_to_sleep,Not Loyal
+255,1255,299,1,30.23,2,1,2,212,hibernating,Not Loyal
+256,1256,514,1,42.82,1,1,2,112,hibernating,Not Loyal
+257,1257,272,1,23.18,2,1,1,211,hibernating,Not Loyal
+258,1258,32,16,1030.86,5,5,5,555,champions,Loyal
+259,1259,229,1,53.16,3,1,2,312,about_to_sleep,Not Loyal
+260,1260,32,1,15.79,5,1,1,511,new_customers,Not Loyal
+261,1261,1318,1,56.84,1,1,2,112,hibernating,Not Loyal
+262,1262,557,1,57.61,1,1,2,112,hibernating,Not Loyal
+263,1263,11,1,16.63,5,1,1,511,new_customers,Not Loyal
+264,1264,334,1,32.62,2,1,2,212,hibernating,Not Loyal
+265,1265,200,3,72.69,3,3,3,333,need_attention,Not Loyal
+266,1266,405,2,99.81,1,2,3,123,hibernating,Not Loyal
+267,1267,247,1,109.97,3,1,4,314,about_to_sleep,Not Loyal
+268,1268,23,7,451.4,5,5,5,555,champions,Loyal
+269,1269,122,10,694.87,4,5,5,455,loyal_customers,Loyal
+270,1270,492,1,133.64,1,1,4,114,hibernating,Not Loyal
+271,1271,21,11,856.47,5,5,5,555,champions,Loyal
+272,1272,426,1,12.99,1,1,1,111,hibernating,Not Loyal
+273,1273,416,2,22.25,1,2,1,121,hibernating,Not Loyal
+274,1274,244,1,16.95,3,1,1,311,about_to_sleep,Not Loyal
+275,1275,200,2,55.98,3,2,2,322,about_to_sleep,Not Loyal
+276,1276,335,2,43.15,2,2,2,222,hibernating,Not Loyal
+277,1277,211,1,17.64,3,1,1,311,about_to_sleep,Not Loyal
+278,1278,53,1,60.72,5,1,3,513,new_customers,Not Loyal
+279,1279,99,1,65.1,4,1,3,413,promising,Not Loyal
+280,1280,65,1,18.79,5,1,1,511,new_customers,Not Loyal
+281,1281,86,2,12.15,5,2,1,521,potential_loyalists,Loyal
+282,1282,1096,1,34.98,1,1,2,112,hibernating,Not Loyal
+283,1283,279,1,37.8,2,1,2,212,hibernating,Not Loyal
+284,1284,80,1,34.83,5,1,2,512,new_customers,Not Loyal
+285,1285,370,2,179.78,1,2,5,125,hibernating,Not Loyal
+286,1286,1149,1,49.52,1,1,2,112,hibernating,Not Loyal
+287,1287,240,1,63.08,3,1,3,313,about_to_sleep,Not Loyal
+288,1288,46,1,31.67,5,1,2,512,new_customers,Not Loyal
+289,1289,60,1,23.26,5,1,1,511,new_customers,Not Loyal
+290,1290,485,1,45.71,1,1,2,112,hibernating,Not Loyal
+291,1291,51,4,142.71,5,4,4,544,champions,Loyal
+292,1292,143,1,15.68,4,1,1,411,promising,Not Loyal
+293,1293,135,1,12.04,4,1,1,411,promising,Not Loyal
+294,1294,22,4,444.72,5,4,5,545,champions,Loyal
+295,1295,226,1,24.37,3,1,1,311,about_to_sleep,Not Loyal
+296,1296,183,1,51.3,3,1,2,312,about_to_sleep,Not Loyal
+297,1297,296,3,174.91,2,3,5,235,at_Risk,Not Loyal
+298,1298,572,1,25.87,1,1,1,111,hibernating,Not Loyal
+299,1299,31,1,21.58,5,1,1,511,new_customers,Not Loyal
+300,1300,102,1,40.36,4,1,2,412,promising,Not Loyal
+301,1301,50,1,23.26,5,1,1,511,new_customers,Not Loyal
+302,1302,448,1,22.79,1,1,1,111,hibernating,Not Loyal
+303,1303,999,1,21.37,1,1,1,111,hibernating,Not Loyal
+304,1304,60,1,37.28,5,1,2,512,new_customers,Not Loyal
+305,1305,130,1,33.52,4,1,2,412,promising,Not Loyal
+306,1306,261,1,37.2,3,1,2,312,about_to_sleep,Not Loyal
+307,1307,233,2,44.21,3,2,2,322,about_to_sleep,Not Loyal
+308,1308,55,1,62.57,5,1,3,513,new_customers,Not Loyal
+309,1309,388,1,59.99,1,1,2,112,hibernating,Not Loyal
+310,1310,40,1,8.32,5,1,1,511,new_customers,Not Loyal
+311,1311,28,1,13.93,5,1,1,511,new_customers,Not Loyal
+312,1312,379,1,25.98,1,1,1,111,hibernating,Not Loyal
+313,1313,526,1,11.37,1,1,1,111,hibernating,Not Loyal
+314,1314,159,1,49.9,4,1,2,412,promising,Not Loyal
+315,1315,165,2,37.15,4,2,2,422,potential_loyalists,Loyal
+316,1316,312,1,24.21,2,1,1,211,hibernating,Not Loyal
+317,1317,231,1,58.85,3,1,2,312,about_to_sleep,Not Loyal
+318,1318,318,1,31.44,2,1,2,212,hibernating,Not Loyal
+319,1319,77,1,84.11,5,1,3,513,new_customers,Not Loyal
+320,1320,332,1,13.88,2,1,1,211,hibernating,Not Loyal
+321,1321,823,1,12.97,1,1,1,111,hibernating,Not Loyal
+322,1322,108,1,60.7,4,1,3,413,promising,Not Loyal
+323,1323,88,1,41.02,5,1,2,512,new_customers,Not Loyal
+324,1324,641,2,92.91,1,2,3,123,hibernating,Not Loyal
+325,1325,424,1,92,1,1,3,113,hibernating,Not Loyal
+326,1326,1036,1,50.15,1,1,2,112,hibernating,Not Loyal
+327,1327,249,1,25.14,3,1,1,311,about_to_sleep,Not Loyal
+328,1328,418,1,69.16,1,1,3,113,hibernating,Not Loyal
+329,1329,50,1,22.34,5,1,1,511,new_customers,Not Loyal
+330,1330,770,1,50.65,1,1,2,112,hibernating,Not Loyal
+331,1331,197,1,17.18,3,1,1,311,about_to_sleep,Not Loyal
+332,1332,89,4,156.37,5,4,5,545,champions,Loyal
+333,1333,458,2,78.25,1,2,3,123,hibernating,Not Loyal
+334,1334,268,1,62.57,3,1,3,313,about_to_sleep,Not Loyal
+335,1335,775,1,58.18,1,1,2,112,hibernating,Not Loyal
+336,1336,480,2,117.19,1,2,4,124,hibernating,Not Loyal
+337,1337,957,1,56.16,1,1,2,112,hibernating,Not Loyal
+338,1338,338,1,4.58,2,1,1,211,hibernating,Not Loyal
+339,1339,92,1,63.67,4,1,3,413,promising,Not Loyal
+340,1340,41,1,205.61,5,1,5,515,new_customers,Not Loyal
+341,1341,87,1,24.19,5,1,1,511,new_customers,Not Loyal
+342,1342,130,3,291.85,4,3,5,435,potential_loyalists,Loyal
+343,1343,64,1,12.06,5,1,1,511,new_customers,Not Loyal
+344,1344,127,1,10.19,4,1,1,411,promising,Not Loyal
+345,1345,962,1,56.16,1,1,2,112,hibernating,Not Loyal
+346,1346,875,1,21.37,1,1,1,111,hibernating,Not Loyal
+347,1347,434,1,60.08,1,1,3,113,hibernating,Not Loyal
+348,1348,1126,1,48.59,1,1,2,112,hibernating,Not Loyal
+349,1349,318,1,81.79,2,1,3,213,hibernating,Not Loyal
+350,1350,480,1,19.54,1,1,1,111,hibernating,Not Loyal
+351,1351,504,2,126.04,1,2,4,124,hibernating,Not Loyal
+352,1352,203,1,205.08,3,1,5,315,about_to_sleep,Not Loyal
+353,1353,474,2,193.46,1,2,5,125,hibernating,Not Loyal
+354,1354,417,1,99.53,1,1,3,113,hibernating,Not Loyal
+355,1355,89,3,163.1,5,3,5,535,potential_loyalists,Loyal
+356,1356,420,2,41.39,1,2,2,122,hibernating,Not Loyal
+357,1357,569,1,43.97,1,1,2,112,hibernating,Not Loyal
+358,1358,269,1,35.42,3,1,2,312,about_to_sleep,Not Loyal
+359,1359,118,1,18.59,4,1,1,411,promising,Not Loyal
+360,1360,17,1,19.53,5,1,1,511,new_customers,Not Loyal
+361,1361,139,1,10.93,4,1,1,411,promising,Not Loyal
+362,1362,558,1,167.89,1,1,5,115,hibernating,Not Loyal
+363,1363,93,1,29.79,4,1,1,411,promising,Not Loyal
+364,1364,99,1,56.45,4,1,2,412,promising,Not Loyal
+365,1365,49,1,65.36,5,1,3,513,new_customers,Not Loyal
+366,1366,63,1,56.51,5,1,2,512,new_customers,Not Loyal
+367,1367,135,1,174.88,4,1,5,415,promising,Not Loyal
+368,1368,31,1,38.22,5,1,2,512,new_customers,Not Loyal
+369,1369,93,1,16.25,4,1,1,411,promising,Not Loyal
+370,1370,15,1,15.79,5,1,1,511,new_customers,Not Loyal
+371,1371,66,5,211.58,5,5,5,555,champions,Loyal
+372,1372,87,1,60.64,5,1,3,513,new_customers,Not Loyal
+373,1373,54,2,109.01,5,2,4,524,potential_loyalists,Loyal
+374,1374,35,1,41.1,5,1,2,512,new_customers,Not Loyal
+375,1375,235,1,48.04,3,1,2,312,about_to_sleep,Not Loyal
+376,1376,34,3,185.16,5,3,5,535,potential_loyalists,Loyal
+377,1377,266,1,32.15,3,1,2,312,about_to_sleep,Not Loyal
+378,1378,258,3,139.59,3,3,4,334,need_attention,Not Loyal
+379,1379,8,3,146.87,5,3,4,534,potential_loyalists,Loyal
+380,1380,9,2,32,5,2,2,522,potential_loyalists,Loyal
+381,1381,169,1,16.72,4,1,1,411,promising,Not Loyal
+382,1382,55,2,98.18,5,2,3,523,potential_loyalists,Loyal
+383,1383,428,1,89.72,1,1,3,113,hibernating,Not Loyal
+384,1384,213,5,250.79,3,5,5,355,loyal_customers,Not Loyal
+385,1385,168,3,91.27,4,3,3,433,potential_loyalists,Loyal
+386,1386,177,1,12.06,4,1,1,411,promising,Not Loyal
+387,1387,421,1,59.79,1,1,2,112,hibernating,Not Loyal
+388,1388,605,1,22.85,1,1,1,111,hibernating,Not Loyal
+389,1389,1240,1,82.41,1,1,3,113,hibernating,Not Loyal
+390,1390,750,3,381.71,1,3,5,135,at_Risk,Not Loyal
+391,1391,113,1,26.15,4,1,1,411,promising,Not Loyal
+392,1392,151,1,56.5,4,1,2,412,promising,Not Loyal
+393,1393,405,1,32.62,1,1,2,112,hibernating,Not Loyal
+394,1394,428,1,16.92,1,1,1,111,hibernating,Not Loyal
+395,1395,74,1,21.39,5,1,1,511,new_customers,Not Loyal
+396,1396,331,2,86.71,2,2,3,223,hibernating,Not Loyal
+397,1397,198,2,70.33,3,2,3,323,about_to_sleep,Not Loyal
+398,1398,751,2,121.96,1,2,4,124,hibernating,Not Loyal
+399,1399,81,1,25.12,5,1,1,511,new_customers,Not Loyal
+400,1400,395,1,72.36,1,1,3,113,hibernating,Not Loyal
+401,1401,142,1,60.88,4,1,3,413,promising,Not Loyal
+402,1402,59,1,25.97,5,1,1,511,new_customers,Not Loyal
+403,1403,100,1,97.78,4,1,3,413,promising,Not Loyal
+404,1404,73,1,60.63,5,1,3,513,new_customers,Not Loyal
+405,1405,293,1,23.64,2,1,1,211,hibernating,Not Loyal
+406,1406,144,1,28.67,4,1,1,411,promising,Not Loyal
+407,1407,472,1,15.22,1,1,1,111,hibernating,Not Loyal
+408,1408,560,1,61.06,1,1,3,113,hibernating,Not Loyal
+409,1409,313,2,132.36,2,2,4,224,hibernating,Not Loyal
+410,1410,78,1,63.54,5,1,3,513,new_customers,Not Loyal
+411,1411,596,1,28.74,1,1,1,111,hibernating,Not Loyal
+412,1412,14,1,60.55,5,1,3,513,new_customers,Not Loyal
+413,1413,50,1,13.93,5,1,1,511,new_customers,Not Loyal
+414,1414,85,6,312.4,5,5,5,555,champions,Loyal
+415,1415,531,1,58.84,1,1,2,112,hibernating,Not Loyal
+416,1416,704,1,44.38,1,1,2,112,hibernating,Not Loyal
+417,1417,614,2,90.02,1,2,3,123,hibernating,Not Loyal
+418,1418,144,1,24.2,4,1,1,411,promising,Not Loyal
+419,1419,248,1,18.6,3,1,1,311,about_to_sleep,Not Loyal
+420,1420,263,1,16.25,3,1,1,311,about_to_sleep,Not Loyal
+421,1421,330,1,171.01,2,1,5,215,hibernating,Not Loyal
+422,1422,484,1,56.07,1,1,2,112,hibernating,Not Loyal
+423,1423,39,1,60.03,5,1,3,513,new_customers,Not Loyal
+424,1424,1394,1,48.55,1,1,2,112,hibernating,Not Loyal
+425,1425,604,1,136.11,1,1,4,114,hibernating,Not Loyal
+426,1426,43,1,66.53,5,1,3,513,new_customers,Not Loyal
+427,1427,54,2,51.19,5,2,2,522,potential_loyalists,Loyal
+428,1428,226,1,138.22,3,1,4,314,about_to_sleep,Not Loyal
+429,1429,448,1,90,1,1,3,113,hibernating,Not Loyal
+430,1430,128,1,16.25,4,1,1,411,promising,Not Loyal
+431,1431,1666,1,23.26,1,1,1,111,hibernating,Not Loyal
+432,1432,108,1,30.73,4,1,2,412,promising,Not Loyal
+433,1433,0,1,84.07,5,1,3,513,new_customers,Not Loyal
+434,1434,444,1,46.15,1,1,2,112,hibernating,Not Loyal
+435,1435,477,3,352.34,1,3,5,135,at_Risk,Not Loyal
+436,1436,89,1,76.47,5,1,3,513,new_customers,Not Loyal
+437,1437,799,1,43.97,1,1,2,112,hibernating,Not Loyal
+438,1438,400,1,27.01,1,1,1,111,hibernating,Not Loyal
+439,1439,242,2,56.26,3,2,2,322,about_to_sleep,Not Loyal
+440,1440,60,1,23.25,5,1,1,511,new_customers,Not Loyal
+441,1441,166,1,56.5,4,1,2,412,promising,Not Loyal
+442,1442,73,1,67.74,5,1,3,513,new_customers,Not Loyal
+443,1443,35,1,8.32,5,1,1,511,new_customers,Not Loyal
+444,1444,66,1,33.73,5,1,2,512,new_customers,Not Loyal
+445,1445,104,1,97.09,4,1,3,413,promising,Not Loyal
+446,1446,445,1,49.41,1,1,2,112,hibernating,Not Loyal
+447,1447,455,1,59.7,1,1,2,112,hibernating,Not Loyal
+448,1448,40,1,19.51,5,1,1,511,new_customers,Not Loyal
+449,1449,8,1,73.92,5,1,3,513,new_customers,Not Loyal
+450,1450,87,1,10.18,5,1,1,511,new_customers,Not Loyal
+451,1451,121,1,29.8,4,1,1,411,promising,Not Loyal
+452,1452,211,1,25.6,3,1,1,311,about_to_sleep,Not Loyal
+453,1453,199,2,65.6,3,2,3,323,about_to_sleep,Not Loyal
+454,1454,38,1,12.06,5,1,1,511,new_customers,Not Loyal
+455,1455,52,1,60.64,5,1,3,513,new_customers,Not Loyal
+456,1456,69,9,1793.83,5,5,5,555,champions,Loyal
+457,1457,23,1,37.28,5,1,2,512,new_customers,Not Loyal
+458,1458,24,3,65.22,5,3,3,533,potential_loyalists,Loyal
+459,1459,1592,1,31.7,1,1,2,112,hibernating,Not Loyal
+460,1460,319,1,26.99,2,1,1,211,hibernating,Not Loyal
+461,1461,89,1,58.29,5,1,2,512,new_customers,Not Loyal
+462,1462,114,1,65.45,4,1,3,413,promising,Not Loyal
+463,1463,433,1,166.36,1,1,5,115,hibernating,Not Loyal
+464,1464,189,1,61.37,3,1,3,313,about_to_sleep,Not Loyal
+465,1465,209,1,44.93,3,1,2,312,about_to_sleep,Not Loyal
+466,1466,73,1,51.31,5,1,2,512,new_customers,Not Loyal
+467,1467,132,1,42.39,4,1,2,412,promising,Not Loyal
+468,1468,229,1,22.24,3,1,1,311,about_to_sleep,Not Loyal
+469,1469,1590,1,47.52,1,1,2,112,hibernating,Not Loyal
+470,1470,182,1,23.26,3,1,1,311,about_to_sleep,Not Loyal
+471,1471,60,1,62.9,5,1,3,513,new_customers,Not Loyal
+472,1472,206,1,19.53,3,1,1,311,about_to_sleep,Not Loyal
+473,1473,242,1,16.26,3,1,1,311,about_to_sleep,Not Loyal
+474,1474,50,1,26.93,5,1,1,511,new_customers,Not Loyal
+475,1475,293,1,23.26,2,1,1,211,hibernating,Not Loyal
+476,1476,10,1,10.18,5,1,1,511,new_customers,Not Loyal
+477,1477,38,1,29.06,5,1,1,511,new_customers,Not Loyal
+478,1478,74,1,57.92,5,1,2,512,new_customers,Not Loyal
+479,1479,24,1,99.05,5,1,3,513,new_customers,Not Loyal
+480,1480,29,1,16.63,5,1,1,511,new_customers,Not Loyal
+481,1481,424,1,10.17,1,1,1,111,hibernating,Not Loyal
+482,1482,375,1,58.41,1,1,2,112,hibernating,Not Loyal
+483,1483,28,1,32.62,5,1,2,512,new_customers,Not Loyal
+484,1484,1294,1,41.22,1,1,2,112,hibernating,Not Loyal
+485,1485,341,1,31.12,2,1,2,212,hibernating,Not Loyal
+486,1486,478,1,38.53,1,1,2,112,hibernating,Not Loyal
+487,1487,462,1,21.4,1,1,1,111,hibernating,Not Loyal
+488,1488,440,1,26.95,1,1,1,111,hibernating,Not Loyal
+489,1489,54,1,65.29,5,1,3,513,new_customers,Not Loyal
+490,1490,75,1,53.22,5,1,2,512,new_customers,Not Loyal
+491,1491,162,1,12.06,4,1,1,411,promising,Not Loyal
+492,1492,0,1,8.32,5,1,1,511,new_customers,Not Loyal
+493,1493,14,1,12.06,5,1,1,511,new_customers,Not Loyal
+494,1494,813,1,66.86,1,1,3,113,hibernating,Not Loyal
+495,1495,113,1,32.59,4,1,2,412,promising,Not Loyal
+496,1496,54,1,8.31,5,1,1,511,new_customers,Not Loyal
+497,1497,363,1,300.82,2,1,5,215,hibernating,Not Loyal
+498,1498,1430,1,48.67,1,1,2,112,hibernating,Not Loyal
+499,1499,315,1,6.44,2,1,1,211,hibernating,Not Loyal
+500,1500,37,3,132.4,5,3,4,534,potential_loyalists,Loyal
+501,1501,1597,1,10.22,1,1,1,111,hibernating,Not Loyal
+502,1502,455,2,173.98,1,2,5,125,hibernating,Not Loyal
+503,1503,1483,1,47.44,1,1,2,112,hibernating,Not Loyal
+504,1504,87,1,8.32,5,1,1,511,new_customers,Not Loyal
+505,1505,216,2,90.94,3,2,3,323,about_to_sleep,Not Loyal
+506,1506,36,8,560.41,5,5,5,555,champions,Loyal
+507,1507,91,1,62.83,4,1,3,413,promising,Not Loyal
+508,1508,318,1,18.57,2,1,1,211,hibernating,Not Loyal
+509,1509,293,1,23.26,2,1,1,211,hibernating,Not Loyal
+510,1510,89,1,12.99,5,1,1,511,new_customers,Not Loyal
+511,1511,483,1,11.21,1,1,1,111,hibernating,Not Loyal
+512,1512,1736,1,48.55,1,1,2,112,hibernating,Not Loyal
+513,1513,274,1,35.41,2,1,2,212,hibernating,Not Loyal
+514,1514,213,1,18.6,3,1,1,311,about_to_sleep,Not Loyal
+515,1515,182,2,116.01,3,2,4,324,about_to_sleep,Not Loyal
+516,1516,485,1,35.47,1,1,2,112,hibernating,Not Loyal
+517,1517,243,1,15.7,3,1,1,311,about_to_sleep,Not Loyal
+518,1518,185,1,55.97,3,1,2,312,about_to_sleep,Not Loyal
+519,1519,166,1,12.06,4,1,1,411,promising,Not Loyal
+520,1520,3,1,10.19,5,1,1,511,new_customers,Not Loyal
+521,1521,439,1,33.54,1,1,2,112,hibernating,Not Loyal
+522,1522,1338,2,74.69,1,2,3,123,hibernating,Not Loyal
+523,1523,103,1,14.86,4,1,1,411,promising,Not Loyal
+524,1524,264,1,12.05,3,1,1,311,about_to_sleep,Not Loyal
+525,1525,128,1,40.72,4,1,2,412,promising,Not Loyal
+526,1526,123,1,9.25,4,1,1,411,promising,Not Loyal
+527,1527,115,1,10.18,4,1,1,411,promising,Not Loyal
+528,1528,470,1,17.52,1,1,1,111,hibernating,Not Loyal
+529,1529,105,1,51.72,4,1,2,412,promising,Not Loyal
+530,1530,301,2,48.46,2,2,2,222,hibernating,Not Loyal
+531,1531,22,1,63.63,5,1,3,513,new_customers,Not Loyal
+532,1532,336,1,26.12,2,1,1,211,hibernating,Not Loyal
+533,1533,103,1,14.86,4,1,1,411,promising,Not Loyal
+534,1534,356,1,12.51,2,1,1,211,hibernating,Not Loyal
+535,1535,436,1,8.31,1,1,1,111,hibernating,Not Loyal
+536,1536,121,2,226.95,4,2,5,425,potential_loyalists,Loyal
+537,1537,55,1,59.71,5,1,2,512,new_customers,Not Loyal
+538,1538,135,11,620.79,4,5,5,455,loyal_customers,Loyal
+539,1539,118,1,42.94,4,1,2,412,promising,Not Loyal
+540,1540,178,4,102.84,4,4,4,444,loyal_customers,Loyal
+541,1541,129,1,96.21,4,1,3,413,promising,Not Loyal
+542,1542,243,1,126.17,3,1,4,314,about_to_sleep,Not Loyal
+543,1543,82,1,61.64,5,1,3,513,new_customers,Not Loyal
+544,1544,33,1,37.85,5,1,2,512,new_customers,Not Loyal
+545,1545,572,1,60.86,1,1,3,113,hibernating,Not Loyal
+546,1546,350,1,31.68,2,1,2,212,hibernating,Not Loyal
+547,1547,733,1,15.68,1,1,1,111,hibernating,Not Loyal
+548,1548,340,1,27.01,2,1,1,211,hibernating,Not Loyal
+549,1549,340,1,14.91,2,1,1,211,hibernating,Not Loyal
+550,1550,22,1,11.11,5,1,1,511,new_customers,Not Loyal
+551,1551,2,4,102.83,5,4,4,544,champions,Loyal
+552,1552,199,2,91.93,3,2,3,323,about_to_sleep,Not Loyal
+553,1553,162,1,27.01,4,1,1,411,promising,Not Loyal
+554,1554,427,1,34.47,1,1,2,112,hibernating,Not Loyal
+555,1555,195,1,26.15,3,1,1,311,about_to_sleep,Not Loyal
+556,1556,53,1,24.2,5,1,1,511,new_customers,Not Loyal
+557,1557,20,1,24.9,5,1,1,511,new_customers,Not Loyal
+558,1558,153,1,27.01,4,1,1,411,promising,Not Loyal
+559,1559,266,1,13.93,3,1,1,311,about_to_sleep,Not Loyal
+560,1560,1,1,25.6,5,1,1,511,new_customers,Not Loyal
+561,1561,18,1,12.06,5,1,1,511,new_customers,Not Loyal
+562,1562,414,1,28.5,1,1,1,111,hibernating,Not Loyal
+563,1563,98,7,372.07,4,5,5,455,loyal_customers,Loyal
+564,1564,649,1,63.79,1,1,3,113,hibernating,Not Loyal
+565,1565,118,1,62.62,4,1,3,413,promising,Not Loyal
+566,1566,24,3,190.15,5,3,5,535,potential_loyalists,Loyal
+567,1567,585,1,15.4,1,1,1,111,hibernating,Not Loyal
+568,1568,198,1,12.06,3,1,1,311,about_to_sleep,Not Loyal
+569,1569,1038,1,32.15,1,1,2,112,hibernating,Not Loyal
+570,1570,321,1,19.53,2,1,1,211,hibernating,Not Loyal
+571,1571,220,1,19.53,3,1,1,311,about_to_sleep,Not Loyal
+572,1572,18,1,31.67,5,1,2,512,new_customers,Not Loyal
+573,1573,69,2,117.13,5,2,4,524,potential_loyalists,Loyal
+574,1574,299,1,35.05,2,1,2,212,hibernating,Not Loyal
+575,1575,22,17,2639,5,5,5,555,champions,Loyal
+576,1576,1358,1,15.61,1,1,1,111,hibernating,Not Loyal
+577,1577,322,1,21.4,2,1,1,211,hibernating,Not Loyal
+578,1578,24,1,74.19,5,1,3,513,new_customers,Not Loyal
+579,1579,34,5,227.63,5,5,5,555,champions,Loyal
+580,1580,128,1,12.06,4,1,1,411,promising,Not Loyal
+581,1581,110,2,119.23,4,2,4,424,potential_loyalists,Loyal
+582,1582,984,1,7.37,1,1,1,111,hibernating,Not Loyal
+583,1583,287,1,94.47,2,1,3,213,hibernating,Not Loyal
+584,1584,1385,2,125.5,1,2,4,124,hibernating,Not Loyal
+585,1585,245,1,23.74,3,1,1,311,about_to_sleep,Not Loyal
+586,1586,475,1,9.8,1,1,1,111,hibernating,Not Loyal
+587,1587,107,1,57.56,4,1,2,412,promising,Not Loyal
+588,1588,30,1,35.86,5,1,2,512,new_customers,Not Loyal
+589,1589,514,1,26.61,1,1,1,111,hibernating,Not Loyal
+590,1590,114,8,352.3,4,5,5,455,loyal_customers,Loyal
+591,1591,14,4,139.34,5,4,4,544,champions,Loyal
+592,1592,239,3,69.8,3,3,3,333,need_attention,Not Loyal
+593,1593,60,5,163.36,5,5,5,555,champions,Loyal
+594,1594,160,2,89.14,4,2,3,423,potential_loyalists,Loyal
+595,1595,554,1,64.16,1,1,3,113,hibernating,Not Loyal
+596,1596,161,1,19.25,4,1,1,411,promising,Not Loyal
+597,1597,1111,1,10.65,1,1,1,111,hibernating,Not Loyal
+598,1598,168,1,15.32,4,1,1,411,promising,Not Loyal
+599,1599,46,2,116.55,5,2,4,524,potential_loyalists,Loyal
+600,1600,350,1,44.61,2,1,2,212,hibernating,Not Loyal
+601,1601,274,1,23.72,2,1,1,211,hibernating,Not Loyal
+602,1602,550,1,61.9,1,1,3,113,hibernating,Not Loyal
+603,1603,331,1,36.34,2,1,2,212,hibernating,Not Loyal
+604,1604,80,1,66.29,5,1,3,513,new_customers,Not Loyal
+605,1605,171,2,134.56,4,2,4,424,potential_loyalists,Loyal
+606,1606,554,1,19.73,1,1,1,111,hibernating,Not Loyal
+607,1607,85,2,147.04,5,2,4,524,potential_loyalists,Loyal
+608,1608,465,3,135.39,1,3,4,134,at_Risk,Not Loyal
+609,1609,536,1,49.83,1,1,2,112,hibernating,Not Loyal
+610,1610,470,1,58.86,1,1,2,112,hibernating,Not Loyal
+611,1611,406,1,73.6,1,1,3,113,hibernating,Not Loyal
+612,1612,424,1,56.9,1,1,2,112,hibernating,Not Loyal
+613,1613,561,1,42.49,1,1,2,112,hibernating,Not Loyal
+614,1614,698,2,56.67,1,2,2,122,hibernating,Not Loyal
+615,1615,221,3,91.06,3,3,3,333,need_attention,Not Loyal
+616,1616,121,1,47.55,4,1,2,412,promising,Not Loyal
+617,1617,69,2,51.19,5,2,2,522,potential_loyalists,Loyal
+618,1618,296,1,8.32,2,1,1,211,hibernating,Not Loyal
+619,1619,333,1,18.59,2,1,1,211,hibernating,Not Loyal
+620,1620,357,1,34.36,2,1,2,212,hibernating,Not Loyal
+621,1621,296,1,12.06,2,1,1,211,hibernating,Not Loyal
+622,1622,185,1,58.4,3,1,2,312,about_to_sleep,Not Loyal
+623,1623,1306,1,65.84,1,1,3,113,hibernating,Not Loyal
+624,1624,164,1,56.88,4,1,2,412,promising,Not Loyal
+625,1625,274,1,56.3,2,1,2,212,hibernating,Not Loyal
+626,1626,412,1,61.68,1,1,3,113,hibernating,Not Loyal
+627,1627,23,1,13.92,5,1,1,511,new_customers,Not Loyal
+628,1628,41,1,85.96,5,1,3,513,new_customers,Not Loyal
+629,1629,47,4,245.63,5,4,5,545,champions,Loyal
+630,1630,85,4,242.92,5,4,5,545,champions,Loyal
+631,1631,117,1,35.42,4,1,2,412,promising,Not Loyal
+632,1632,34,4,81.8,5,4,3,543,champions,Loyal
+633,1633,34,1,65.37,5,1,3,513,new_customers,Not Loyal
+634,1634,67,2,74.29,5,2,3,523,potential_loyalists,Loyal
+635,1635,106,1,25.12,4,1,1,411,promising,Not Loyal
+636,1636,282,1,43.83,2,1,2,212,hibernating,Not Loyal
+637,1637,308,1,59.72,2,1,2,212,hibernating,Not Loyal
+638,1638,449,2,219.63,1,2,5,125,hibernating,Not Loyal
+639,1639,483,1,14.48,1,1,1,111,hibernating,Not Loyal
+640,1640,488,1,56.07,1,1,2,112,hibernating,Not Loyal
+641,1641,300,1,70.95,2,1,3,213,hibernating,Not Loyal
+642,1642,494,1,29.85,1,1,1,111,hibernating,Not Loyal
+643,1643,274,1,42.43,2,1,2,212,hibernating,Not Loyal
+644,1644,346,1,11.1,2,1,1,211,hibernating,Not Loyal
+645,1645,562,1,42.49,1,1,2,112,hibernating,Not Loyal
+646,1646,443,1,32.14,1,1,2,112,hibernating,Not Loyal
+647,1647,146,1,19.53,4,1,1,411,promising,Not Loyal
+648,1648,10,1,51.02,5,1,2,512,new_customers,Not Loyal
+649,1649,178,4,302.3,4,4,5,445,loyal_customers,Loyal
+650,1650,340,1,34.75,2,1,2,212,hibernating,Not Loyal
+651,1651,522,1,46.68,1,1,2,112,hibernating,Not Loyal
+652,1652,526,1,45.68,1,1,2,112,hibernating,Not Loyal
+653,1653,152,1,19.51,4,1,1,411,promising,Not Loyal
+654,1654,243,1,18.6,3,1,1,311,about_to_sleep,Not Loyal
+655,1655,149,1,59.78,4,1,2,412,promising,Not Loyal
+656,1656,196,1,32.61,3,1,2,312,about_to_sleep,Not Loyal
+657,1657,47,1,24.11,5,1,1,511,new_customers,Not Loyal
+658,1658,129,1,9.71,4,1,1,411,promising,Not Loyal
+659,1659,227,1,78.94,3,1,3,313,about_to_sleep,Not Loyal
+660,1660,283,1,92.52,2,1,3,213,hibernating,Not Loyal
+661,1661,48,1,32.14,5,1,2,512,new_customers,Not Loyal
+662,1662,93,1,57.94,4,1,2,412,promising,Not Loyal
+663,1663,781,1,13.88,1,1,1,111,hibernating,Not Loyal
+664,1664,325,1,32.14,2,1,2,212,hibernating,Not Loyal
+665,1665,436,1,35.42,1,1,2,112,hibernating,Not Loyal
+666,1666,1646,1,30.73,1,1,2,112,hibernating,Not Loyal
+667,1667,100,5,319.52,4,5,5,455,loyal_customers,Loyal
+668,1668,4,1,32.23,5,1,2,512,new_customers,Not Loyal
+669,1669,102,1,81.89,4,1,3,413,promising,Not Loyal
+670,1670,389,1,139.89,1,1,4,114,hibernating,Not Loyal
+671,1671,449,2,148.3,1,2,4,124,hibernating,Not Loyal
+672,1672,38,2,74.66,5,2,3,523,potential_loyalists,Loyal
+673,1673,401,1,21.4,1,1,1,111,hibernating,Not Loyal
+674,1674,39,1,10.17,5,1,1,511,new_customers,Not Loyal
+675,1675,210,2,128.89,3,2,4,324,about_to_sleep,Not Loyal
+676,1676,782,1,44.35,1,1,2,112,hibernating,Not Loyal
+677,1677,356,1,21.4,2,1,1,211,hibernating,Not Loyal
+678,1678,274,4,148.21,2,4,4,244,at_Risk,Not Loyal
+679,1679,654,1,24.94,1,1,1,111,hibernating,Not Loyal
+680,1680,148,2,35.36,4,2,2,422,potential_loyalists,Loyal
+681,1681,415,1,18.6,1,1,1,111,hibernating,Not Loyal
+682,1682,270,1,18.6,3,1,1,311,about_to_sleep,Not Loyal
+683,1683,234,3,78.1,3,3,3,333,need_attention,Not Loyal
+684,1684,54,1,56.17,5,1,2,512,new_customers,Not Loyal
+685,1685,72,2,50.9,5,2,2,522,potential_loyalists,Loyal
+686,1686,48,1,65.41,5,1,3,513,new_customers,Not Loyal
+687,1687,151,1,57.89,4,1,2,412,promising,Not Loyal
+688,1688,249,1,60.51,3,1,3,313,about_to_sleep,Not Loyal
+689,1689,65,1,32.51,5,1,2,512,new_customers,Not Loyal
+690,1690,99,1,24.2,4,1,1,411,promising,Not Loyal
+691,1691,351,1,25.13,2,1,1,211,hibernating,Not Loyal
+692,1692,471,1,36.81,1,1,2,112,hibernating,Not Loyal
+693,1693,85,1,80,5,1,3,513,new_customers,Not Loyal
+694,1694,256,2,38.08,3,2,2,322,about_to_sleep,Not Loyal
+695,1695,229,2,132.71,3,2,4,324,about_to_sleep,Not Loyal
+696,1696,326,1,13.46,2,1,1,211,hibernating,Not Loyal
+697,1697,1025,1,17.65,1,1,1,111,hibernating,Not Loyal
+698,1698,77,1,45.22,5,1,2,512,new_customers,Not Loyal
+699,1699,236,1,28.87,3,1,1,311,about_to_sleep,Not Loyal
+700,1700,240,1,57.94,3,1,2,312,about_to_sleep,Not Loyal
+701,1701,38,1,37.72,5,1,2,512,new_customers,Not Loyal
+702,1702,120,1,14,4,1,1,411,promising,Not Loyal
+703,1703,360,1,37.66,2,1,2,212,hibernating,Not Loyal
+704,1704,432,2,195.19,1,2,5,125,hibernating,Not Loyal
+705,1705,28,1,61.09,5,1,3,513,new_customers,Not Loyal
+706,1706,159,1,12.06,4,1,1,411,promising,Not Loyal
+707,1707,560,1,43.42,1,1,2,112,hibernating,Not Loyal
+708,1708,296,1,24.1,2,1,1,211,hibernating,Not Loyal
+709,1709,1370,1,24.85,1,1,1,111,hibernating,Not Loyal
+710,1710,44,1,21.39,5,1,1,511,new_customers,Not Loyal
+711,1711,716,1,74.45,1,1,3,113,hibernating,Not Loyal
+712,1712,67,1,56.53,5,1,2,512,new_customers,Not Loyal
+713,1713,87,1,63.85,5,1,3,513,new_customers,Not Loyal
+714,1714,30,2,126.28,5,2,4,524,potential_loyalists,Loyal
+715,1715,143,1,59.84,4,1,2,412,promising,Not Loyal
+716,1716,123,1,8.32,4,1,1,411,promising,Not Loyal
+717,1717,81,1,22.33,5,1,1,511,new_customers,Not Loyal
+718,1718,440,1,79.35,1,1,3,113,hibernating,Not Loyal
+719,1719,244,1,22.23,3,1,1,311,about_to_sleep,Not Loyal
+720,1720,124,2,119.94,4,2,4,424,potential_loyalists,Loyal
+721,1721,443,1,13.93,1,1,1,111,hibernating,Not Loyal
+722,1722,28,2,98.47,5,2,3,523,potential_loyalists,Loyal
+723,1723,355,1,17.29,2,1,1,211,hibernating,Not Loyal
+724,1724,1126,1,73.78,1,1,3,113,hibernating,Not Loyal
+725,1725,277,1,38.21,2,1,2,212,hibernating,Not Loyal
+726,1726,1559,1,32.72,1,1,2,112,hibernating,Not Loyal
+727,1727,85,1,65.39,5,1,3,513,new_customers,Not Loyal
+728,1728,413,1,94.2,1,1,3,113,hibernating,Not Loyal
+729,1729,162,4,181.4,4,4,5,445,loyal_customers,Loyal
+730,1730,151,1,32.52,4,1,2,412,promising,Not Loyal
+731,1731,1388,1,29.79,1,1,1,111,hibernating,Not Loyal
+732,1732,81,1,74.75,5,1,3,513,new_customers,Not Loyal
+733,1733,162,1,92.96,4,1,3,413,promising,Not Loyal
+734,1734,1130,1,55.05,1,1,2,112,hibernating,Not Loyal
+735,1735,96,2,104.65,4,2,4,424,potential_loyalists,Loyal
+736,1736,208,1,19.72,3,1,1,311,about_to_sleep,Not Loyal
+737,1737,187,1,114.7,3,1,4,314,about_to_sleep,Not Loyal
+738,1738,55,2,154.11,5,2,5,525,potential_loyalists,Loyal
+739,1739,559,1,19.23,1,1,1,111,hibernating,Not Loyal
+740,1740,85,1,59.29,5,1,2,512,new_customers,Not Loyal
+741,1741,153,1,58.86,4,1,2,412,promising,Not Loyal
+742,1742,554,1,19.23,1,1,1,111,hibernating,Not Loyal
+743,1743,223,1,67.26,3,1,3,313,about_to_sleep,Not Loyal
+744,1744,241,1,36.07,3,1,2,312,about_to_sleep,Not Loyal
+745,1745,128,1,19.53,4,1,1,411,promising,Not Loyal
+746,1746,572,1,62.7,1,1,3,113,hibernating,Not Loyal
+747,1747,124,1,93.41,4,1,3,413,promising,Not Loyal
+748,1748,498,1,27.03,1,1,1,111,hibernating,Not Loyal
+749,1749,418,1,31.68,1,1,2,112,hibernating,Not Loyal
+750,1750,52,1,33.73,5,1,2,512,new_customers,Not Loyal
+751,1751,410,1,12.99,1,1,1,111,hibernating,Not Loyal
+752,1752,62,1,27.93,5,1,1,511,new_customers,Not Loyal
+753,1753,321,1,56.07,2,1,2,212,hibernating,Not Loyal
+754,1754,215,1,12.97,3,1,1,311,about_to_sleep,Not Loyal
+755,1755,86,1,23.26,5,1,1,511,new_customers,Not Loyal
+756,1756,287,1,61.67,2,1,3,213,hibernating,Not Loyal
+757,1757,36,1,11.12,5,1,1,511,new_customers,Not Loyal
+758,1758,511,1,24.75,1,1,1,111,hibernating,Not Loyal
+759,1759,129,3,111.76,4,3,4,434,potential_loyalists,Loyal
+760,1760,799,3,176.4,1,3,5,135,at_Risk,Not Loyal
+761,1761,104,1,23.26,4,1,1,411,promising,Not Loyal
+762,1762,156,1,27.93,4,1,1,411,promising,Not Loyal
+763,1763,56,1,27,5,1,1,511,new_customers,Not Loyal
+764,1764,145,11,104.34,4,5,4,454,loyal_customers,Loyal
+765,1765,898,1,26.99,1,1,1,111,hibernating,Not Loyal
+766,1766,305,1,15.32,2,1,1,211,hibernating,Not Loyal
+767,1767,300,1,18.6,2,1,1,211,hibernating,Not Loyal
+768,1768,58,1,23.26,5,1,1,511,new_customers,Not Loyal
+769,1769,142,2,117.01,4,2,4,424,potential_loyalists,Loyal
+770,1770,123,1,12.06,4,1,1,411,promising,Not Loyal
+771,1771,197,1,30.99,3,1,2,312,about_to_sleep,Not Loyal
+772,1772,36,1,65.28,5,1,3,513,new_customers,Not Loyal
+773,1773,18,1,19.51,5,1,1,511,new_customers,Not Loyal
+774,1775,331,1,11.76,2,1,1,211,hibernating,Not Loyal
+775,1776,60,1,24.11,5,1,1,511,new_customers,Not Loyal
+776,1778,421,1,40.93,1,1,2,112,hibernating,Not Loyal
+777,1779,289,1,9.75,2,1,1,211,hibernating,Not Loyal
+778,1780,174,1,28.87,4,1,1,411,promising,Not Loyal
+779,1781,367,1,21.59,1,1,1,111,hibernating,Not Loyal
+780,1782,517,1,63.27,1,1,3,113,hibernating,Not Loyal
+781,1783,374,1,51.55,1,1,2,112,hibernating,Not Loyal
+782,1784,24,1,55.93,5,1,2,512,new_customers,Not Loyal
+783,1785,234,2,91.38,3,2,3,323,about_to_sleep,Not Loyal
+784,1786,29,1,6.91,5,1,1,511,new_customers,Not Loyal
+785,1787,54,1,23.26,5,1,1,511,new_customers,Not Loyal
+786,1788,107,1,76.36,4,1,3,413,promising,Not Loyal
+787,1789,107,1,59.79,4,1,2,412,promising,Not Loyal
+788,1790,84,1,20.56,5,1,1,511,new_customers,Not Loyal
+789,1791,683,1,27.77,1,1,1,111,hibernating,Not Loyal
+790,1792,542,1,66.62,1,1,3,113,hibernating,Not Loyal
+791,1793,99,1,93.43,4,1,3,413,promising,Not Loyal
+792,1794,151,1,58.79,4,1,2,412,promising,Not Loyal
+793,1795,109,1,27.93,4,1,1,411,promising,Not Loyal
+794,1796,28,1,12.05,5,1,1,511,new_customers,Not Loyal
+795,1797,23,2,186.89,5,2,5,525,potential_loyalists,Loyal
+796,1798,370,1,27.9,1,1,1,111,hibernating,Not Loyal
+797,1799,258,1,33.54,3,1,2,312,about_to_sleep,Not Loyal
+798,1800,24,1,10.64,5,1,1,511,new_customers,Not Loyal
+799,1801,41,1,15.7,5,1,1,511,new_customers,Not Loyal
+800,1802,166,1,11.11,4,1,1,411,promising,Not Loyal
+801,1803,755,2,77.95,1,2,3,123,hibernating,Not Loyal
+802,1804,373,1,41.96,1,1,2,112,hibernating,Not Loyal
+803,1805,1632,2,19.58,1,2,1,121,hibernating,Not Loyal
+804,1806,104,1,26.99,4,1,1,411,promising,Not Loyal
+805,1807,84,1,12.06,5,1,1,511,new_customers,Not Loyal
+806,1808,178,1,46.06,4,1,2,412,promising,Not Loyal
+807,1809,176,5,94.22,4,5,3,453,loyal_customers,Loyal
+808,1810,386,1,21.4,1,1,1,111,hibernating,Not Loyal
+809,1811,54,1,15.32,5,1,1,511,new_customers,Not Loyal
+810,1812,66,1,15.4,5,1,1,511,new_customers,Not Loyal
+811,1813,115,1,12.06,4,1,1,411,promising,Not Loyal
+812,1814,39,3,249.31,5,3,5,535,potential_loyalists,Loyal
+813,1815,18,5,335.55,5,5,5,555,champions,Loyal
+814,1816,70,1,43.36,5,1,2,512,new_customers,Not Loyal
+815,1817,150,1,15.7,4,1,1,411,promising,Not Loyal
+816,1818,354,1,15.79,2,1,1,211,hibernating,Not Loyal
+817,1819,971,1,17.65,1,1,1,111,hibernating,Not Loyal
+818,1820,184,1,27.48,3,1,1,311,about_to_sleep,Not Loyal
+819,1821,481,1,49.44,1,1,2,112,hibernating,Not Loyal
+820,1822,90,1,59.78,5,1,2,512,new_customers,Not Loyal
+821,1823,70,1,52.66,5,1,2,512,new_customers,Not Loyal
+822,1824,460,1,70.56,1,1,3,113,hibernating,Not Loyal
+823,1825,444,1,68.22,1,1,3,113,hibernating,Not Loyal
+824,1826,298,1,65.41,2,1,3,213,hibernating,Not Loyal
+825,1827,9,2,69.88,5,2,3,523,potential_loyalists,Loyal
+826,1828,347,1,16.5,2,1,1,211,hibernating,Not Loyal
+827,1829,103,1,72.85,4,1,3,413,promising,Not Loyal
+828,1830,41,4,97.81,5,4,3,543,champions,Loyal
+829,1831,990,1,51.26,1,1,2,112,hibernating,Not Loyal
+830,1832,245,1,12.99,3,1,1,311,about_to_sleep,Not Loyal
+831,1833,25,1,57.59,5,1,2,512,new_customers,Not Loyal
+832,1834,317,1,38.74,2,1,2,212,hibernating,Not Loyal
+833,1835,97,1,26.99,4,1,1,411,promising,Not Loyal
+834,1836,289,2,30.82,2,2,2,222,hibernating,Not Loyal
+835,1837,204,1,56.99,3,1,2,312,about_to_sleep,Not Loyal
+836,1838,173,1,110.25,4,1,4,414,promising,Not Loyal
+837,1839,1562,1,52.22,1,1,2,112,hibernating,Not Loyal
+838,1840,185,1,63.18,3,1,3,313,about_to_sleep,Not Loyal
+839,1841,26,2,248.96,5,2,5,525,potential_loyalists,Loyal
+840,1842,157,1,59.96,4,1,2,412,promising,Not Loyal
+841,1843,54,1,9.72,5,1,1,511,new_customers,Not Loyal
+842,1844,51,3,223.5,5,3,5,535,potential_loyalists,Loyal
+843,1845,11,1,34.57,5,1,2,512,new_customers,Not Loyal
+844,1846,45,6,516.71,5,5,5,555,champions,Loyal
+845,1847,217,1,60.74,3,1,3,313,about_to_sleep,Not Loyal
+846,1848,24,1,16.25,5,1,1,511,new_customers,Not Loyal
+847,1849,789,1,128.38,1,1,4,114,hibernating,Not Loyal
+848,1850,440,1,14.86,1,1,1,111,hibernating,Not Loyal
+849,1851,285,1,21.86,2,1,1,211,hibernating,Not Loyal
+850,1852,494,1,40.93,1,1,2,112,hibernating,Not Loyal
+851,1853,203,1,13.93,3,1,1,311,about_to_sleep,Not Loyal
+852,1854,197,1,23.93,3,1,1,311,about_to_sleep,Not Loyal
+853,1855,393,2,57.28,1,2,2,122,hibernating,Not Loyal
+854,1856,75,2,114.41,5,2,4,524,potential_loyalists,Loyal
+855,1857,1154,1,52.24,1,1,2,112,hibernating,Not Loyal
+856,1858,208,3,139.59,3,3,4,334,need_attention,Not Loyal
+857,1859,308,1,35.41,2,1,2,212,hibernating,Not Loyal
+858,1860,86,1,44.28,5,1,2,512,new_customers,Not Loyal
+859,1861,91,1,17.65,4,1,1,411,promising,Not Loyal
+860,1862,186,3,215.11,3,3,5,335,need_attention,Not Loyal
+861,1863,443,1,15.79,1,1,1,111,hibernating,Not Loyal
+862,1864,203,1,24.84,3,1,1,311,about_to_sleep,Not Loyal
+863,1865,123,1,84.2,4,1,3,413,promising,Not Loyal
+864,1866,429,1,19.43,1,1,1,111,hibernating,Not Loyal
+865,1867,3,1,55.03,5,1,2,512,new_customers,Not Loyal
+866,1868,437,1,66.81,1,1,3,113,hibernating,Not Loyal
+867,1869,64,1,68,5,1,3,513,new_customers,Not Loyal
+868,1870,25,1,65.82,5,1,3,513,new_customers,Not Loyal
+869,1871,438,1,16.26,1,1,1,111,hibernating,Not Loyal
+870,1872,1111,1,37.28,1,1,2,112,hibernating,Not Loyal
+871,1873,574,1,29.52,1,1,1,111,hibernating,Not Loyal
+872,1874,340,1,57.98,2,1,2,212,hibernating,Not Loyal
+873,1875,706,5,338.94,1,5,5,155,cant_loose,Not Loyal
+874,1876,418,1,61.19,1,1,3,113,hibernating,Not Loyal
+875,1877,531,1,11.65,1,1,1,111,hibernating,Not Loyal
+876,1878,77,1,57.96,5,1,2,512,new_customers,Not Loyal
+877,1879,369,1,24.3,1,1,1,111,hibernating,Not Loyal
+878,1880,83,9,284.74,5,5,5,555,champions,Loyal
+879,1881,260,1,41.96,3,1,2,312,about_to_sleep,Not Loyal
+880,1882,69,1,13.92,5,1,1,511,new_customers,Not Loyal
+881,1883,476,1,61.03,1,1,3,113,hibernating,Not Loyal
+882,1884,56,1,36.35,5,1,2,512,new_customers,Not Loyal
+883,1885,372,1,10.65,1,1,1,111,hibernating,Not Loyal
+884,1886,30,4,43.17,5,4,2,542,champions,Loyal
+885,1887,1645,1,69.5,1,1,3,113,hibernating,Not Loyal
+886,1888,430,6,621.51,1,5,5,155,cant_loose,Not Loyal
+887,1889,261,2,136.35,3,2,4,324,about_to_sleep,Not Loyal
+888,1890,14,1,12.06,5,1,1,511,new_customers,Not Loyal
+889,1891,562,1,29.72,1,1,1,111,hibernating,Not Loyal
+890,1892,218,1,28.46,3,1,1,311,about_to_sleep,Not Loyal
+891,1893,156,2,102.56,4,2,4,424,potential_loyalists,Loyal
+892,1894,289,1,25.61,2,1,1,211,hibernating,Not Loyal
+893,1895,906,1,73.47,1,1,3,113,hibernating,Not Loyal
+894,1896,115,3,226.54,4,3,5,435,potential_loyalists,Loyal
+895,1897,4,2,25.99,5,2,1,521,potential_loyalists,Loyal
+896,1898,556,1,42.49,1,1,2,112,hibernating,Not Loyal
+897,1899,1759,1,24.25,1,1,1,111,hibernating,Not Loyal
+898,1900,711,1,35.31,1,1,2,112,hibernating,Not Loyal
+899,1901,57,2,136.07,5,2,4,524,potential_loyalists,Loyal
+900,1902,65,1,61.2,5,1,3,513,new_customers,Not Loyal
+901,1903,101,1,60.12,4,1,3,413,promising,Not Loyal
+902,1904,149,2,62.33,4,2,3,423,potential_loyalists,Loyal
+903,1905,53,1,23.26,5,1,1,511,new_customers,Not Loyal
+904,1906,207,1,31.68,3,1,2,312,about_to_sleep,Not Loyal
+905,1907,197,1,33.73,3,1,2,312,about_to_sleep,Not Loyal
+906,1908,9,1,18.58,5,1,1,511,new_customers,Not Loyal
+907,1909,418,2,28.88,1,2,1,121,hibernating,Not Loyal
+908,1910,1706,1,37.34,1,1,2,112,hibernating,Not Loyal
+909,1911,313,1,69.5,2,1,3,213,hibernating,Not Loyal
+910,1912,759,2,147.6,1,2,4,124,hibernating,Not Loyal
+911,1913,91,1,65.4,4,1,3,413,promising,Not Loyal
+912,1914,448,1,12.06,1,1,1,111,hibernating,Not Loyal
+913,1915,86,2,52.59,5,2,2,522,potential_loyalists,Loyal
+914,1916,219,1,23.65,3,1,1,311,about_to_sleep,Not Loyal
+915,1917,233,1,58.6,3,1,2,312,about_to_sleep,Not Loyal
+916,1918,67,2,100.79,5,2,4,524,potential_loyalists,Loyal
+917,1919,116,1,65.84,4,1,3,413,promising,Not Loyal
+918,1920,109,2,139.48,4,2,4,424,potential_loyalists,Loyal
+919,1921,110,1,18.69,4,1,1,411,promising,Not Loyal
+920,1922,279,1,60.75,2,1,3,213,hibernating,Not Loyal
+921,1923,435,1,49.9,1,1,2,112,hibernating,Not Loyal
+922,1924,81,1,21.4,5,1,1,511,new_customers,Not Loyal
+923,1925,769,2,126.48,1,2,4,124,hibernating,Not Loyal
+924,1926,161,1,12.99,4,1,1,411,promising,Not Loyal
+925,1927,669,1,32.11,1,1,2,112,hibernating,Not Loyal
+926,1928,120,1,44.67,4,1,2,412,promising,Not Loyal
+927,1929,186,1,28.13,3,1,1,311,about_to_sleep,Not Loyal
+928,1930,99,1,21.36,4,1,1,411,promising,Not Loyal
+929,1931,54,1,35.4,5,1,2,512,new_customers,Not Loyal
+930,1932,87,5,512.52,5,5,5,555,champions,Loyal
+931,1933,473,1,13.54,1,1,1,111,hibernating,Not Loyal
+932,1934,723,1,62.04,1,1,3,113,hibernating,Not Loyal
+933,1935,490,2,59.23,1,2,2,122,hibernating,Not Loyal
+934,1936,202,5,419.1,3,5,5,355,loyal_customers,Not Loyal
+935,1937,37,3,74.92,5,3,3,533,potential_loyalists,Loyal
+936,1938,1552,1,20.38,1,1,1,111,hibernating,Not Loyal
+937,1939,20,1,10.17,5,1,1,511,new_customers,Not Loyal
+938,1940,206,1,61.64,3,1,3,313,about_to_sleep,Not Loyal
+939,1941,603,1,37.24,1,1,2,112,hibernating,Not Loyal
+940,1942,431,2,191.17,1,2,5,125,hibernating,Not Loyal
+941,1943,244,1,62.15,3,1,3,313,about_to_sleep,Not Loyal
+942,1944,1608,1,21.63,1,1,1,111,hibernating,Not Loyal
+943,1945,2,3,158.85,5,3,5,535,potential_loyalists,Loyal
+944,1946,60,1,29.78,5,1,1,511,new_customers,Not Loyal
+945,1947,16,1,26.06,5,1,1,511,new_customers,Not Loyal
+946,1948,63,1,54.57,5,1,2,512,new_customers,Not Loyal
+947,1949,73,1,35.61,5,1,2,512,new_customers,Not Loyal
+948,1950,224,1,35.87,3,1,2,312,about_to_sleep,Not Loyal
+949,1951,136,1,29.8,4,1,1,411,promising,Not Loyal
+950,1952,94,1,56.9,4,1,2,412,promising,Not Loyal
+951,1953,319,1,17.66,2,1,1,211,hibernating,Not Loyal
+952,1954,93,1,56.92,4,1,2,412,promising,Not Loyal
+953,1955,610,1,27.75,1,1,1,111,hibernating,Not Loyal
+954,1956,140,1,71.67,4,1,3,413,promising,Not Loyal
+955,1957,145,1,63.53,4,1,3,413,promising,Not Loyal
+956,1958,205,4,244.91,3,4,5,345,loyal_customers,Not Loyal
+957,1959,329,1,31.68,2,1,2,212,hibernating,Not Loyal
+958,1960,625,1,56,1,1,2,112,hibernating,Not Loyal
+959,1961,434,2,120.26,1,2,4,124,hibernating,Not Loyal
+960,1962,118,3,68.96,4,3,3,433,potential_loyalists,Loyal
+961,1963,96,1,58.36,4,1,2,412,promising,Not Loyal
+962,1964,418,1,59.79,1,1,2,112,hibernating,Not Loyal
+963,1965,244,3,32.99,3,3,2,332,need_attention,Not Loyal
+964,1966,85,1,25.12,5,1,1,511,new_customers,Not Loyal
+965,1967,788,1,54.21,1,1,2,112,hibernating,Not Loyal
+966,1968,365,1,27.93,2,1,1,211,hibernating,Not Loyal
+967,1969,8,1,8.32,5,1,1,511,new_customers,Not Loyal
+968,1970,93,5,229.17,4,5,5,455,loyal_customers,Loyal
+969,1971,323,1,16.99,2,1,1,211,hibernating,Not Loyal
+970,1972,107,2,17.66,4,2,1,421,potential_loyalists,Loyal
+971,1973,41,2,233.79,5,2,5,525,potential_loyalists,Loyal
+972,1974,950,1,48.16,1,1,2,112,hibernating,Not Loyal
+973,1975,59,1,18.59,5,1,1,511,new_customers,Not Loyal
+974,1976,71,1,31,5,1,2,512,new_customers,Not Loyal
+975,1977,132,1,57.94,4,1,2,412,promising,Not Loyal
+976,1978,76,4,431.03,5,4,5,545,champions,Loyal
+977,1979,262,1,22.8,3,1,1,311,about_to_sleep,Not Loyal
+978,1980,314,1,58.66,2,1,2,212,hibernating,Not Loyal
+979,1981,249,3,115.45,3,3,4,334,need_attention,Not Loyal
+980,1982,1083,2,10.18,1,2,1,121,hibernating,Not Loyal
+981,1983,77,1,33.88,5,1,2,512,new_customers,Not Loyal
+982,1984,129,1,27.93,4,1,1,411,promising,Not Loyal
+983,1985,34,1,17.63,5,1,1,511,new_customers,Not Loyal
+984,1986,274,1,12.99,2,1,1,211,hibernating,Not Loyal
+985,1987,213,1,44.3,3,1,2,312,about_to_sleep,Not Loyal
+986,1988,10,1,12.98,5,1,1,511,new_customers,Not Loyal
+987,1989,177,1,27.36,4,1,1,411,promising,Not Loyal
+988,1990,161,1,23.26,4,1,1,411,promising,Not Loyal
+989,1991,137,1,67.26,4,1,3,413,promising,Not Loyal
+990,1992,226,1,19.51,3,1,1,311,about_to_sleep,Not Loyal
+991,1993,196,2,138.48,3,2,4,324,about_to_sleep,Not Loyal
+992,1994,150,1,56.31,4,1,2,412,promising,Not Loyal
+993,1995,248,1,28.97,3,1,1,311,about_to_sleep,Not Loyal
+994,1996,95,1,56.43,4,1,2,412,promising,Not Loyal
+995,1997,141,1,38.22,4,1,2,412,promising,Not Loyal
+996,1998,170,1,13.93,4,1,1,411,promising,Not Loyal
+997,1999,56,1,31.67,5,1,2,512,new_customers,Not Loyal
+998,2000,63,1,23.26,5,1,1,511,new_customers,Not Loyal
+999,2001,24,2,157.58,5,2,5,525,potential_loyalists,Loyal
+1000,2002,232,1,67.76,3,1,3,313,about_to_sleep,Not Loyal
+1001,2003,177,1,23.18,4,1,1,411,promising,Not Loyal
+1002,2004,110,1,16.73,4,1,1,411,promising,Not Loyal
+1003,2005,66,1,29.81,5,1,1,511,new_customers,Not Loyal
+1004,2006,21,1,23.27,5,1,1,511,new_customers,Not Loyal
+1005,2007,358,1,10.19,2,1,1,211,hibernating,Not Loyal
+1006,2008,1648,1,49.91,1,1,2,112,hibernating,Not Loyal
+1007,2009,836,1,21.37,1,1,1,111,hibernating,Not Loyal
+1008,2010,23,1,28.87,5,1,1,511,new_customers,Not Loyal
+1009,2011,84,1,61.68,5,1,3,513,new_customers,Not Loyal
+1010,2012,446,1,63.54,1,1,3,113,hibernating,Not Loyal
+1011,2013,68,6,866.72,5,5,5,555,champions,Loyal
+1012,2014,431,2,27.94,1,2,1,121,hibernating,Not Loyal
+1013,2015,95,2,87.12,4,2,3,423,potential_loyalists,Loyal
+1014,2016,567,1,76.18,1,1,3,113,hibernating,Not Loyal
+1015,2017,267,2,84.84,3,2,3,323,about_to_sleep,Not Loyal
+1016,2018,302,1,27.01,2,1,1,211,hibernating,Not Loyal
+1017,2019,1553,1,43.24,1,1,2,112,hibernating,Not Loyal
+1018,2020,9,1,12.06,5,1,1,511,new_customers,Not Loyal
+1019,2021,486,2,56.51,1,2,2,122,hibernating,Not Loyal
+1020,2022,458,1,19.51,1,1,1,111,hibernating,Not Loyal
+1021,2023,81,1,13.91,5,1,1,511,new_customers,Not Loyal
+1022,2024,181,1,81.03,3,1,3,313,about_to_sleep,Not Loyal
+1023,2025,240,4,320.45,3,4,5,345,loyal_customers,Not Loyal
+1024,2026,236,1,19.7,3,1,1,311,about_to_sleep,Not Loyal
+1025,2027,46,13,397.74,5,5,5,555,champions,Loyal
+1026,2028,462,1,11.03,1,1,1,111,hibernating,Not Loyal
+1027,2029,160,1,61.17,4,1,3,413,promising,Not Loyal
+1028,2030,247,1,32.62,3,1,2,312,about_to_sleep,Not Loyal
+1029,2031,282,1,42.32,2,1,2,212,hibernating,Not Loyal
+1030,2032,454,1,59.8,1,1,2,112,hibernating,Not Loyal
+1031,2033,223,2,100.73,3,2,4,324,about_to_sleep,Not Loyal
+1032,2034,506,2,53.04,1,2,2,122,hibernating,Not Loyal
+1033,2035,76,2,107.05,5,2,4,524,potential_loyalists,Loyal
+1034,2036,28,1,30.17,5,1,2,512,new_customers,Not Loyal
+1035,2037,445,1,201.09,1,1,5,115,hibernating,Not Loyal
+1036,2038,38,1,63.05,5,1,3,513,new_customers,Not Loyal
+1037,2039,33,7,1056.02,5,5,5,555,champions,Loyal
+1038,2040,118,1,28.87,4,1,1,411,promising,Not Loyal
+1039,2041,78,6,288.32,5,5,5,555,champions,Loyal
+1040,2042,125,3,86.81,4,3,3,433,potential_loyalists,Loyal
+1041,2043,251,1,13.91,3,1,1,311,about_to_sleep,Not Loyal
+1042,2044,235,1,30.35,3,1,2,312,about_to_sleep,Not Loyal
+1043,2045,187,1,19.53,3,1,1,311,about_to_sleep,Not Loyal
+1044,2046,492,1,21.45,1,1,1,111,hibernating,Not Loyal
+1045,2047,451,1,19.01,1,1,1,111,hibernating,Not Loyal
+1046,2048,19,1,11.76,5,1,1,511,new_customers,Not Loyal
+1047,2049,34,2,105.23,5,2,4,524,potential_loyalists,Loyal
+1048,2050,283,1,17.65,2,1,1,211,hibernating,Not Loyal
+1049,2051,293,2,73.17,2,2,3,223,hibernating,Not Loyal
+1050,2052,73,1,58.85,5,1,2,512,new_customers,Not Loyal
+1051,2053,419,1,75.37,1,1,3,113,hibernating,Not Loyal
+1052,2054,537,1,63.32,1,1,3,113,hibernating,Not Loyal
+1053,2055,141,1,48.94,4,1,2,412,promising,Not Loyal
+1054,2056,289,1,56.92,2,1,2,212,hibernating,Not Loyal
+1055,2057,417,1,130.92,1,1,4,114,hibernating,Not Loyal
+1056,2058,389,3,256.57,1,3,5,135,at_Risk,Not Loyal
+1057,2059,7,1,62.72,5,1,3,513,new_customers,Not Loyal
+1058,2060,216,2,44.11,3,2,2,322,about_to_sleep,Not Loyal
+1059,2061,11,1,14.35,5,1,1,511,new_customers,Not Loyal
+1060,2062,36,1,9.25,5,1,1,511,new_customers,Not Loyal
+1061,2063,962,2,121.2,1,2,4,124,hibernating,Not Loyal
+1062,2064,47,1,130.74,5,1,4,514,new_customers,Not Loyal
+1063,2065,520,1,81.94,1,1,3,113,hibernating,Not Loyal
+1064,2066,165,1,320.87,4,1,5,415,promising,Not Loyal
+1065,2067,925,1,49.39,1,1,2,112,hibernating,Not Loyal
+1066,2068,132,1,22.9,4,1,1,411,promising,Not Loyal
+1067,2069,100,1,41.02,4,1,2,412,promising,Not Loyal
+1068,2070,113,1,54.54,4,1,2,412,promising,Not Loyal
+1069,2071,438,1,12.06,1,1,1,111,hibernating,Not Loyal
+1070,2072,111,3,233.04,4,3,5,435,potential_loyalists,Loyal
+1071,2073,297,1,31,2,1,2,212,hibernating,Not Loyal
+1072,2074,249,1,12.99,3,1,1,311,about_to_sleep,Not Loyal
+1073,2075,164,1,32.12,4,1,2,412,promising,Not Loyal
+1074,2076,201,1,19.52,3,1,1,311,about_to_sleep,Not Loyal
+1075,2077,186,1,55.02,3,1,2,312,about_to_sleep,Not Loyal
+1076,2078,333,1,65.32,2,1,3,213,hibernating,Not Loyal
+1077,2079,2,2,111.05,5,2,4,524,potential_loyalists,Loyal
+1078,2080,331,1,59.82,2,1,2,212,hibernating,Not Loyal
+1079,2081,176,1,72.3,4,1,3,413,promising,Not Loyal
+1080,2082,1200,1,71.49,1,1,3,113,hibernating,Not Loyal
+1081,2083,58,1,16.25,5,1,1,511,new_customers,Not Loyal
+1082,2084,162,1,14.85,4,1,1,411,promising,Not Loyal
+1083,2085,178,1,23.23,4,1,1,411,promising,Not Loyal
+1084,2086,131,2,41.3,4,2,2,422,potential_loyalists,Loyal
+1085,2087,131,4,373.51,4,4,5,445,loyal_customers,Loyal
+1086,2088,556,1,36.8,1,1,2,112,hibernating,Not Loyal
+1087,2089,152,1,43.81,4,1,2,412,promising,Not Loyal
+1088,2090,797,2,111,1,2,4,124,hibernating,Not Loyal
+1089,2091,122,1,47.45,4,1,2,412,promising,Not Loyal
+1090,2092,399,1,61.59,1,1,3,113,hibernating,Not Loyal
+1091,2093,57,1,23.25,5,1,1,511,new_customers,Not Loyal
+1092,2094,121,1,61.67,4,1,3,413,promising,Not Loyal
+1093,2095,706,2,53.51,1,2,2,122,hibernating,Not Loyal
+1094,2096,427,1,21.4,1,1,1,111,hibernating,Not Loyal
+1095,2097,185,1,8.32,3,1,1,311,about_to_sleep,Not Loyal
+1096,2098,48,4,243.13,5,4,5,545,champions,Loyal
+1097,2099,391,2,119.63,1,2,4,124,hibernating,Not Loyal
+1098,2100,68,1,15.78,5,1,1,511,new_customers,Not Loyal
+1099,2101,446,1,59.81,1,1,2,112,hibernating,Not Loyal
+1100,2102,155,1,26.82,4,1,1,411,promising,Not Loyal
+1101,2103,19,3,196.2,5,3,5,535,potential_loyalists,Loyal
+1102,2104,475,1,43.83,1,1,2,112,hibernating,Not Loyal
+1103,2105,116,2,88.98,4,2,3,423,potential_loyalists,Loyal
+1104,2106,186,1,51.3,3,1,2,312,about_to_sleep,Not Loyal
+1105,2107,1275,1,76.72,1,1,3,113,hibernating,Not Loyal
+1106,2108,30,1,70.41,5,1,3,513,new_customers,Not Loyal
+1107,2109,460,3,147.14,1,3,4,134,at_Risk,Not Loyal
+1108,2110,265,4,252.21,3,4,5,345,loyal_customers,Not Loyal
+1109,2111,23,1,16.72,5,1,1,511,new_customers,Not Loyal
+1110,2112,247,4,194.35,3,4,5,345,loyal_customers,Not Loyal
+1111,2113,103,3,154.81,4,3,5,435,potential_loyalists,Loyal
+1112,2114,1658,1,92.42,1,1,3,113,hibernating,Not Loyal
+1113,2115,441,1,57.9,1,1,2,112,hibernating,Not Loyal
+1114,2116,74,3,245.73,5,3,5,535,potential_loyalists,Loyal
+1115,2117,276,1,85.23,2,1,3,213,hibernating,Not Loyal
+1116,2118,10,1,14.39,5,1,1,511,new_customers,Not Loyal
+1117,2119,1731,1,67.21,1,1,3,113,hibernating,Not Loyal
+1118,2120,482,1,50.79,1,1,2,112,hibernating,Not Loyal
+1119,2121,401,1,59.48,1,1,2,112,hibernating,Not Loyal
+1120,2122,42,1,30.74,5,1,2,512,new_customers,Not Loyal
+1121,2123,61,1,73.82,5,1,3,513,new_customers,Not Loyal
+1122,2124,887,1,55.01,1,1,2,112,hibernating,Not Loyal
+1123,2125,143,1,90.17,4,1,3,413,promising,Not Loyal
+1124,2126,490,1,20.99,1,1,1,111,hibernating,Not Loyal
+1125,2127,267,1,12.06,3,1,1,311,about_to_sleep,Not Loyal
+1126,2128,76,1,60.71,5,1,3,513,new_customers,Not Loyal
+1127,2129,92,3,178.33,4,3,5,435,potential_loyalists,Loyal
+1128,2130,456,1,57.2,1,1,2,112,hibernating,Not Loyal
+1129,2131,235,2,187.02,3,2,5,325,about_to_sleep,Not Loyal
+1130,2132,362,1,43.15,2,1,2,212,hibernating,Not Loyal
+1131,2133,478,1,63.54,1,1,3,113,hibernating,Not Loyal
+1132,2134,226,1,12.99,3,1,1,311,about_to_sleep,Not Loyal
+1133,2135,29,4,212.08,5,4,5,545,champions,Loyal
+1134,2136,64,1,62.6,5,1,3,513,new_customers,Not Loyal
+1135,2137,422,1,23.27,1,1,1,111,hibernating,Not Loyal
+1136,2138,890,1,19.51,1,1,1,111,hibernating,Not Loyal
+1137,2139,889,1,19.51,1,1,1,111,hibernating,Not Loyal
+1138,2140,303,1,23.18,2,1,1,211,hibernating,Not Loyal
+1139,2141,307,1,18.57,2,1,1,211,hibernating,Not Loyal
+1140,2142,129,1,8.32,4,1,1,411,promising,Not Loyal
+1141,2143,65,1,11.1,5,1,1,511,new_customers,Not Loyal
+1142,2144,145,3,44.07,4,3,2,432,potential_loyalists,Loyal
+1143,2145,212,2,68.78,3,2,3,323,about_to_sleep,Not Loyal
+1144,2146,526,1,58.76,1,1,2,112,hibernating,Not Loyal
+1145,2147,495,1,28.31,1,1,1,111,hibernating,Not Loyal
+1146,2148,446,1,52.23,1,1,2,112,hibernating,Not Loyal
+1147,2149,297,1,58.39,2,1,2,212,hibernating,Not Loyal
+1148,2150,67,1,57.93,5,1,2,512,new_customers,Not Loyal
+1149,2151,419,1,59.35,1,1,2,112,hibernating,Not Loyal
+1150,2152,121,3,87.96,4,3,3,433,potential_loyalists,Loyal
+1151,2153,238,1,62.13,3,1,3,313,about_to_sleep,Not Loyal
+1152,2154,115,3,110.63,4,3,4,434,potential_loyalists,Loyal
+1153,2155,483,1,68.21,1,1,3,113,hibernating,Not Loyal
+1154,2156,386,4,244.86,1,4,5,145,at_Risk,Not Loyal
+1155,2157,48,1,19.53,5,1,1,511,new_customers,Not Loyal
+1156,2158,717,1,27.73,1,1,1,111,hibernating,Not Loyal
+1157,2159,196,1,13.93,3,1,1,311,about_to_sleep,Not Loyal
+1158,2160,81,1,62,5,1,3,513,new_customers,Not Loyal
+1159,2161,386,1,32.61,1,1,2,112,hibernating,Not Loyal
+1160,2162,121,1,33.88,4,1,2,412,promising,Not Loyal
+1161,2163,430,1,62.15,1,1,3,113,hibernating,Not Loyal
+1162,2164,340,2,46.76,2,2,2,222,hibernating,Not Loyal
+1163,2165,486,1,56.53,1,1,2,112,hibernating,Not Loyal
+1164,2166,84,2,96.34,5,2,3,523,potential_loyalists,Loyal
+1165,2167,135,1,56.3,4,1,2,412,promising,Not Loyal
+1166,2168,1254,1,48.23,1,1,2,112,hibernating,Not Loyal
+1167,2169,560,1,99.9,1,1,3,113,hibernating,Not Loyal
+1168,2170,156,8,437.04,4,5,5,455,loyal_customers,Loyal
+1169,2171,172,2,258.39,4,2,5,425,potential_loyalists,Loyal
+1170,2172,182,1,63.05,3,1,3,313,about_to_sleep,Not Loyal
+1171,2173,285,1,107.46,2,1,4,214,hibernating,Not Loyal
+1172,2174,145,2,30.1,4,2,2,422,potential_loyalists,Loyal
+1173,2175,165,2,113.55,4,2,4,424,potential_loyalists,Loyal
+1174,2176,269,1,29.61,3,1,1,311,about_to_sleep,Not Loyal
+1175,2177,956,1,38.3,1,1,2,112,hibernating,Not Loyal
+1176,2178,489,2,84.44,1,2,3,123,hibernating,Not Loyal
+1177,2179,824,1,83.31,1,1,3,113,hibernating,Not Loyal
+1178,2180,354,1,13.18,2,1,1,211,hibernating,Not Loyal
+1179,2181,416,4,278.96,1,4,5,145,at_Risk,Not Loyal
+1180,2182,197,1,76.62,3,1,3,313,about_to_sleep,Not Loyal
+1181,2183,460,1,47.55,1,1,2,112,hibernating,Not Loyal
+1182,2184,232,1,15.88,3,1,1,311,about_to_sleep,Not Loyal
+1183,2185,88,1,8.32,5,1,1,511,new_customers,Not Loyal
+1184,2186,177,1,12.06,4,1,1,411,promising,Not Loyal
+1185,2187,455,1,89.13,1,1,3,113,hibernating,Not Loyal
+1186,2188,284,1,65.41,2,1,3,213,hibernating,Not Loyal
+1187,2189,43,2,97.86,5,2,3,523,potential_loyalists,Loyal
+1188,2190,280,1,18.6,2,1,1,211,hibernating,Not Loyal
+1189,2191,404,1,80.73,1,1,3,113,hibernating,Not Loyal
+1190,2192,319,1,25.55,2,1,1,211,hibernating,Not Loyal
+1191,2193,25,1,22.52,5,1,1,511,new_customers,Not Loyal
+1192,2194,121,1,77.21,4,1,3,413,promising,Not Loyal
+1193,2195,276,1,15.3,2,1,1,211,hibernating,Not Loyal
+1194,2196,172,2,230.32,4,2,5,425,potential_loyalists,Loyal
+1195,2197,84,1,97.14,5,1,3,513,new_customers,Not Loyal
+1196,2198,1377,2,51.96,1,2,2,122,hibernating,Not Loyal
+1197,2199,381,2,62.17,1,2,3,123,hibernating,Not Loyal
+1198,2200,71,1,33.31,5,1,2,512,new_customers,Not Loyal
+1199,2201,714,2,52.98,1,2,2,122,hibernating,Not Loyal
+1200,2202,267,1,23.18,3,1,1,311,about_to_sleep,Not Loyal
+1201,2203,298,1,17.06,2,1,1,211,hibernating,Not Loyal
+1202,2204,38,2,66.55,5,2,3,523,potential_loyalists,Loyal
+1203,2205,123,2,114.37,4,2,4,424,potential_loyalists,Loyal
+1204,2206,185,1,19.04,3,1,1,311,about_to_sleep,Not Loyal
+1205,2207,473,1,22.84,1,1,1,111,hibernating,Not Loyal
+1206,2208,683,1,51.35,1,1,2,112,hibernating,Not Loyal
+1207,2209,69,2,95.13,5,2,3,523,potential_loyalists,Loyal
+1208,2210,221,4,321.08,3,4,5,345,loyal_customers,Not Loyal
+1209,2211,408,1,37.29,1,1,2,112,hibernating,Not Loyal
+1210,2212,540,2,109.45,1,2,4,124,hibernating,Not Loyal
+1211,2213,44,1,15.79,5,1,1,511,new_customers,Not Loyal
+1212,2214,16,2,71.88,5,2,3,523,potential_loyalists,Loyal
+1213,2215,794,2,35.42,1,2,2,122,hibernating,Not Loyal
+1214,2216,1430,1,27.57,1,1,1,111,hibernating,Not Loyal
+1215,2217,405,2,198.06,1,2,5,125,hibernating,Not Loyal
+1216,2218,474,1,42.01,1,1,2,112,hibernating,Not Loyal
+1217,2219,94,1,33.96,4,1,2,412,promising,Not Loyal
+1218,2220,163,1,142.93,4,1,4,414,promising,Not Loyal
+1219,2221,55,1,24.11,5,1,1,511,new_customers,Not Loyal
+1220,2222,166,2,118.41,4,2,4,424,potential_loyalists,Loyal
+1221,2223,68,1,12.99,5,1,1,511,new_customers,Not Loyal
+1222,2224,270,1,66.71,3,1,3,313,about_to_sleep,Not Loyal
+1223,2225,39,1,142.87,5,1,4,514,new_customers,Not Loyal
+1224,2226,217,1,97.98,3,1,3,313,about_to_sleep,Not Loyal
+1225,2227,16,2,110.58,5,2,4,524,potential_loyalists,Loyal
+1226,2228,123,1,24.2,4,1,1,411,promising,Not Loyal
+1227,2229,48,1,19.97,5,1,1,511,new_customers,Not Loyal
+1228,2230,41,1,11.21,5,1,1,511,new_customers,Not Loyal
+1229,2231,37,5,228.74,5,5,5,555,champions,Loyal
+1230,2232,51,5,140.04,5,5,4,554,champions,Loyal
+1231,2233,592,1,61.66,1,1,3,113,hibernating,Not Loyal
+1232,2234,219,1,70.07,3,1,3,313,about_to_sleep,Not Loyal
+1233,2235,78,1,56.52,5,1,2,512,new_customers,Not Loyal
+1234,2236,572,1,30.68,1,1,2,112,hibernating,Not Loyal
+1235,2237,521,2,115.47,1,2,4,124,hibernating,Not Loyal
+1236,2238,215,2,128.91,3,2,4,324,about_to_sleep,Not Loyal
+1237,2239,199,1,12.97,3,1,1,311,about_to_sleep,Not Loyal
+1238,2240,13,1,35.4,5,1,2,512,new_customers,Not Loyal
+1239,2241,440,1,57,1,1,2,112,hibernating,Not Loyal
+1240,2242,433,1,16.73,1,1,1,111,hibernating,Not Loyal
+1241,2243,18,2,82.46,5,2,3,523,potential_loyalists,Loyal
+1242,2244,184,1,22.83,3,1,1,311,about_to_sleep,Not Loyal
+1243,2245,2,2,60.15,5,2,3,523,potential_loyalists,Loyal
+1244,2246,1087,1,44.75,1,1,2,112,hibernating,Not Loyal
+1245,2247,326,1,59.1,2,1,2,212,hibernating,Not Loyal
+1246,2248,32,1,15.7,5,1,1,511,new_customers,Not Loyal
+1247,2249,0,1,17.18,5,1,1,511,new_customers,Not Loyal
+1248,2250,283,2,162.73,2,2,5,225,hibernating,Not Loyal
+1249,2251,1709,1,35.47,1,1,2,112,hibernating,Not Loyal
+1250,2252,58,1,84.5,5,1,3,513,new_customers,Not Loyal
+1251,2253,111,1,51.77,4,1,2,412,promising,Not Loyal
+1252,2254,440,1,15.79,1,1,1,111,hibernating,Not Loyal
+1253,2255,212,1,36.81,3,1,2,312,about_to_sleep,Not Loyal
+1254,2256,470,1,26.12,1,1,1,111,hibernating,Not Loyal
+1255,2257,426,1,60.63,1,1,3,113,hibernating,Not Loyal
+1256,2258,274,1,37.29,2,1,2,212,hibernating,Not Loyal
+1257,2259,90,1,56.99,5,1,2,512,new_customers,Not Loyal
+1258,2260,221,2,161.74,3,2,5,325,about_to_sleep,Not Loyal
+1259,2261,1369,2,63.41,1,2,3,123,hibernating,Not Loyal
+1260,2262,88,1,16.25,5,1,1,511,new_customers,Not Loyal
+1261,2263,269,2,96.84,3,2,3,323,about_to_sleep,Not Loyal
+1262,2264,254,1,69.51,3,1,3,313,about_to_sleep,Not Loyal
+1263,2265,299,1,66.31,2,1,3,213,hibernating,Not Loyal
+1264,2266,32,2,47.46,5,2,2,522,potential_loyalists,Loyal
+1265,2267,516,1,49.5,1,1,2,112,hibernating,Not Loyal
+1266,2268,435,1,27.94,1,1,1,111,hibernating,Not Loyal
+1267,2269,156,1,31.67,4,1,2,412,promising,Not Loyal
+1268,2270,713,1,26.68,1,1,1,111,hibernating,Not Loyal
+1269,2271,778,1,56.07,1,1,2,112,hibernating,Not Loyal
+1270,2272,418,2,48.41,1,2,2,122,hibernating,Not Loyal
+1271,2273,651,1,27.8,1,1,1,111,hibernating,Not Loyal
+1272,2274,24,2,96.62,5,2,3,523,potential_loyalists,Loyal
+1273,2275,26,1,21.21,5,1,1,511,new_customers,Not Loyal
+1274,2276,68,1,18.59,5,1,1,511,new_customers,Not Loyal
+1275,2277,64,2,111.64,5,2,4,524,potential_loyalists,Loyal
+1276,2278,227,1,149.44,3,1,4,314,about_to_sleep,Not Loyal
+1277,2279,489,1,62.05,1,1,3,113,hibernating,Not Loyal
+1278,2280,131,1,69.46,4,1,3,413,promising,Not Loyal
+1279,2281,130,1,29.8,4,1,1,411,promising,Not Loyal
+1280,2282,87,1,27.93,5,1,1,511,new_customers,Not Loyal
+1281,2283,140,1,33.73,4,1,2,412,promising,Not Loyal
+1282,2284,51,3,94.53,5,3,3,533,potential_loyalists,Loyal
+1283,2285,561,1,37.78,1,1,2,112,hibernating,Not Loyal
+1284,2286,441,1,47.44,1,1,2,112,hibernating,Not Loyal
+1285,2287,274,3,351.15,2,3,5,235,at_Risk,Not Loyal
+1286,2288,205,1,58.85,3,1,2,312,about_to_sleep,Not Loyal
+1287,2289,151,1,46.64,4,1,2,412,promising,Not Loyal
+1288,2290,572,1,42.49,1,1,2,112,hibernating,Not Loyal
+1289,2291,52,1,23.26,5,1,1,511,new_customers,Not Loyal
+1290,2292,112,1,18.59,4,1,1,411,promising,Not Loyal
+1291,2293,324,1,65.4,2,1,3,213,hibernating,Not Loyal
+1292,2294,220,3,55.28,3,3,2,332,need_attention,Not Loyal
+1293,2295,569,1,17.81,1,1,1,111,hibernating,Not Loyal
+1294,2296,48,1,18.93,5,1,1,511,new_customers,Not Loyal
+1295,2297,9,1,57.56,5,1,2,512,new_customers,Not Loyal
+1296,2298,365,1,23.27,2,1,1,211,hibernating,Not Loyal
+1297,2299,101,1,11.58,4,1,1,411,promising,Not Loyal
+1298,2300,3,2,269.62,5,2,5,525,potential_loyalists,Loyal
+1299,2301,350,1,63.64,2,1,3,213,hibernating,Not Loyal
+1300,2302,100,1,73.8,4,1,3,413,promising,Not Loyal
+1301,2303,435,1,13.93,1,1,1,111,hibernating,Not Loyal
+1302,2304,62,1,15.7,5,1,1,511,new_customers,Not Loyal
+1303,2305,334,2,31.31,2,2,2,222,hibernating,Not Loyal
+1304,2306,89,1,60.64,5,1,3,513,new_customers,Not Loyal
+1305,2307,101,1,68.61,4,1,3,413,promising,Not Loyal
+1306,2308,98,1,12.98,4,1,1,411,promising,Not Loyal
+1307,2309,110,2,110.39,4,2,4,424,potential_loyalists,Loyal
+1308,2310,821,1,45.4,1,1,2,112,hibernating,Not Loyal
+1309,2311,215,1,208.62,3,1,5,315,about_to_sleep,Not Loyal
+1310,2312,150,1,56.07,4,1,2,412,promising,Not Loyal
+1311,2313,1566,3,105.9,1,3,4,134,at_Risk,Not Loyal
+1312,2314,27,1,12.99,5,1,1,511,new_customers,Not Loyal
+1313,2315,117,1,21.4,4,1,1,411,promising,Not Loyal
+1314,2316,91,1,32.6,4,1,2,412,promising,Not Loyal
+1315,2317,1448,2,39.15,1,2,2,122,hibernating,Not Loyal
+1316,2318,514,2,63.35,1,2,3,123,hibernating,Not Loyal
+1317,2319,333,2,139.9,2,2,4,224,hibernating,Not Loyal
+1318,2320,1065,1,13.44,1,1,1,111,hibernating,Not Loyal
+1319,2321,770,1,66.34,1,1,3,113,hibernating,Not Loyal
+1320,2322,601,1,23.54,1,1,1,111,hibernating,Not Loyal
+1321,2323,1677,1,36.4,1,1,2,112,hibernating,Not Loyal
+1322,2324,210,1,64.93,3,1,3,313,about_to_sleep,Not Loyal
+1323,2325,235,1,57.98,3,1,2,312,about_to_sleep,Not Loyal
+1324,2326,70,1,61.2,5,1,3,513,new_customers,Not Loyal
+1325,2327,191,1,65.75,3,1,3,313,about_to_sleep,Not Loyal
+1326,2328,165,2,37.46,4,2,2,422,potential_loyalists,Loyal
+1327,2329,269,1,27.9,3,1,1,311,about_to_sleep,Not Loyal
+1328,2330,1086,1,13.46,1,1,1,111,hibernating,Not Loyal
+1329,2331,218,1,15.87,3,1,1,311,about_to_sleep,Not Loyal
+1330,2332,461,1,24.21,1,1,1,111,hibernating,Not Loyal
+1331,2333,289,1,62.14,2,1,3,213,hibernating,Not Loyal
+1332,2334,343,1,15.79,2,1,1,211,hibernating,Not Loyal
+1333,2335,218,1,38.21,3,1,2,312,about_to_sleep,Not Loyal
+1334,2336,172,2,107.91,4,2,4,424,potential_loyalists,Loyal
+1335,2337,196,1,19.28,3,1,1,311,about_to_sleep,Not Loyal
+1336,2338,51,1,15.79,5,1,1,511,new_customers,Not Loyal
+1337,2339,361,2,215.86,2,2,5,225,hibernating,Not Loyal
+1338,2340,201,1,23.25,3,1,1,311,about_to_sleep,Not Loyal
+1339,2341,100,11,654.89,4,5,5,455,loyal_customers,Loyal
+1340,2342,142,1,57.14,4,1,2,412,promising,Not Loyal
+1341,2343,103,1,57.93,4,1,2,412,promising,Not Loyal
+1342,2344,47,1,32.59,5,1,2,512,new_customers,Not Loyal
+1343,2345,129,1,56.88,4,1,2,412,promising,Not Loyal
+1344,2347,514,1,20.51,1,1,1,111,hibernating,Not Loyal
+1345,2348,1578,1,23.26,1,1,1,111,hibernating,Not Loyal
+1346,2349,1561,1,35.59,1,1,2,112,hibernating,Not Loyal
+1347,2350,97,1,25.14,4,1,1,411,promising,Not Loyal
+1348,2351,29,1,20.92,5,1,1,511,new_customers,Not Loyal
+1349,2352,189,2,46.48,3,2,2,322,about_to_sleep,Not Loyal
+1350,2353,383,1,12.06,1,1,1,111,hibernating,Not Loyal
+1351,2354,737,1,23.62,1,1,1,111,hibernating,Not Loyal
+1352,2355,407,3,206.01,1,3,5,135,at_Risk,Not Loyal
+1353,2356,494,1,25.18,1,1,1,111,hibernating,Not Loyal
+1354,2357,670,5,218.33,1,5,5,155,cant_loose,Not Loyal
+1355,2358,424,1,15.79,1,1,1,111,hibernating,Not Loyal
+1356,2359,852,2,88.68,1,2,3,123,hibernating,Not Loyal
+1357,2360,49,1,21.4,5,1,1,511,new_customers,Not Loyal
+1358,2361,148,1,41.2,4,1,2,412,promising,Not Loyal
+1359,2362,105,1,127.9,4,1,4,414,promising,Not Loyal
+1360,2363,489,1,30.84,1,1,2,112,hibernating,Not Loyal
+1361,2364,10,1,41.05,5,1,2,512,new_customers,Not Loyal
+1362,2365,480,1,19.3,1,1,1,111,hibernating,Not Loyal
+1363,2366,777,1,48.6,1,1,2,112,hibernating,Not Loyal
+1364,2367,203,1,32.62,3,1,2,312,about_to_sleep,Not Loyal
+1365,2368,177,2,66.6,4,2,3,423,potential_loyalists,Loyal
+1366,2369,329,1,17.29,2,1,1,211,hibernating,Not Loyal
+1367,2370,165,1,16.92,4,1,1,411,promising,Not Loyal
+1368,2371,88,1,46.64,5,1,2,512,new_customers,Not Loyal
+1369,2372,83,3,129.97,5,3,4,534,potential_loyalists,Loyal
+1370,2373,37,4,232.05,5,4,5,545,champions,Loyal
+1371,2374,89,1,52.11,5,1,2,512,new_customers,Not Loyal
+1372,2375,549,1,13.99,1,1,1,111,hibernating,Not Loyal
+1373,2376,572,1,41.61,1,1,2,112,hibernating,Not Loyal
+1374,2377,443,1,59.3,1,1,2,112,hibernating,Not Loyal
+1375,2378,477,1,27.06,1,1,1,111,hibernating,Not Loyal
+1376,2379,268,1,60.64,3,1,3,313,about_to_sleep,Not Loyal
+1377,2380,166,1,23.25,4,1,1,411,promising,Not Loyal
+1378,2381,20,1,16.72,5,1,1,511,new_customers,Not Loyal
+1379,2382,324,2,27.01,2,2,1,221,hibernating,Not Loyal
+1380,2383,281,4,202.42,2,4,5,245,at_Risk,Not Loyal
+1381,2384,192,2,35.32,3,2,2,322,about_to_sleep,Not Loyal
+1382,2385,819,1,44.44,1,1,2,112,hibernating,Not Loyal
+1383,2386,481,1,46.68,1,1,2,112,hibernating,Not Loyal
+1384,2387,193,1,9.24,3,1,1,311,about_to_sleep,Not Loyal
+1385,2388,359,1,59.91,2,1,2,212,hibernating,Not Loyal
+1386,2389,51,1,34.42,5,1,2,512,new_customers,Not Loyal
+1387,2390,139,2,54,4,2,2,422,potential_loyalists,Loyal
+1388,2391,82,7,382.38,5,5,5,555,champions,Loyal
+1389,2392,35,4,20.38,5,4,1,541,champions,Loyal
+1390,2393,160,1,90,4,1,3,413,promising,Not Loyal
+1391,2394,74,1,57.92,5,1,2,512,new_customers,Not Loyal
+1392,2395,87,1,99.5,5,1,3,513,new_customers,Not Loyal
+1393,2396,248,2,166.33,3,2,5,325,about_to_sleep,Not Loyal
+1394,2397,263,1,60.26,3,1,3,313,about_to_sleep,Not Loyal
+1395,2398,157,1,7.85,4,1,1,411,promising,Not Loyal
+1396,2399,28,1,62.13,5,1,3,513,new_customers,Not Loyal
+1397,2400,439,1,58.79,1,1,2,112,hibernating,Not Loyal
+1398,2401,95,1,64.47,4,1,3,413,promising,Not Loyal
+1399,2402,590,1,29.38,1,1,1,111,hibernating,Not Loyal
+1400,2403,144,5,352.67,4,5,5,455,loyal_customers,Loyal
+1401,2404,143,2,120.16,4,2,4,424,potential_loyalists,Loyal
+1402,2405,57,1,24.11,5,1,1,511,new_customers,Not Loyal
+1403,2406,224,1,74.94,3,1,3,313,about_to_sleep,Not Loyal
+1404,2407,66,1,70.07,5,1,3,513,new_customers,Not Loyal
+1405,2408,80,1,60.71,5,1,3,513,new_customers,Not Loyal
+1406,2409,1587,1,16.76,1,1,1,111,hibernating,Not Loyal
+1407,2410,248,1,33.93,3,1,2,312,about_to_sleep,Not Loyal
+1408,2411,169,1,67.94,4,1,3,413,promising,Not Loyal
+1409,2412,34,2,41.78,5,2,2,522,potential_loyalists,Loyal
+1410,2413,137,3,101.94,4,3,4,434,potential_loyalists,Loyal
+1411,2414,158,1,63.5,4,1,3,413,promising,Not Loyal
+1412,2415,69,1,60.64,5,1,3,513,new_customers,Not Loyal
+1413,2416,227,1,15.79,3,1,1,311,about_to_sleep,Not Loyal
+1414,2417,32,1,65.37,5,1,3,513,new_customers,Not Loyal
+1415,2418,155,1,25.14,4,1,1,411,promising,Not Loyal
+1416,2419,321,1,15.79,2,1,1,211,hibernating,Not Loyal
+1417,2420,239,1,34.86,3,1,2,312,about_to_sleep,Not Loyal
+1418,2421,176,4,333.97,4,4,5,445,loyal_customers,Loyal
+1419,2422,214,1,177.34,3,1,5,315,about_to_sleep,Not Loyal
+1420,2423,316,2,407.56,2,2,5,225,hibernating,Not Loyal
+1421,2424,9,1,67.17,5,1,3,513,new_customers,Not Loyal
+1422,2425,1051,1,9.24,1,1,1,111,hibernating,Not Loyal
+1423,2426,332,1,51.37,2,1,2,212,hibernating,Not Loyal
+1424,2427,758,1,16.64,1,1,1,111,hibernating,Not Loyal
+1425,2428,572,1,17.82,1,1,1,111,hibernating,Not Loyal
+1426,2429,475,1,43.55,1,1,2,112,hibernating,Not Loyal
+1427,2430,257,1,28.88,3,1,1,311,about_to_sleep,Not Loyal
+1428,2431,95,1,21.38,4,1,1,411,promising,Not Loyal
+1429,2432,21,2,168.58,5,2,5,525,potential_loyalists,Loyal
+1430,2433,93,1,51.26,4,1,2,412,promising,Not Loyal
+1431,2434,280,8,590.81,2,5,5,255,cant_loose,Not Loyal
+1432,2435,244,1,31.21,3,1,2,312,about_to_sleep,Not Loyal
+1433,2436,344,1,89.7,2,1,3,213,hibernating,Not Loyal
+1434,2437,73,1,12.99,5,1,1,511,new_customers,Not Loyal
+1435,2438,165,1,38.76,4,1,2,412,promising,Not Loyal
+1436,2439,1580,1,40.69,1,1,2,112,hibernating,Not Loyal
+1437,2440,72,1,65.41,5,1,3,513,new_customers,Not Loyal
+1438,2441,288,1,20.41,2,1,1,211,hibernating,Not Loyal
+1439,2442,50,1,25.12,5,1,1,511,new_customers,Not Loyal
+1440,2443,151,2,236.59,4,2,5,425,potential_loyalists,Loyal
+1441,2444,202,3,249.34,3,3,5,335,need_attention,Not Loyal
+1442,2445,253,1,29.81,3,1,1,311,about_to_sleep,Not Loyal
+1443,2446,125,1,61.18,4,1,3,413,promising,Not Loyal
+1444,2447,19,1,13.92,5,1,1,511,new_customers,Not Loyal
+1445,2448,55,1,12.99,5,1,1,511,new_customers,Not Loyal
+1446,2449,1246,5,570.98,1,5,5,155,cant_loose,Not Loyal
+1447,2450,184,1,9.25,3,1,1,311,about_to_sleep,Not Loyal
+1448,2451,281,1,57.98,2,1,2,212,hibernating,Not Loyal
+1449,2452,96,1,59.78,4,1,2,412,promising,Not Loyal
+1450,2453,572,1,47.73,1,1,2,112,hibernating,Not Loyal
+1451,2454,228,2,69.61,3,2,3,323,about_to_sleep,Not Loyal
+1452,2455,3,1,81.87,5,1,3,513,new_customers,Not Loyal
+1453,2456,210,1,59.81,3,1,2,312,about_to_sleep,Not Loyal
+1454,2457,789,1,81.22,1,1,3,113,hibernating,Not Loyal
+1455,2458,288,1,23.22,2,1,1,211,hibernating,Not Loyal
+1456,2459,79,1,64.11,5,1,3,513,new_customers,Not Loyal
+1457,2460,104,2,110.87,4,2,4,424,potential_loyalists,Loyal
+1458,2461,266,1,45.7,3,1,2,312,about_to_sleep,Not Loyal
+1459,2462,1754,1,29.47,1,1,1,111,hibernating,Not Loyal
+1460,2463,307,2,34.04,2,2,2,222,hibernating,Not Loyal
+1461,2464,577,3,93.92,1,3,3,133,at_Risk,Not Loyal
+1462,2465,488,1,8.78,1,1,1,111,hibernating,Not Loyal
+1463,2466,45,1,13.92,5,1,1,511,new_customers,Not Loyal
+1464,2467,35,3,114.93,5,3,4,534,potential_loyalists,Loyal
+1465,2468,1481,1,62.13,1,1,3,113,hibernating,Not Loyal
+1466,2469,74,1,13.92,5,1,1,511,new_customers,Not Loyal
+1467,2470,305,2,117.85,2,2,4,224,hibernating,Not Loyal
+1468,2471,337,1,12.06,2,1,1,211,hibernating,Not Loyal
+1469,2472,489,2,116.51,1,2,4,124,hibernating,Not Loyal
+1470,2473,741,1,61.28,1,1,3,113,hibernating,Not Loyal
+1471,2474,415,1,67.75,1,1,3,113,hibernating,Not Loyal
+1472,2475,152,1,128.85,4,1,4,414,promising,Not Loyal
+1473,2476,338,1,10.9,2,1,1,211,hibernating,Not Loyal
+1474,2477,613,1,135.24,1,1,4,114,hibernating,Not Loyal
+1475,2478,28,7,82.94,5,5,3,553,champions,Loyal
+1476,2479,149,3,134.28,4,3,4,434,potential_loyalists,Loyal
+1477,2480,203,1,16.73,3,1,1,311,about_to_sleep,Not Loyal
+1478,2481,111,1,59.89,4,1,2,412,promising,Not Loyal
+1479,2482,202,2,100.61,3,2,4,324,about_to_sleep,Not Loyal
+1480,2483,89,1,13.92,5,1,1,511,new_customers,Not Loyal
+1481,2485,161,1,19.53,4,1,1,411,promising,Not Loyal
+1482,2486,420,1,58.88,1,1,2,112,hibernating,Not Loyal
+1483,2487,1579,1,21.63,1,1,1,111,hibernating,Not Loyal
+1484,2488,359,1,55.01,2,1,2,212,hibernating,Not Loyal
+1485,2489,21,6,181.78,5,5,5,555,champions,Loyal
+1486,2490,328,1,13.92,2,1,1,211,hibernating,Not Loyal
+1487,2491,216,1,37.74,3,1,2,312,about_to_sleep,Not Loyal
+1488,2493,103,1,61.68,4,1,3,413,promising,Not Loyal
+1489,2494,313,1,23.27,2,1,1,211,hibernating,Not Loyal
+1490,2495,11,1,38.66,5,1,2,512,new_customers,Not Loyal
+1491,2496,364,1,28.64,2,1,1,211,hibernating,Not Loyal
+1492,2497,247,1,12.06,3,1,1,311,about_to_sleep,Not Loyal
+1493,2498,256,1,12.52,3,1,1,311,about_to_sleep,Not Loyal
+1494,2499,48,2,18.13,5,2,1,521,potential_loyalists,Loyal
+1495,2500,193,2,85.09,3,2,3,323,about_to_sleep,Not Loyal
+1496,2501,426,1,43.83,1,1,2,112,hibernating,Not Loyal
+1497,2502,54,1,79.32,5,1,3,513,new_customers,Not Loyal
+1498,2503,1664,1,41.94,1,1,2,112,hibernating,Not Loyal
+1499,2504,98,6,349.17,4,5,5,455,loyal_customers,Loyal
+1500,2505,199,1,55.19,3,1,2,312,about_to_sleep,Not Loyal
+1501,2506,377,1,13.92,1,1,1,111,hibernating,Not Loyal
+1502,2507,17,1,11.58,5,1,1,511,new_customers,Not Loyal
+1503,2508,1076,1,13.91,1,1,1,111,hibernating,Not Loyal
+1504,2509,158,1,12.06,4,1,1,411,promising,Not Loyal
+1505,2510,130,1,128.42,4,1,4,414,promising,Not Loyal
+1506,2511,797,1,38.22,1,1,2,112,hibernating,Not Loyal
+1507,2512,111,1,14.35,4,1,1,411,promising,Not Loyal
+1508,2513,911,1,15.79,1,1,1,111,hibernating,Not Loyal
+1509,2514,57,4,138.76,5,4,4,544,champions,Loyal
+1510,2515,177,1,61.66,4,1,3,413,promising,Not Loyal
+1511,2516,425,1,28.87,1,1,1,111,hibernating,Not Loyal
+1512,2517,437,1,44.66,1,1,2,112,hibernating,Not Loyal
+1513,2518,23,1,21.4,5,1,1,511,new_customers,Not Loyal
+1514,2519,18,1,13.92,5,1,1,511,new_customers,Not Loyal
+1515,2520,44,1,47.56,5,1,2,512,new_customers,Not Loyal
+1516,2521,127,1,36.35,4,1,2,412,promising,Not Loyal
+1517,2522,74,2,116.28,5,2,4,524,potential_loyalists,Loyal
+1518,2523,958,3,458.04,1,3,5,135,at_Risk,Not Loyal
+1519,2524,84,1,17.2,5,1,1,511,new_customers,Not Loyal
+1520,2525,273,1,23.18,2,1,1,211,hibernating,Not Loyal
+1521,2526,153,7,431.36,4,5,5,455,loyal_customers,Loyal
+1522,2527,10,3,85.14,5,3,3,533,potential_loyalists,Loyal
+1523,2528,347,1,32.61,2,1,2,212,hibernating,Not Loyal
+1524,2529,33,7,91.87,5,5,3,553,champions,Loyal
+1525,2530,105,1,56.92,4,1,2,412,promising,Not Loyal
+1526,2531,167,1,56.17,4,1,2,412,promising,Not Loyal
+1527,2532,226,2,70.74,3,2,3,323,about_to_sleep,Not Loyal
+1528,2533,43,1,43.07,5,1,2,512,new_customers,Not Loyal
+1529,2534,105,1,12.06,4,1,1,411,promising,Not Loyal
+1530,2535,220,1,102.23,3,1,4,314,about_to_sleep,Not Loyal
+1531,2536,1744,1,102.17,1,1,4,114,hibernating,Not Loyal
+1532,2537,415,2,159.7,1,2,5,125,hibernating,Not Loyal
+1533,2538,86,2,47.46,5,2,2,522,potential_loyalists,Loyal
+1534,2539,299,1,17.48,2,1,1,211,hibernating,Not Loyal
+1535,2540,1610,1,31.26,1,1,2,112,hibernating,Not Loyal
+1536,2541,16,1,57.64,5,1,2,512,new_customers,Not Loyal
+1537,2542,20,1,20.43,5,1,1,511,new_customers,Not Loyal
+1538,2543,142,1,9.25,4,1,1,411,promising,Not Loyal
+1539,2544,325,1,35.89,2,1,2,212,hibernating,Not Loyal
+1540,2545,341,1,26.81,2,1,1,211,hibernating,Not Loyal
+1541,2546,5,2,138.47,5,2,4,524,potential_loyalists,Loyal
+1542,2547,276,4,246.42,2,4,5,245,at_Risk,Not Loyal
+1543,2548,132,1,14.01,4,1,1,411,promising,Not Loyal
+1544,2549,8,2,25.78,5,2,1,521,potential_loyalists,Loyal
+1545,2550,248,1,7.38,3,1,1,311,about_to_sleep,Not Loyal
+1546,2551,236,2,92.64,3,2,3,323,about_to_sleep,Not Loyal
+1547,2552,557,1,63.04,1,1,3,113,hibernating,Not Loyal
+1548,2553,216,3,80.09,3,3,3,333,need_attention,Not Loyal
+1549,2554,82,7,592.95,5,5,5,555,champions,Loyal
+1550,2555,480,1,36.91,1,1,2,112,hibernating,Not Loyal
+1551,2556,474,1,94.21,1,1,3,113,hibernating,Not Loyal
+1552,2557,182,2,158.7,3,2,5,325,about_to_sleep,Not Loyal
+1553,2558,79,1,71.48,5,1,3,513,new_customers,Not Loyal
+1554,2559,56,1,15.78,5,1,1,511,new_customers,Not Loyal
+1555,2560,22,1,76.27,5,1,3,513,new_customers,Not Loyal
+1556,2561,3,1,51.3,5,1,2,512,new_customers,Not Loyal
+1557,2562,143,1,13.92,4,1,1,411,promising,Not Loyal
+1558,2563,1737,1,120.54,1,1,4,114,hibernating,Not Loyal
+1559,2564,1252,1,30.83,1,1,2,112,hibernating,Not Loyal
+1560,2565,22,1,47.56,5,1,2,512,new_customers,Not Loyal
+1561,2566,442,1,58.79,1,1,2,112,hibernating,Not Loyal
+1562,2567,114,6,630.41,4,5,5,455,loyal_customers,Loyal
+1563,2568,108,1,22.34,4,1,1,411,promising,Not Loyal
+1564,2569,76,1,13.92,5,1,1,511,new_customers,Not Loyal
+1565,2570,474,1,64.68,1,1,3,113,hibernating,Not Loyal
+1566,2571,122,7,149.52,4,5,4,454,loyal_customers,Loyal
+1567,2572,200,5,606.42,3,5,5,355,loyal_customers,Not Loyal
+1568,2573,278,2,49.25,2,2,2,222,hibernating,Not Loyal
+1569,2574,322,1,10.19,2,1,1,211,hibernating,Not Loyal
+1570,2575,724,1,61.62,1,1,3,113,hibernating,Not Loyal
+1571,2576,696,1,8.29,1,1,1,111,hibernating,Not Loyal
+1572,2577,234,1,57.44,3,1,2,312,about_to_sleep,Not Loyal
+1573,2578,68,2,35.42,5,2,2,522,potential_loyalists,Loyal
+1574,2579,12,1,15.7,5,1,1,511,new_customers,Not Loyal
+1575,2580,149,1,39.86,4,1,2,412,promising,Not Loyal
+1576,2581,238,1,49.44,3,1,2,312,about_to_sleep,Not Loyal
+1577,2582,274,1,24.21,2,1,1,211,hibernating,Not Loyal
+1578,2583,284,1,12.06,2,1,1,211,hibernating,Not Loyal
+1579,2584,58,1,43.31,5,1,2,512,new_customers,Not Loyal
+1580,2585,471,1,20.51,1,1,1,111,hibernating,Not Loyal
+1581,2586,9,1,18.59,5,1,1,511,new_customers,Not Loyal
+1582,2587,157,1,51.3,4,1,2,412,promising,Not Loyal
+1583,2588,224,1,29.49,3,1,1,311,about_to_sleep,Not Loyal
+1584,2589,423,1,73.36,1,1,3,113,hibernating,Not Loyal
+1585,2590,555,1,66.9,1,1,3,113,hibernating,Not Loyal
+1586,2591,34,1,57.92,5,1,2,512,new_customers,Not Loyal
+1587,2592,221,5,104.36,3,5,4,354,loyal_customers,Not Loyal
+1588,2593,70,1,17.18,5,1,1,511,new_customers,Not Loyal
+1589,2594,71,1,16.71,5,1,1,511,new_customers,Not Loyal
+1590,2595,488,1,38.88,1,1,2,112,hibernating,Not Loyal
+1591,2596,529,1,22.88,1,1,1,111,hibernating,Not Loyal
+1592,2597,134,1,18.93,4,1,1,411,promising,Not Loyal
+1593,2598,155,1,27.93,4,1,1,411,promising,Not Loyal
+1594,2599,113,1,29.25,4,1,1,411,promising,Not Loyal
+1595,2600,33,1,12.99,5,1,1,511,new_customers,Not Loyal
+1596,2601,121,1,65.41,4,1,3,413,promising,Not Loyal
+1597,2602,176,1,18.59,4,1,1,411,promising,Not Loyal
+1598,2603,683,1,102.63,1,1,4,114,hibernating,Not Loyal
+1599,2604,74,1,25.14,5,1,1,511,new_customers,Not Loyal
+1600,2605,248,2,37.47,3,2,2,322,about_to_sleep,Not Loyal
+1601,2606,183,1,19.72,3,1,1,311,about_to_sleep,Not Loyal
+1602,2607,109,5,340.37,4,5,5,455,loyal_customers,Loyal
+1603,2608,153,1,57.8,4,1,2,412,promising,Not Loyal
+1604,2609,788,1,18.65,1,1,1,111,hibernating,Not Loyal
+1605,2610,101,2,36.32,4,2,2,422,potential_loyalists,Loyal
+1606,2611,785,1,21.77,1,1,1,111,hibernating,Not Loyal
+1607,2612,872,1,58.87,1,1,2,112,hibernating,Not Loyal
+1608,2613,319,1,17.64,2,1,1,211,hibernating,Not Loyal
+1609,2614,533,2,315.19,1,2,5,125,hibernating,Not Loyal
+1610,2615,2,1,38.21,5,1,2,512,new_customers,Not Loyal
+1611,2616,66,1,37.46,5,1,2,512,new_customers,Not Loyal
+1612,2617,1606,1,76.77,1,1,3,113,hibernating,Not Loyal
+1613,2618,319,1,22.15,2,1,1,211,hibernating,Not Loyal
+1614,2619,69,1,67.24,5,1,3,513,new_customers,Not Loyal
+1615,2620,416,1,33.36,1,1,2,112,hibernating,Not Loyal
+1616,2621,44,2,120.02,5,2,4,524,potential_loyalists,Loyal
+1617,2622,549,1,65.18,1,1,3,113,hibernating,Not Loyal
+1618,2623,23,1,113.92,5,1,4,514,new_customers,Not Loyal
+1619,2624,798,2,51.67,1,2,2,122,hibernating,Not Loyal
+1620,2625,3,4,324.58,5,4,5,545,champions,Loyal
+1621,2626,326,1,45.42,2,1,2,212,hibernating,Not Loyal
+1622,2627,149,3,244.02,4,3,5,435,potential_loyalists,Loyal
+1623,2628,420,1,8.78,1,1,1,111,hibernating,Not Loyal
+1624,2629,425,1,25.61,1,1,1,111,hibernating,Not Loyal
+1625,2630,267,1,12.9,3,1,1,311,about_to_sleep,Not Loyal
+1626,2631,558,1,31.16,1,1,2,112,hibernating,Not Loyal
+1627,2632,397,1,57.93,1,1,2,112,hibernating,Not Loyal
+1628,2633,237,2,152.86,3,2,5,325,about_to_sleep,Not Loyal
+1629,2634,365,1,52.24,2,1,2,212,hibernating,Not Loyal
+1630,2635,457,2,95.3,1,2,3,123,hibernating,Not Loyal
+1631,2636,436,1,114.71,1,1,4,114,hibernating,Not Loyal
+1632,2637,169,4,344.55,4,4,5,445,loyal_customers,Loyal
+1633,2638,424,1,135.39,1,1,4,114,hibernating,Not Loyal
+1634,2639,263,1,56.99,3,1,2,312,about_to_sleep,Not Loyal
+1635,2640,298,1,27.01,2,1,1,211,hibernating,Not Loyal
+1636,2641,129,3,184.34,4,3,5,435,potential_loyalists,Loyal
+1637,2642,528,1,79.35,1,1,3,113,hibernating,Not Loyal
+1638,2643,459,1,40.56,1,1,2,112,hibernating,Not Loyal
+1639,2644,1182,2,47.36,1,2,2,122,hibernating,Not Loyal
+1640,2645,256,1,28.87,3,1,1,311,about_to_sleep,Not Loyal
+1641,2646,378,1,8.31,1,1,1,111,hibernating,Not Loyal
+1642,2647,94,1,61.68,4,1,3,413,promising,Not Loyal
+1643,2648,151,5,324.26,4,5,5,455,loyal_customers,Loyal
+1644,2649,31,2,99.01,5,2,3,523,potential_loyalists,Loyal
+1645,2650,262,1,17.66,3,1,1,311,about_to_sleep,Not Loyal
+1646,2651,94,1,22.71,4,1,1,411,promising,Not Loyal
+1647,2652,120,1,37.25,4,1,2,412,promising,Not Loyal
+1648,2653,289,1,55.98,2,1,2,212,hibernating,Not Loyal
+1649,2654,63,1,27,5,1,1,511,new_customers,Not Loyal
+1650,2655,494,1,101.92,1,1,4,114,hibernating,Not Loyal
+1651,2656,423,2,29.72,1,2,1,121,hibernating,Not Loyal
+1652,2657,46,7,57.41,5,5,2,552,champions,Loyal
+1653,2658,432,1,38.69,1,1,2,112,hibernating,Not Loyal
+1654,2659,216,1,13.71,3,1,1,311,about_to_sleep,Not Loyal
+1655,2660,424,1,12.99,1,1,1,111,hibernating,Not Loyal
+1656,2661,46,1,12.06,5,1,1,511,new_customers,Not Loyal
+1657,2662,152,1,35.42,4,1,2,412,promising,Not Loyal
+1658,2663,565,1,104.39,1,1,4,114,hibernating,Not Loyal
+1659,2664,389,2,142.06,1,2,4,124,hibernating,Not Loyal
+1660,2665,373,1,41.96,1,1,2,112,hibernating,Not Loyal
+1661,2666,273,1,130.25,2,1,4,214,hibernating,Not Loyal
+1662,2667,208,1,42.31,3,1,2,312,about_to_sleep,Not Loyal
+1663,2668,249,2,96.25,3,2,3,323,about_to_sleep,Not Loyal
+1664,2669,52,1,28.39,5,1,1,511,new_customers,Not Loyal
+1665,2670,16,1,136.9,5,1,4,514,new_customers,Not Loyal
+1666,2671,441,1,28.88,1,1,1,111,hibernating,Not Loyal
+1667,2672,328,1,72.39,2,1,3,213,hibernating,Not Loyal
+1668,2673,325,1,22.42,2,1,1,211,hibernating,Not Loyal
+1669,2674,111,1,34.49,4,1,2,412,promising,Not Loyal
+1670,2675,87,1,12.99,5,1,1,511,new_customers,Not Loyal
+1671,M10005,205,2,147.39,3,2,4,324,about_to_sleep,Not Loyal
+1672,M10007,5,7,89.78,5,5,3,553,champions,Loyal
+1673,M10009,34,3,134.23,5,3,4,534,potential_loyalists,Loyal
+1674,M10011,2,1,46.25,5,1,2,512,new_customers,Not Loyal
+1675,M10012,0,1,39.2,5,1,2,512,new_customers,Not Loyal
+1676,M10013,0,1,41.53,5,1,2,512,new_customers,Not Loyal
+1677,M10014,0,1,38.77,5,1,2,512,new_customers,Not Loyal
+1678,M10015,0,1,40.34,5,1,2,512,new_customers,Not Loyal
+1679,M10016,1,1,38.33,5,1,2,512,new_customers,Not Loyal
+1680,M10017,1,1,67.72,5,1,3,513,new_customers,Not Loyal
+1681,M10018,1,1,53.21,5,1,2,512,new_customers,Not Loyal
+1682,M10019,1,1,26.94,5,1,1,511,new_customers,Not Loyal
+1683,M10020,2,1,57.93,5,1,2,512,new_customers,Not Loyal
+1684,M10021,2,1,49.95,5,1,2,512,new_customers,Not Loyal
+1685,M10022,2,1,61.53,5,1,3,513,new_customers,Not Loyal
+1686,M10023,2,2,101.58,5,2,4,524,potential_loyalists,Loyal
+1687,M10024,2,1,38.81,5,1,2,512,new_customers,Not Loyal
+1688,M10025,2,1,47.74,5,1,2,512,new_customers,Not Loyal
+1689,M10026,2,1,97.34,5,1,3,513,new_customers,Not Loyal
+1690,M10027,3,1,103.03,5,1,4,514,new_customers,Not Loyal
+1691,M10028,3,2,232.91,5,2,5,525,potential_loyalists,Loyal
+1692,M10029,3,1,62.09,5,1,3,513,new_customers,Not Loyal
+1693,M10030,3,2,81.68,5,2,3,523,potential_loyalists,Loyal
+1694,M10031,3,1,47.61,5,1,2,512,new_customers,Not Loyal
+1695,M10032,3,1,52.71,5,1,2,512,new_customers,Not Loyal
+1696,M10033,3,1,50.46,5,1,2,512,new_customers,Not Loyal
+1697,M10034,3,1,48.24,5,1,2,512,new_customers,Not Loyal
+1698,M10035,3,1,67.89,5,1,3,513,new_customers,Not Loyal
+1699,M10036,3,1,40.49,5,1,2,512,new_customers,Not Loyal
+1700,M10037,4,1,59.3,5,1,2,512,new_customers,Not Loyal
+1701,M10038,4,1,44.46,5,1,2,512,new_customers,Not Loyal
+1702,M10039,4,1,60.64,5,1,3,513,new_customers,Not Loyal
+1703,M10040,4,1,68.67,5,1,3,513,new_customers,Not Loyal
+1704,M10041,4,2,117.31,5,2,4,524,potential_loyalists,Loyal
+1705,M10042,4,3,228.91,5,3,5,535,potential_loyalists,Loyal
+1706,M10043,5,1,20.93,5,1,1,511,new_customers,Not Loyal
+1707,M10044,5,1,62.1,5,1,3,513,new_customers,Not Loyal
+1708,M10045,5,1,108.69,5,1,4,514,new_customers,Not Loyal
+1709,M10046,5,1,52.27,5,1,2,512,new_customers,Not Loyal
+1710,M10047,5,1,41.53,5,1,2,512,new_customers,Not Loyal
+1711,M10048,5,1,59.39,5,1,2,512,new_customers,Not Loyal
+1712,M10049,5,1,40.6,5,1,2,512,new_customers,Not Loyal
+1713,M10050,6,1,39.15,5,1,2,512,new_customers,Not Loyal
+1714,M10051,6,4,189.83,5,4,5,545,champions,Loyal
+1715,M10052,6,1,13.3,5,1,1,511,new_customers,Not Loyal
+1716,M10053,6,1,100.4,5,1,4,514,new_customers,Not Loyal
+1717,M10054,6,1,40.16,5,1,2,512,new_customers,Not Loyal
+1718,M10055,6,1,37.83,5,1,2,512,new_customers,Not Loyal
+1719,M10056,6,1,42.11,5,1,2,512,new_customers,Not Loyal
+1720,M10057,7,2,79.36,5,2,3,523,potential_loyalists,Loyal
+1721,M10058,7,2,77.84,5,2,3,523,potential_loyalists,Loyal
+1722,M10059,7,2,82.18,5,2,3,523,potential_loyalists,Loyal
+1723,M10060,7,1,44.37,5,1,2,512,new_customers,Not Loyal
+1724,M10061,7,1,41.07,5,1,2,512,new_customers,Not Loyal
+1725,M10062,7,5,242.38,5,5,5,555,champions,Loyal
+1726,M10063,7,1,82.35,5,1,3,513,new_customers,Not Loyal
+1727,M10064,8,3,134.82,5,3,4,534,potential_loyalists,Loyal
+1728,M10065,8,2,83.38,5,2,3,523,potential_loyalists,Loyal
+1729,M10066,8,1,58.84,5,1,2,512,new_customers,Not Loyal
+1730,M10067,9,1,146.78,5,1,4,514,new_customers,Not Loyal
+1731,M10068,9,1,31.59,5,1,2,512,new_customers,Not Loyal
+1732,M10069,9,1,42.05,5,1,2,512,new_customers,Not Loyal
+1733,M10070,9,1,64.43,5,1,3,513,new_customers,Not Loyal
+1734,M10071,9,1,35.27,5,1,2,512,new_customers,Not Loyal
+1735,M10072,9,2,84.82,5,2,3,523,potential_loyalists,Loyal
+1736,M10073,9,1,37.81,5,1,2,512,new_customers,Not Loyal
+1737,M10074,10,2,52.37,5,2,2,522,potential_loyalists,Loyal
+1738,M10075,10,2,125.27,5,2,4,524,potential_loyalists,Loyal
+1739,M10076,10,1,64.72,5,1,3,513,new_customers,Not Loyal
+1740,M10077,10,1,62.37,5,1,3,513,new_customers,Not Loyal
+1741,M10078,10,1,71.33,5,1,3,513,new_customers,Not Loyal
+1742,M10079,10,1,37.74,5,1,2,512,new_customers,Not Loyal
+1743,M10080,11,1,26.37,5,1,1,511,new_customers,Not Loyal
+1744,M10081,11,1,38.89,5,1,2,512,new_customers,Not Loyal
+1745,M10082,12,1,61.1,5,1,3,513,new_customers,Not Loyal
+1746,M10083,12,1,264.56,5,1,5,515,new_customers,Not Loyal
+1747,M10084,12,2,67.77,5,2,3,523,potential_loyalists,Loyal
+1748,M10085,12,1,44.8,5,1,2,512,new_customers,Not Loyal
+1749,M10086,13,1,69.07,5,1,3,513,new_customers,Not Loyal
+1750,M10087,13,1,42.98,5,1,2,512,new_customers,Not Loyal
+1751,M10088,13,1,39.97,5,1,2,512,new_customers,Not Loyal
+1752,M10089,14,2,115.39,5,2,4,524,potential_loyalists,Loyal
+1753,M10090,14,1,23.48,5,1,1,511,new_customers,Not Loyal
+1754,M10091,14,1,57.94,5,1,2,512,new_customers,Not Loyal
+1755,M10092,14,2,244.92,5,2,5,525,potential_loyalists,Loyal
+1756,M10093,15,1,50.28,5,1,2,512,new_customers,Not Loyal
+1757,M10094,15,2,112.86,5,2,4,524,potential_loyalists,Loyal
+1758,M10095,15,2,81.67,5,2,3,523,potential_loyalists,Loyal
+1759,M10096,15,1,88.76,5,1,3,513,new_customers,Not Loyal
+1760,M10097,15,1,21.2,5,1,1,511,new_customers,Not Loyal
+1761,M10098,15,2,39.67,5,2,2,522,potential_loyalists,Loyal
+1762,M10099,15,1,25.36,5,1,1,511,new_customers,Not Loyal
+1763,M10100,15,2,67.64,5,2,3,523,potential_loyalists,Loyal
+1764,M10101,15,1,120.57,5,1,4,514,new_customers,Not Loyal
+1765,M10102,15,1,43.96,5,1,2,512,new_customers,Not Loyal
+1766,M10103,16,1,81.97,5,1,3,513,new_customers,Not Loyal
+1767,M10104,16,1,24.8,5,1,1,511,new_customers,Not Loyal
+1768,M10105,16,1,41.6,5,1,2,512,new_customers,Not Loyal
+1769,M10106,16,1,42,5,1,2,512,new_customers,Not Loyal
+1770,M10107,16,1,73.1,5,1,3,513,new_customers,Not Loyal
+1771,M10108,16,1,50.45,5,1,2,512,new_customers,Not Loyal
+1772,M10109,16,2,48.01,5,2,2,522,potential_loyalists,Loyal
+1773,M10110,16,2,184.88,5,2,5,525,potential_loyalists,Loyal
+1774,M10111,17,12,658.21,5,5,5,555,champions,Loyal
+1775,M10112,17,1,44.53,5,1,2,512,new_customers,Not Loyal
+1776,M10113,17,1,37.96,5,1,2,512,new_customers,Not Loyal
+1777,M10114,17,1,25.74,5,1,1,511,new_customers,Not Loyal
+1778,M10115,18,1,54.66,5,1,2,512,new_customers,Not Loyal
+1779,M10116,18,1,89.42,5,1,3,513,new_customers,Not Loyal
+1780,M10117,18,1,69.5,5,1,3,513,new_customers,Not Loyal
+1781,M10118,18,2,47.49,5,2,2,522,potential_loyalists,Loyal
+1782,M10119,18,3,127.57,5,3,4,534,potential_loyalists,Loyal
+1783,M10120,18,2,116.3,5,2,4,524,potential_loyalists,Loyal
+1784,M10121,18,1,40.96,5,1,2,512,new_customers,Not Loyal
+1785,M10122,18,1,68.1,5,1,3,513,new_customers,Not Loyal
+1786,M10123,19,1,68.07,5,1,3,513,new_customers,Not Loyal
+1787,M10124,19,1,63.68,5,1,3,513,new_customers,Not Loyal
+1788,M10125,19,1,38.54,5,1,2,512,new_customers,Not Loyal
+1789,M10126,19,1,26.96,5,1,1,511,new_customers,Not Loyal
+1790,M10127,19,1,44.72,5,1,2,512,new_customers,Not Loyal
+1791,M10128,20,1,41.95,5,1,2,512,new_customers,Not Loyal
+1792,M10129,20,1,45.75,5,1,2,512,new_customers,Not Loyal
+1793,M10130,20,1,63.16,5,1,3,513,new_customers,Not Loyal
+1794,M10131,20,1,38.27,5,1,2,512,new_customers,Not Loyal
+1795,M10132,20,1,39.91,5,1,2,512,new_customers,Not Loyal
+1796,M10133,20,1,64.21,5,1,3,513,new_customers,Not Loyal
+1797,M10134,20,2,101.81,5,2,4,524,potential_loyalists,Loyal
+1798,M10135,20,2,38.28,5,2,2,522,potential_loyalists,Loyal
+1799,M10136,21,3,228.03,5,3,5,535,potential_loyalists,Loyal
+1800,M10137,21,2,206.02,5,2,5,525,potential_loyalists,Loyal
+1801,M10138,21,1,38.22,5,1,2,512,new_customers,Not Loyal
+1802,M10139,21,2,117.9,5,2,4,524,potential_loyalists,Loyal
+1803,M10140,21,1,73.51,5,1,3,513,new_customers,Not Loyal
+1804,M10141,21,4,232.52,5,4,5,545,champions,Loyal
+1805,M10142,21,3,134.46,5,3,4,534,potential_loyalists,Loyal
+1806,M10143,21,1,81.33,5,1,3,513,new_customers,Not Loyal
+1807,M10144,21,1,41.58,5,1,2,512,new_customers,Not Loyal
+1808,M10145,21,1,73.27,5,1,3,513,new_customers,Not Loyal
+1809,M10146,21,2,50.46,5,2,2,522,potential_loyalists,Loyal
+1810,M10147,22,1,80.71,5,1,3,513,new_customers,Not Loyal
+1811,M10148,22,1,66.8,5,1,3,513,new_customers,Not Loyal
+1812,M10149,22,1,83.67,5,1,3,513,new_customers,Not Loyal
+1813,M10150,22,1,78.18,5,1,3,513,new_customers,Not Loyal
+1814,M10151,22,2,110.26,5,2,4,524,potential_loyalists,Loyal
+1815,M10152,22,1,50.09,5,1,2,512,new_customers,Not Loyal
+1816,M10153,22,2,99.63,5,2,3,523,potential_loyalists,Loyal
+1817,M10154,22,1,116.66,5,1,4,514,new_customers,Not Loyal
+1818,M10155,22,1,28.23,5,1,1,511,new_customers,Not Loyal
+1819,M10156,22,1,49.1,5,1,2,512,new_customers,Not Loyal
+1820,M10157,22,1,40.61,5,1,2,512,new_customers,Not Loyal
+1821,M10158,22,1,30.53,5,1,2,512,new_customers,Not Loyal
+1822,M10159,22,1,41.47,5,1,2,512,new_customers,Not Loyal
+1823,M10160,22,2,89.14,5,2,3,523,potential_loyalists,Loyal
+1824,M10161,23,1,55.06,5,1,2,512,new_customers,Not Loyal
+1825,M10162,23,1,19.5,5,1,1,511,new_customers,Not Loyal
+1826,M10163,23,1,30.95,5,1,2,512,new_customers,Not Loyal
+1827,M10164,23,1,143.85,5,1,4,514,new_customers,Not Loyal
+1828,M10165,23,1,27.31,5,1,1,511,new_customers,Not Loyal
+1829,M10166,23,1,26.37,5,1,1,511,new_customers,Not Loyal
+1830,M10167,23,1,40.65,5,1,2,512,new_customers,Not Loyal
+1831,M10168,23,1,27,5,1,1,511,new_customers,Not Loyal
+1832,M10169,23,3,137.36,5,3,4,534,potential_loyalists,Loyal
+1833,M10170,23,1,57.71,5,1,2,512,new_customers,Not Loyal
+1834,M10171,23,1,17.05,5,1,1,511,new_customers,Not Loyal
+1835,M10172,23,1,41.26,5,1,2,512,new_customers,Not Loyal
+1836,M10173,23,1,36.82,5,1,2,512,new_customers,Not Loyal
+1837,M10174,23,1,39.17,5,1,2,512,new_customers,Not Loyal
+1838,M10175,23,2,67.11,5,2,3,523,potential_loyalists,Loyal
+1839,M10176,23,1,66.33,5,1,3,513,new_customers,Not Loyal
+1840,M10177,23,1,20.68,5,1,1,511,new_customers,Not Loyal
+1841,M10178,24,1,37.39,5,1,2,512,new_customers,Not Loyal
+1842,M10179,24,1,39.24,5,1,2,512,new_customers,Not Loyal
+1843,M10180,24,1,32.44,5,1,2,512,new_customers,Not Loyal
+1844,M10181,24,1,80.35,5,1,3,513,new_customers,Not Loyal
+1845,M10182,24,2,89.22,5,2,3,523,potential_loyalists,Loyal
+1846,M10183,24,1,97.54,5,1,3,513,new_customers,Not Loyal
+1847,M10184,24,1,81.96,5,1,3,513,new_customers,Not Loyal
+1848,M10185,24,2,63.84,5,2,3,523,potential_loyalists,Loyal
+1849,M10186,24,1,39.21,5,1,2,512,new_customers,Not Loyal
+1850,M10187,24,1,39.69,5,1,2,512,new_customers,Not Loyal
+1851,M10188,24,2,130.81,5,2,4,524,potential_loyalists,Loyal
+1852,M10189,24,3,120.98,5,3,4,534,potential_loyalists,Loyal
+1853,M10190,24,1,79.47,5,1,3,513,new_customers,Not Loyal
+1854,M10191,24,1,28.51,5,1,1,511,new_customers,Not Loyal
+1855,M10192,24,1,61.66,5,1,3,513,new_customers,Not Loyal
+1856,M10193,25,3,226.1,5,3,5,535,potential_loyalists,Loyal
+1857,M10194,25,1,66.32,5,1,3,513,new_customers,Not Loyal
+1858,M10195,25,1,219.35,5,1,5,515,new_customers,Not Loyal
+1859,M10196,25,2,57.32,5,2,2,522,potential_loyalists,Loyal
+1860,M10197,25,2,87.77,5,2,3,523,potential_loyalists,Loyal
+1861,M10198,25,1,42.06,5,1,2,512,new_customers,Not Loyal
+1862,M10199,25,1,95.28,5,1,3,513,new_customers,Not Loyal
+1863,M10200,25,1,121.65,5,1,4,514,new_customers,Not Loyal
+1864,M10201,25,1,23.46,5,1,1,511,new_customers,Not Loyal
+1865,M10202,25,1,47.92,5,1,2,512,new_customers,Not Loyal
+1866,M10203,25,1,45.7,5,1,2,512,new_customers,Not Loyal
+1867,M10204,25,1,58.23,5,1,2,512,new_customers,Not Loyal
+1868,M10205,25,1,38.23,5,1,2,512,new_customers,Not Loyal
+1869,M10206,26,1,68.25,5,1,3,513,new_customers,Not Loyal
+1870,M10207,26,1,17.89,5,1,1,511,new_customers,Not Loyal
+1871,M10208,26,1,42.03,5,1,2,512,new_customers,Not Loyal
+1872,M10209,26,1,60.95,5,1,3,513,new_customers,Not Loyal
+1873,M10210,26,1,80.56,5,1,3,513,new_customers,Not Loyal
+1874,M10211,26,1,48.21,5,1,2,512,new_customers,Not Loyal
+1875,M10212,26,1,45.64,5,1,2,512,new_customers,Not Loyal
+1876,M10213,27,1,42.71,5,1,2,512,new_customers,Not Loyal
+1877,M10214,27,1,44.08,5,1,2,512,new_customers,Not Loyal
+1878,M10215,27,1,46.12,5,1,2,512,new_customers,Not Loyal
+1879,M10216,27,1,38.78,5,1,2,512,new_customers,Not Loyal
+1880,M10217,27,1,41.6,5,1,2,512,new_customers,Not Loyal
+1881,M10218,27,1,43.32,5,1,2,512,new_customers,Not Loyal
+1882,M10219,27,1,30.56,5,1,2,512,new_customers,Not Loyal
+1883,M10220,27,1,39.69,5,1,2,512,new_customers,Not Loyal
+1884,M10221,27,1,42.87,5,1,2,512,new_customers,Not Loyal
+1885,M10222,27,1,39.14,5,1,2,512,new_customers,Not Loyal
+1886,M10223,27,1,40.27,5,1,2,512,new_customers,Not Loyal
+1887,M10224,28,1,41.72,5,1,2,512,new_customers,Not Loyal
+1888,M10225,28,1,25.45,5,1,1,511,new_customers,Not Loyal
+1889,M10226,28,1,21.7,5,1,1,511,new_customers,Not Loyal
+1890,M10227,28,1,39.8,5,1,2,512,new_customers,Not Loyal
+1891,M10228,28,1,15.81,5,1,1,511,new_customers,Not Loyal
+1892,M10229,28,1,24.92,5,1,1,511,new_customers,Not Loyal
+1893,M10230,28,1,41.56,5,1,2,512,new_customers,Not Loyal
+1894,M10231,28,1,47.15,5,1,2,512,new_customers,Not Loyal
+1895,M10232,28,1,51.77,5,1,2,512,new_customers,Not Loyal
+1896,M10233,28,1,80.08,5,1,3,513,new_customers,Not Loyal
+1897,M10234,28,1,38.61,5,1,2,512,new_customers,Not Loyal
+1898,M10235,28,1,44.88,5,1,2,512,new_customers,Not Loyal
+1899,M10236,28,1,45.92,5,1,2,512,new_customers,Not Loyal
+1900,M10237,28,1,126.07,5,1,4,514,new_customers,Not Loyal
+1901,M10238,28,1,65.58,5,1,3,513,new_customers,Not Loyal
+1902,M10239,28,1,45.22,5,1,2,512,new_customers,Not Loyal
+1903,M10240,28,1,23.08,5,1,1,511,new_customers,Not Loyal
+1904,M10241,28,1,7.69,5,1,1,511,new_customers,Not Loyal
+1905,M10242,29,1,74.24,5,1,3,513,new_customers,Not Loyal
+1906,M10243,29,2,49.38,5,2,2,522,potential_loyalists,Loyal
+1907,M10244,29,1,55.14,5,1,2,512,new_customers,Not Loyal
+1908,M10245,29,1,42.4,5,1,2,512,new_customers,Not Loyal
+1909,M10246,29,2,193.28,5,2,5,525,potential_loyalists,Loyal
+1910,M10247,29,2,203.64,5,2,5,525,potential_loyalists,Loyal
+1911,M10248,29,1,25.47,5,1,1,511,new_customers,Not Loyal
+1912,M10249,30,1,41.19,5,1,2,512,new_customers,Not Loyal
+1913,M10250,30,1,79.88,5,1,3,513,new_customers,Not Loyal
+1914,M10251,30,1,18.77,5,1,1,511,new_customers,Not Loyal
+1915,M10252,30,1,33.88,5,1,2,512,new_customers,Not Loyal
+1916,M10253,30,1,45.75,5,1,2,512,new_customers,Not Loyal
+1917,M10254,30,1,34.44,5,1,2,512,new_customers,Not Loyal
+1918,M10255,30,2,58.38,5,2,2,522,potential_loyalists,Loyal
+1919,M10256,30,1,41.5,5,1,2,512,new_customers,Not Loyal
+1920,M10257,30,1,120.16,5,1,4,514,new_customers,Not Loyal
+1921,M10258,30,1,70.84,5,1,3,513,new_customers,Not Loyal
+1922,M10259,30,1,51.24,5,1,2,512,new_customers,Not Loyal
+1923,M10260,30,1,60.97,5,1,3,513,new_customers,Not Loyal
+1924,M10261,31,1,42.44,5,1,2,512,new_customers,Not Loyal
+1925,M10262,31,1,55.55,5,1,2,512,new_customers,Not Loyal
+1926,M10263,31,1,49.42,5,1,2,512,new_customers,Not Loyal
+1927,M10264,31,1,65.27,5,1,3,513,new_customers,Not Loyal
+1928,M10265,31,1,40.73,5,1,2,512,new_customers,Not Loyal
+1929,M10266,31,1,19.37,5,1,1,511,new_customers,Not Loyal
+1930,M10267,31,2,146.38,5,2,4,524,potential_loyalists,Loyal
+1931,M10268,32,1,41.6,5,1,2,512,new_customers,Not Loyal
+1932,M10269,32,1,27.16,5,1,1,511,new_customers,Not Loyal
+1933,M10270,32,1,41.09,5,1,2,512,new_customers,Not Loyal
+1934,M10271,32,1,40.15,5,1,2,512,new_customers,Not Loyal
+1935,M10272,32,2,92.33,5,2,3,523,potential_loyalists,Loyal
+1936,M10273,32,4,157.47,5,4,5,545,champions,Loyal
+1937,M10274,32,1,28.87,5,1,1,511,new_customers,Not Loyal
+1938,M10275,32,1,23.4,5,1,1,511,new_customers,Not Loyal
+1939,M10276,32,1,47.81,5,1,2,512,new_customers,Not Loyal
+1940,M10277,33,1,44.82,5,1,2,512,new_customers,Not Loyal
+1941,M10278,33,1,42.45,5,1,2,512,new_customers,Not Loyal
+1942,M10279,33,1,52.24,5,1,2,512,new_customers,Not Loyal
+1943,M10280,33,1,46.69,5,1,2,512,new_customers,Not Loyal
+1944,M10281,33,1,21.23,5,1,1,511,new_customers,Not Loyal
+1945,M10282,33,1,81.1,5,1,3,513,new_customers,Not Loyal
+1946,M10283,33,2,159.39,5,2,5,525,potential_loyalists,Loyal
+1947,M10284,33,1,42.48,5,1,2,512,new_customers,Not Loyal
+1948,M10285,33,1,36.67,5,1,2,512,new_customers,Not Loyal
+1949,M10286,33,1,49.99,5,1,2,512,new_customers,Not Loyal
+1950,M10287,33,1,39.09,5,1,2,512,new_customers,Not Loyal
+1951,M10288,34,2,124.03,5,2,4,524,potential_loyalists,Loyal
+1952,M10289,34,1,44.85,5,1,2,512,new_customers,Not Loyal
+1953,M10290,34,1,60.78,5,1,3,513,new_customers,Not Loyal
+1954,M10291,34,1,12.04,5,1,1,511,new_customers,Not Loyal
+1955,M10292,34,1,37.72,5,1,2,512,new_customers,Not Loyal
+1956,M10293,34,1,43.39,5,1,2,512,new_customers,Not Loyal
+1957,M10294,34,3,95.07,5,3,3,533,potential_loyalists,Loyal
+1958,M10295,34,1,43.62,5,1,2,512,new_customers,Not Loyal
+1959,M10296,34,1,63.35,5,1,3,513,new_customers,Not Loyal
+1960,M10297,34,1,68.83,5,1,3,513,new_customers,Not Loyal
+1961,M10298,35,1,28.24,5,1,1,511,new_customers,Not Loyal
+1962,M10299,35,2,104.9,5,2,4,524,potential_loyalists,Loyal
+1963,M10300,35,1,33.38,5,1,2,512,new_customers,Not Loyal
+1964,M10301,35,1,60.95,5,1,3,513,new_customers,Not Loyal
+1965,M10302,35,1,23.4,5,1,1,511,new_customers,Not Loyal
+1966,M10303,35,2,117.29,5,2,4,524,potential_loyalists,Loyal
+1967,M10304,35,1,54.06,5,1,2,512,new_customers,Not Loyal
+1968,M10305,36,2,64.99,5,2,3,523,potential_loyalists,Loyal
+1969,M10306,36,1,38.86,5,1,2,512,new_customers,Not Loyal
+1970,M10307,36,1,37.6,5,1,2,512,new_customers,Not Loyal
+1971,M10308,36,1,40.53,5,1,2,512,new_customers,Not Loyal
+1972,M10309,36,1,77.62,5,1,3,513,new_customers,Not Loyal
+1973,M10310,36,3,2596.32,5,3,5,535,potential_loyalists,Loyal
+1974,M10311,36,1,84.18,5,1,3,513,new_customers,Not Loyal
+1975,M10312,36,1,40.62,5,1,2,512,new_customers,Not Loyal
+1976,M10313,36,1,18.35,5,1,1,511,new_customers,Not Loyal
+1977,M10314,36,1,38.09,5,1,2,512,new_customers,Not Loyal
+1978,M10315,36,2,165.92,5,2,5,525,potential_loyalists,Loyal
+1979,M10316,36,1,39.67,5,1,2,512,new_customers,Not Loyal
+1980,M10317,37,2,79.84,5,2,3,523,potential_loyalists,Loyal
+1981,M10318,37,1,38.26,5,1,2,512,new_customers,Not Loyal
+1982,M10319,37,1,35.61,5,1,2,512,new_customers,Not Loyal
+1983,M10320,37,1,22.55,5,1,1,511,new_customers,Not Loyal
+1984,M10321,37,1,40.15,5,1,2,512,new_customers,Not Loyal
+1985,M10322,37,1,47.65,5,1,2,512,new_customers,Not Loyal
+1986,M10323,37,1,41.02,5,1,2,512,new_customers,Not Loyal
+1987,M10324,37,1,48.5,5,1,2,512,new_customers,Not Loyal
+1988,M10325,37,2,64.83,5,2,3,523,potential_loyalists,Loyal
+1989,M10326,37,1,63.04,5,1,3,513,new_customers,Not Loyal
+1990,M10327,38,1,55.27,5,1,2,512,new_customers,Not Loyal
+1991,M10328,38,1,38.75,5,1,2,512,new_customers,Not Loyal
+1992,M10329,38,1,51.23,5,1,2,512,new_customers,Not Loyal
+1993,M10330,38,1,39.84,5,1,2,512,new_customers,Not Loyal
+1994,M10331,38,1,42.35,5,1,2,512,new_customers,Not Loyal
+1995,M10332,38,2,121.85,5,2,4,524,potential_loyalists,Loyal
+1996,M10333,39,1,49.8,5,1,2,512,new_customers,Not Loyal
+1997,M10334,39,1,30.1,5,1,2,512,new_customers,Not Loyal
+1998,M10335,39,1,40.42,5,1,2,512,new_customers,Not Loyal
+1999,M10336,39,1,9.1,5,1,1,511,new_customers,Not Loyal
+2000,M10337,39,1,39.6,5,1,2,512,new_customers,Not Loyal
+2001,M10338,39,1,40.15,5,1,2,512,new_customers,Not Loyal
+2002,M10339,39,1,42.43,5,1,2,512,new_customers,Not Loyal
+2003,M10340,39,1,14.97,5,1,1,511,new_customers,Not Loyal
+2004,M10341,39,3,207.62,5,3,5,535,potential_loyalists,Loyal
+2005,M10342,40,1,88.8,5,1,3,513,new_customers,Not Loyal
+2006,M10343,40,1,47.97,5,1,2,512,new_customers,Not Loyal
+2007,M10344,40,2,155.7,5,2,5,525,potential_loyalists,Loyal
+2008,M10345,40,3,238.51,5,3,5,535,potential_loyalists,Loyal
+2009,M10346,40,1,41.18,5,1,2,512,new_customers,Not Loyal
+2010,M10347,40,1,39.67,5,1,2,512,new_customers,Not Loyal
+2011,M10348,40,1,9.1,5,1,1,511,new_customers,Not Loyal
+2012,M10349,40,4,272.63,5,4,5,545,champions,Loyal
+2013,M10350,40,1,41.84,5,1,2,512,new_customers,Not Loyal
+2014,M10351,40,2,152.67,5,2,5,525,potential_loyalists,Loyal
+2015,M10352,40,2,122.38,5,2,4,524,potential_loyalists,Loyal
+2016,M10353,41,1,47.91,5,1,2,512,new_customers,Not Loyal
+2017,M10354,41,1,28.58,5,1,1,511,new_customers,Not Loyal
+2018,M10355,41,1,13.3,5,1,1,511,new_customers,Not Loyal
+2019,M10356,41,1,38.95,5,1,2,512,new_customers,Not Loyal
+2020,M10357,41,1,4.9,5,1,1,511,new_customers,Not Loyal
+2021,M10358,41,2,85.19,5,2,3,523,potential_loyalists,Loyal
+2022,M10359,41,1,42.01,5,1,2,512,new_customers,Not Loyal
+2023,M10360,41,3,313.73,5,3,5,535,potential_loyalists,Loyal
+2024,M10361,41,1,47.75,5,1,2,512,new_customers,Not Loyal
+2025,M10362,41,1,47.14,5,1,2,512,new_customers,Not Loyal
+2026,M10363,41,1,59.71,5,1,2,512,new_customers,Not Loyal
+2027,M10364,41,1,40.89,5,1,2,512,new_customers,Not Loyal
+2028,M10365,41,1,74.13,5,1,3,513,new_customers,Not Loyal
+2029,M10366,41,1,66.32,5,1,3,513,new_customers,Not Loyal
+2030,M10367,41,1,72.22,5,1,3,513,new_customers,Not Loyal
+2031,M10368,41,1,23.4,5,1,1,511,new_customers,Not Loyal
+2032,M10369,42,1,80.84,5,1,3,513,new_customers,Not Loyal
+2033,M10370,42,1,42.01,5,1,2,512,new_customers,Not Loyal
+2034,M10371,42,1,39.83,5,1,2,512,new_customers,Not Loyal
+2035,M10372,42,1,13.3,5,1,1,511,new_customers,Not Loyal
+2036,M10373,42,1,51.19,5,1,2,512,new_customers,Not Loyal
+2037,M10374,42,2,122.16,5,2,4,524,potential_loyalists,Loyal
+2038,M10375,42,1,52.97,5,1,2,512,new_customers,Not Loyal
+2039,M10376,42,1,49.38,5,1,2,512,new_customers,Not Loyal
+2040,M10377,42,1,41.1,5,1,2,512,new_customers,Not Loyal
+2041,M10378,42,1,23.11,5,1,1,511,new_customers,Not Loyal
+2042,M10379,42,1,39.51,5,1,2,512,new_customers,Not Loyal
+2043,M10380,42,2,82,5,2,3,523,potential_loyalists,Loyal
+2044,M10381,42,1,155.82,5,1,5,515,new_customers,Not Loyal
+2045,M10382,42,1,128.84,5,1,4,514,new_customers,Not Loyal
+2046,M10383,42,1,54.14,5,1,2,512,new_customers,Not Loyal
+2047,M10384,42,1,45.38,5,1,2,512,new_customers,Not Loyal
+2048,M10385,42,1,67.87,5,1,3,513,new_customers,Not Loyal
+2049,M10386,42,1,46.21,5,1,2,512,new_customers,Not Loyal
+2050,M10387,42,1,40.15,5,1,2,512,new_customers,Not Loyal
+2051,M10388,42,1,41.14,5,1,2,512,new_customers,Not Loyal
+2052,M10389,42,1,50.44,5,1,2,512,new_customers,Not Loyal
+2053,M10390,42,1,82.28,5,1,3,513,new_customers,Not Loyal
+2054,M10391,42,2,87.74,5,2,3,523,potential_loyalists,Loyal
+2055,M10392,42,1,52.87,5,1,2,512,new_customers,Not Loyal
+2056,M10393,42,2,88.41,5,2,3,523,potential_loyalists,Loyal
+2057,M10394,42,1,56.18,5,1,2,512,new_customers,Not Loyal
+2058,M10395,42,1,43.6,5,1,2,512,new_customers,Not Loyal
+2059,M10396,42,1,83.66,5,1,3,513,new_customers,Not Loyal
+2060,M10397,42,1,87.24,5,1,3,513,new_customers,Not Loyal
+2061,M10398,42,1,81.99,5,1,3,513,new_customers,Not Loyal
+2062,M10399,42,1,59.93,5,1,2,512,new_customers,Not Loyal
+2063,M10400,42,2,81.93,5,2,3,523,potential_loyalists,Loyal
+2064,M10401,42,1,73.8,5,1,3,513,new_customers,Not Loyal
+2065,M10402,43,1,12.46,5,1,1,511,new_customers,Not Loyal
+2066,M10403,43,1,41.1,5,1,2,512,new_customers,Not Loyal
+2067,M10404,43,1,88.29,5,1,3,513,new_customers,Not Loyal
+2068,M10405,43,1,38.79,5,1,2,512,new_customers,Not Loyal
+2069,M10406,43,1,14.47,5,1,1,511,new_customers,Not Loyal
+2070,M10407,43,1,60.94,5,1,3,513,new_customers,Not Loyal
+2071,M10408,43,1,40.1,5,1,2,512,new_customers,Not Loyal
+2072,M10409,43,1,39.38,5,1,2,512,new_customers,Not Loyal
+2073,M10410,43,1,92.52,5,1,3,513,new_customers,Not Loyal
+2074,M10411,44,1,43.84,5,1,2,512,new_customers,Not Loyal
+2075,M10412,44,1,74.24,5,1,3,513,new_customers,Not Loyal
+2076,M10413,44,1,37.72,5,1,2,512,new_customers,Not Loyal
+2077,M10414,44,1,107.37,5,1,4,514,new_customers,Not Loyal
+2078,M10415,44,1,43.41,5,1,2,512,new_customers,Not Loyal
+2079,M10416,44,2,127.17,5,2,4,524,potential_loyalists,Loyal
+2080,M10417,44,1,48.29,5,1,2,512,new_customers,Not Loyal
+2081,M10418,44,1,73.6,5,1,3,513,new_customers,Not Loyal
+2082,M10419,44,1,10.41,5,1,1,511,new_customers,Not Loyal
+2083,M10420,44,1,39.2,5,1,2,512,new_customers,Not Loyal
+2084,M10421,44,1,50.91,5,1,2,512,new_customers,Not Loyal
+2085,M10422,44,1,57.98,5,1,2,512,new_customers,Not Loyal
+2086,M10423,44,1,46.14,5,1,2,512,new_customers,Not Loyal
+2087,M10424,44,1,20.45,5,1,1,511,new_customers,Not Loyal
+2088,M10425,44,2,89.65,5,2,3,523,potential_loyalists,Loyal
+2089,M10426,45,1,41.78,5,1,2,512,new_customers,Not Loyal
+2090,M10427,45,1,37.27,5,1,2,512,new_customers,Not Loyal
+2091,M10428,45,1,86.41,5,1,3,513,new_customers,Not Loyal
+2092,M10429,45,1,41.05,5,1,2,512,new_customers,Not Loyal
+2093,M10430,45,1,30.55,5,1,2,512,new_customers,Not Loyal
+2094,M10431,45,1,38.19,5,1,2,512,new_customers,Not Loyal
+2095,M10432,45,2,88.94,5,2,3,523,potential_loyalists,Loyal
+2096,M10433,45,2,115.13,5,2,4,524,potential_loyalists,Loyal
+2097,M10434,45,1,87.22,5,1,3,513,new_customers,Not Loyal
+2098,M10435,45,1,94.3,5,1,3,513,new_customers,Not Loyal
+2099,M10436,45,1,59.01,5,1,2,512,new_customers,Not Loyal
+2100,M10437,45,1,37.54,5,1,2,512,new_customers,Not Loyal
+2101,M10438,45,1,15.57,5,1,1,511,new_customers,Not Loyal
+2102,M10439,45,1,42.01,5,1,2,512,new_customers,Not Loyal
+2103,M10440,46,1,40.94,5,1,2,512,new_customers,Not Loyal
+2104,M10441,46,1,11.44,5,1,1,511,new_customers,Not Loyal
+2105,M10442,46,2,94.21,5,2,3,523,potential_loyalists,Loyal
+2106,M10443,46,1,21.24,5,1,1,511,new_customers,Not Loyal
+2107,M10444,46,1,123.36,5,1,4,514,new_customers,Not Loyal
+2108,M10445,46,1,37.65,5,1,2,512,new_customers,Not Loyal
+2109,M10446,46,1,39.06,5,1,2,512,new_customers,Not Loyal
+2110,M10447,46,1,68.2,5,1,3,513,new_customers,Not Loyal
+2111,M10448,46,1,26.36,5,1,1,511,new_customers,Not Loyal
+2112,M10449,46,2,108.45,5,2,4,524,potential_loyalists,Loyal
+2113,M10450,46,1,38.58,5,1,2,512,new_customers,Not Loyal
+2114,M10451,46,1,37.78,5,1,2,512,new_customers,Not Loyal
+2115,M10452,46,2,92.41,5,2,3,523,potential_loyalists,Loyal
+2116,M10453,46,1,35.14,5,1,2,512,new_customers,Not Loyal
+2117,M10454,46,1,40.13,5,1,2,512,new_customers,Not Loyal
+2118,M10455,46,1,85.28,5,1,3,513,new_customers,Not Loyal
+2119,M10456,47,3,163.42,5,3,5,535,potential_loyalists,Loyal
+2120,M10457,47,1,100.27,5,1,4,514,new_customers,Not Loyal
+2121,M10458,47,1,39.93,5,1,2,512,new_customers,Not Loyal
+2122,M10459,47,1,33.85,5,1,2,512,new_customers,Not Loyal
+2123,M10460,47,2,104.46,5,2,4,524,potential_loyalists,Loyal
+2124,M10461,47,1,33.86,5,1,2,512,new_customers,Not Loyal
+2125,M10462,47,1,67.67,5,1,3,513,new_customers,Not Loyal
+2126,M10463,47,1,20.85,5,1,1,511,new_customers,Not Loyal
+2127,M10464,47,1,38.99,5,1,2,512,new_customers,Not Loyal
+2128,M10465,47,1,40.53,5,1,2,512,new_customers,Not Loyal
+2129,M10466,47,1,78.44,5,1,3,513,new_customers,Not Loyal
+2130,M10467,47,1,13.3,5,1,1,511,new_customers,Not Loyal
+2131,M10468,47,1,53.22,5,1,2,512,new_customers,Not Loyal
+2132,M10469,47,1,70.93,5,1,3,513,new_customers,Not Loyal
+2133,M10470,47,2,41,5,2,2,522,potential_loyalists,Loyal
+2134,M10471,47,1,36.3,5,1,2,512,new_customers,Not Loyal
+2135,M10472,47,1,42,5,1,2,512,new_customers,Not Loyal
+2136,M10473,47,1,39.45,5,1,2,512,new_customers,Not Loyal
+2137,M10474,47,1,40.4,5,1,2,512,new_customers,Not Loyal
+2138,M10475,48,1,29.89,5,1,1,511,new_customers,Not Loyal
+2139,M10476,48,1,78.01,5,1,3,513,new_customers,Not Loyal
+2140,M10477,48,2,80.52,5,2,3,523,potential_loyalists,Loyal
+2141,M10478,48,1,39.49,5,1,2,512,new_customers,Not Loyal
+2142,M10479,48,1,53.22,5,1,2,512,new_customers,Not Loyal
+2143,M10480,48,1,46.95,5,1,2,512,new_customers,Not Loyal
+2144,M10481,48,1,25.9,5,1,1,511,new_customers,Not Loyal
+2145,M10482,48,1,50.91,5,1,2,512,new_customers,Not Loyal
+2146,M10483,48,2,92.08,5,2,3,523,potential_loyalists,Loyal
+2147,M10484,48,1,41.08,5,1,2,512,new_customers,Not Loyal
+2148,M10485,48,1,37.84,5,1,2,512,new_customers,Not Loyal
+2149,M10486,48,1,55.12,5,1,2,512,new_customers,Not Loyal
+2150,M10487,48,1,55.57,5,1,2,512,new_customers,Not Loyal
+2151,M10488,49,1,41.19,5,1,2,512,new_customers,Not Loyal
+2152,M10489,49,1,80.81,5,1,3,513,new_customers,Not Loyal
+2153,M10490,49,1,30.09,5,1,2,512,new_customers,Not Loyal
+2154,M10491,49,1,48.01,5,1,2,512,new_customers,Not Loyal
+2155,M10492,49,1,62.85,5,1,3,513,new_customers,Not Loyal
+2156,M10493,49,1,67.28,5,1,3,513,new_customers,Not Loyal
+2157,M10494,49,1,38.15,5,1,2,512,new_customers,Not Loyal
+2158,M10495,49,1,38.53,5,1,2,512,new_customers,Not Loyal
+2159,M10496,49,1,55.47,5,1,2,512,new_customers,Not Loyal
+2160,M10497,49,1,43.2,5,1,2,512,new_customers,Not Loyal
+2161,M10498,50,1,41.94,5,1,2,512,new_customers,Not Loyal
+2162,M10499,50,1,34.22,5,1,2,512,new_customers,Not Loyal
+2163,M10500,50,1,45.73,5,1,2,512,new_customers,Not Loyal
+2164,M10501,50,1,47.62,5,1,2,512,new_customers,Not Loyal
+2165,M10502,50,1,62.99,5,1,3,513,new_customers,Not Loyal
+2166,M10503,50,1,55.9,5,1,2,512,new_customers,Not Loyal
+2167,M10504,50,2,80.65,5,2,3,523,potential_loyalists,Loyal
+2168,M10505,50,1,38.51,5,1,2,512,new_customers,Not Loyal
+2169,M10506,50,1,57.58,5,1,2,512,new_customers,Not Loyal
+2170,M10507,51,1,56,5,1,2,512,new_customers,Not Loyal
+2171,M10508,51,1,37.39,5,1,2,512,new_customers,Not Loyal
+2172,M10509,51,2,83.11,5,2,3,523,potential_loyalists,Loyal
+2173,M10510,51,1,41.79,5,1,2,512,new_customers,Not Loyal
+2174,M10511,51,1,122.94,5,1,4,514,new_customers,Not Loyal
+2175,M10512,51,1,35.62,5,1,2,512,new_customers,Not Loyal
+2176,M10513,51,1,39.97,5,1,2,512,new_customers,Not Loyal
+2177,M10514,52,1,26.58,5,1,1,511,new_customers,Not Loyal
+2178,M10515,52,1,15.93,5,1,1,511,new_customers,Not Loyal
+2179,M10516,52,1,18.39,5,1,1,511,new_customers,Not Loyal
+2180,M10517,52,1,42.03,5,1,2,512,new_customers,Not Loyal
+2181,M10518,52,1,56.57,5,1,2,512,new_customers,Not Loyal
+2182,M10519,52,1,37.41,5,1,2,512,new_customers,Not Loyal
+2183,M10520,52,1,42.26,5,1,2,512,new_customers,Not Loyal
+2184,M10521,52,2,97.92,5,2,3,523,potential_loyalists,Loyal
+2185,M10522,52,1,39.17,5,1,2,512,new_customers,Not Loyal
+2186,M10523,52,1,137.56,5,1,4,514,new_customers,Not Loyal
+2187,M10524,52,1,45.74,5,1,2,512,new_customers,Not Loyal
+2188,M10525,52,1,20.31,5,1,1,511,new_customers,Not Loyal
+2189,M10526,53,1,68.98,5,1,3,513,new_customers,Not Loyal
+2190,M10527,53,1,126.94,5,1,4,514,new_customers,Not Loyal
+2191,M10528,53,1,27.3,5,1,1,511,new_customers,Not Loyal
+2192,M10529,53,1,28.26,5,1,1,511,new_customers,Not Loyal
+2193,M10530,53,1,47.1,5,1,2,512,new_customers,Not Loyal
+2194,M10531,53,1,15.17,5,1,1,511,new_customers,Not Loyal
+2195,M10532,53,1,38.24,5,1,2,512,new_customers,Not Loyal
+2196,M10533,53,1,62.89,5,1,3,513,new_customers,Not Loyal
+2197,M10534,54,1,96.53,5,1,3,513,new_customers,Not Loyal
+2198,M10535,54,1,38.6,5,1,2,512,new_customers,Not Loyal
+2199,M10536,54,1,112.91,5,1,4,514,new_customers,Not Loyal
+2200,M10537,54,1,44.09,5,1,2,512,new_customers,Not Loyal
+2201,M10538,54,5,233.02,5,5,5,555,champions,Loyal
+2202,M10539,54,1,29.62,5,1,1,511,new_customers,Not Loyal
+2203,M10540,54,2,172.31,5,2,5,525,potential_loyalists,Loyal
+2204,M10541,54,3,178.44,5,3,5,535,potential_loyalists,Loyal
+2205,M10542,54,4,348.03,5,4,5,545,champions,Loyal
+2206,M10543,54,3,195.22,5,3,5,535,potential_loyalists,Loyal
+2207,M10544,54,1,36.65,5,1,2,512,new_customers,Not Loyal
+2208,M10545,54,1,59.46,5,1,2,512,new_customers,Not Loyal
+2209,M10546,55,1,38.66,5,1,2,512,new_customers,Not Loyal
+2210,M10547,55,1,49.81,5,1,2,512,new_customers,Not Loyal
+2211,M10548,55,1,47.06,5,1,2,512,new_customers,Not Loyal
+2212,M10549,55,1,62.56,5,1,3,513,new_customers,Not Loyal
+2213,M10550,55,1,13.3,5,1,1,511,new_customers,Not Loyal
+2214,M10551,55,2,123.88,5,2,4,524,potential_loyalists,Loyal
+2215,M10552,55,1,44.55,5,1,2,512,new_customers,Not Loyal
+2216,M10553,55,1,49.12,5,1,2,512,new_customers,Not Loyal
+2217,M10554,55,2,121.98,5,2,4,524,potential_loyalists,Loyal
+2218,M10555,55,1,37.84,5,1,2,512,new_customers,Not Loyal
+2219,M10556,56,1,32.22,5,1,2,512,new_customers,Not Loyal
+2220,M10557,56,1,76.95,5,1,3,513,new_customers,Not Loyal
+2221,M10558,56,1,34.79,5,1,2,512,new_customers,Not Loyal
+2222,M10559,56,1,41.09,5,1,2,512,new_customers,Not Loyal
+2223,M10560,56,1,96.46,5,1,3,513,new_customers,Not Loyal
+2224,M10561,56,1,110,5,1,4,514,new_customers,Not Loyal
+2225,M10562,57,1,70.53,5,1,3,513,new_customers,Not Loyal
+2226,M10563,57,1,38.29,5,1,2,512,new_customers,Not Loyal
+2227,M10564,57,2,82.74,5,2,3,523,potential_loyalists,Loyal
+2228,M10565,57,1,72.27,5,1,3,513,new_customers,Not Loyal
+2229,M10566,57,1,14.24,5,1,1,511,new_customers,Not Loyal
+2230,M10567,57,1,41.45,5,1,2,512,new_customers,Not Loyal
+2231,M10568,57,1,23.79,5,1,1,511,new_customers,Not Loyal
+2232,M10569,58,1,12.37,5,1,1,511,new_customers,Not Loyal
+2233,M10570,58,2,85.54,5,2,3,523,potential_loyalists,Loyal
+2234,M10571,58,1,62.22,5,1,3,513,new_customers,Not Loyal
+2235,M10572,58,1,65.21,5,1,3,513,new_customers,Not Loyal
+2236,M10573,59,2,258.34,5,2,5,525,potential_loyalists,Loyal
+2237,M10574,59,1,12.36,5,1,1,511,new_customers,Not Loyal
+2238,M10575,59,1,26.38,5,1,1,511,new_customers,Not Loyal
+2239,M10576,59,3,440.8,5,3,5,535,potential_loyalists,Loyal
+2240,M10577,60,1,21.69,5,1,1,511,new_customers,Not Loyal
+2241,M10578,60,1,37.82,5,1,2,512,new_customers,Not Loyal
+2242,M10579,60,1,42.03,5,1,2,512,new_customers,Not Loyal
+2243,M10580,60,1,41.61,5,1,2,512,new_customers,Not Loyal
+2244,M10581,60,1,33.38,5,1,2,512,new_customers,Not Loyal
+2245,M10582,60,2,86.8,5,2,3,523,potential_loyalists,Loyal
+2246,M10583,61,1,43.71,5,1,2,512,new_customers,Not Loyal
+2247,M10584,61,1,65.85,5,1,3,513,new_customers,Not Loyal
+2248,M10585,61,1,47.06,5,1,2,512,new_customers,Not Loyal
+2249,M10586,61,1,46.23,5,1,2,512,new_customers,Not Loyal
+2250,M10587,61,1,10.78,5,1,1,511,new_customers,Not Loyal
+2251,M10588,61,1,39.2,5,1,2,512,new_customers,Not Loyal
+2252,M10589,61,1,67.23,5,1,3,513,new_customers,Not Loyal
+2253,M10590,61,1,50.43,5,1,2,512,new_customers,Not Loyal
+2254,M10591,61,1,29.18,5,1,1,511,new_customers,Not Loyal
+2255,M10592,61,1,47.15,5,1,2,512,new_customers,Not Loyal
+2256,M10593,61,1,94.56,5,1,3,513,new_customers,Not Loyal
+2257,M10594,61,1,30.95,5,1,2,512,new_customers,Not Loyal
+2258,M10595,61,1,46.23,5,1,2,512,new_customers,Not Loyal
+2259,M10596,61,1,63.69,5,1,3,513,new_customers,Not Loyal
+2260,M10597,61,1,37.4,5,1,2,512,new_customers,Not Loyal
+2261,M10598,62,1,38.59,5,1,2,512,new_customers,Not Loyal
+2262,M10599,62,1,88.26,5,1,3,513,new_customers,Not Loyal
+2263,M10600,62,1,109.37,5,1,4,514,new_customers,Not Loyal
+2264,M10601,62,1,72.28,5,1,3,513,new_customers,Not Loyal
+2265,M10602,62,1,55.48,5,1,2,512,new_customers,Not Loyal
+2266,M10603,62,1,57.99,5,1,2,512,new_customers,Not Loyal
+2267,M10604,62,1,70.04,5,1,3,513,new_customers,Not Loyal
+2268,M10605,63,1,30.12,5,1,2,512,new_customers,Not Loyal
+2269,M10606,63,1,63.9,5,1,3,513,new_customers,Not Loyal
+2270,M10607,63,2,95.81,5,2,3,523,potential_loyalists,Loyal
+2271,M10608,63,1,37.78,5,1,2,512,new_customers,Not Loyal
+2272,M10609,63,1,59.28,5,1,2,512,new_customers,Not Loyal
+2273,M10610,63,2,120.77,5,2,4,524,potential_loyalists,Loyal
+2274,M10611,63,1,28.23,5,1,1,511,new_customers,Not Loyal
+2275,M10612,63,2,81.13,5,2,3,523,potential_loyalists,Loyal
+2276,M10613,63,1,81.63,5,1,3,513,new_customers,Not Loyal
+2277,M10614,64,1,81.7,5,1,3,513,new_customers,Not Loyal
+2278,M10615,64,1,100.72,5,1,4,514,new_customers,Not Loyal
+2279,M10616,64,1,97.77,5,1,3,513,new_customers,Not Loyal
+2280,M10617,64,1,51.83,5,1,2,512,new_customers,Not Loyal
+2281,M10618,64,1,53.16,5,1,2,512,new_customers,Not Loyal
+2282,M10619,64,1,13.3,5,1,1,511,new_customers,Not Loyal
+2283,M10620,64,2,103.04,5,2,4,524,potential_loyalists,Loyal
+2284,M10621,64,1,39.2,5,1,2,512,new_customers,Not Loyal
+2285,M10622,64,2,141.05,5,2,4,524,potential_loyalists,Loyal
+2286,M10623,64,1,55.73,5,1,2,512,new_customers,Not Loyal
+2287,M10624,65,1,22.64,5,1,1,511,new_customers,Not Loyal
+2288,M10625,65,1,65.39,5,1,3,513,new_customers,Not Loyal
+2289,M10626,65,1,52.32,5,1,2,512,new_customers,Not Loyal
+2290,M10627,65,1,46.79,5,1,2,512,new_customers,Not Loyal
+2291,M10628,65,2,91.14,5,2,3,523,potential_loyalists,Loyal
+2292,M10629,65,1,46.55,5,1,2,512,new_customers,Not Loyal
+2293,M10630,65,2,129.08,5,2,4,524,potential_loyalists,Loyal
+2294,M10631,65,1,43.67,5,1,2,512,new_customers,Not Loyal
+2295,M10632,65,1,106.3,5,1,4,514,new_customers,Not Loyal
+2296,M10633,65,1,94.56,5,1,3,513,new_customers,Not Loyal
+2297,M10634,65,1,37.85,5,1,2,512,new_customers,Not Loyal
+2298,M10635,65,1,38.29,5,1,2,512,new_customers,Not Loyal
+2299,M10636,65,1,70.98,5,1,3,513,new_customers,Not Loyal
+2300,M10637,66,1,105.5,5,1,4,514,new_customers,Not Loyal
+2301,M10638,66,1,68.11,5,1,3,513,new_customers,Not Loyal
+2302,M10639,66,3,253.4,5,3,5,535,potential_loyalists,Loyal
+2303,M10640,66,1,50.09,5,1,2,512,new_customers,Not Loyal
+2304,M10641,66,1,21.71,5,1,1,511,new_customers,Not Loyal
+2305,M10642,66,1,41.93,5,1,2,512,new_customers,Not Loyal
+2306,M10643,66,1,96.2,5,1,3,513,new_customers,Not Loyal
+2307,M10644,66,1,33.43,5,1,2,512,new_customers,Not Loyal
+2308,M10645,66,1,41.09,5,1,2,512,new_customers,Not Loyal
+2309,M10646,66,1,40.24,5,1,2,512,new_customers,Not Loyal
+2310,M10647,66,1,50.3,5,1,2,512,new_customers,Not Loyal
+2311,M10648,66,1,93.25,5,1,3,513,new_customers,Not Loyal
+2312,M10649,66,1,82.68,5,1,3,513,new_customers,Not Loyal
+2313,M10650,66,1,169.3,5,1,5,515,new_customers,Not Loyal
+2314,M10651,66,2,115.04,5,2,4,524,potential_loyalists,Loyal
+2315,M10652,66,1,42.46,5,1,2,512,new_customers,Not Loyal
+2316,M10653,66,1,46.69,5,1,2,512,new_customers,Not Loyal
+2317,M10654,66,1,19.18,5,1,1,511,new_customers,Not Loyal
+2318,M10655,67,1,79.82,5,1,3,513,new_customers,Not Loyal
+2319,M10656,67,2,99.92,5,2,3,523,potential_loyalists,Loyal
+2320,M10657,67,1,42.01,5,1,2,512,new_customers,Not Loyal
+2321,M10658,67,2,278.11,5,2,5,525,potential_loyalists,Loyal
+2322,M10659,67,1,72.37,5,1,3,513,new_customers,Not Loyal
+2323,M10660,67,1,29.68,5,1,1,511,new_customers,Not Loyal
+2324,M10661,67,1,12.38,5,1,1,511,new_customers,Not Loyal
+2325,M10662,67,1,58.78,5,1,2,512,new_customers,Not Loyal
+2326,M10663,67,1,27.33,5,1,1,511,new_customers,Not Loyal
+2327,M10664,67,1,53.58,5,1,2,512,new_customers,Not Loyal
+2328,M10665,68,1,51.61,5,1,2,512,new_customers,Not Loyal
+2329,M10666,68,1,68.62,5,1,3,513,new_customers,Not Loyal
+2330,M10667,68,1,48.75,5,1,2,512,new_customers,Not Loyal
+2331,M10668,68,2,218.73,5,2,5,525,potential_loyalists,Loyal
+2332,M10669,68,1,37.72,5,1,2,512,new_customers,Not Loyal
+2333,M10670,68,2,90.32,5,2,3,523,potential_loyalists,Loyal
+2334,M10671,68,1,16.11,5,1,1,511,new_customers,Not Loyal
+2335,M10672,68,1,108.76,5,1,4,514,new_customers,Not Loyal
+2336,M10673,68,1,66.08,5,1,3,513,new_customers,Not Loyal
+2337,M10674,68,1,45.95,5,1,2,512,new_customers,Not Loyal
+2338,M10675,68,1,27.16,5,1,1,511,new_customers,Not Loyal
+2339,M10676,68,1,67.71,5,1,3,513,new_customers,Not Loyal
+2340,M10677,68,1,39.2,5,1,2,512,new_customers,Not Loyal
+2341,M10678,68,1,81.61,5,1,3,513,new_customers,Not Loyal
+2342,M10679,68,1,39.07,5,1,2,512,new_customers,Not Loyal
+2343,M10680,69,1,34.31,5,1,2,512,new_customers,Not Loyal
+2344,M10681,69,1,25.33,5,1,1,511,new_customers,Not Loyal
+2345,M10682,69,1,20.27,5,1,1,511,new_customers,Not Loyal
+2346,M10683,69,1,90.98,5,1,3,513,new_customers,Not Loyal
+2347,M10684,69,1,144.47,5,1,4,514,new_customers,Not Loyal
+2348,M10685,69,1,91.4,5,1,3,513,new_customers,Not Loyal
+2349,M10686,69,2,109.09,5,2,4,524,potential_loyalists,Loyal
+2350,M10687,69,1,41.86,5,1,2,512,new_customers,Not Loyal
+2351,M10688,69,1,50.43,5,1,2,512,new_customers,Not Loyal
+2352,M10689,69,1,72.24,5,1,3,513,new_customers,Not Loyal
+2353,M10690,69,3,245.1,5,3,5,535,potential_loyalists,Loyal
+2354,M10691,69,1,63.65,5,1,3,513,new_customers,Not Loyal
+2355,M10692,70,1,40.74,5,1,2,512,new_customers,Not Loyal
+2356,M10693,70,1,108.8,5,1,4,514,new_customers,Not Loyal
+2357,M10694,70,1,80.65,5,1,3,513,new_customers,Not Loyal
+2358,M10695,70,2,112,5,2,4,524,potential_loyalists,Loyal
+2359,M10696,70,1,37.99,5,1,2,512,new_customers,Not Loyal
+2360,M10697,70,1,87.72,5,1,3,513,new_customers,Not Loyal
+2361,M10698,70,1,22.54,5,1,1,511,new_customers,Not Loyal
+2362,M10699,70,1,40.42,5,1,2,512,new_customers,Not Loyal
+2363,M10700,70,1,96.26,5,1,3,513,new_customers,Not Loyal
+2364,M10701,70,1,32.64,5,1,2,512,new_customers,Not Loyal
+2365,M10702,71,1,32.45,5,1,2,512,new_customers,Not Loyal
+2366,M10703,71,1,41.5,5,1,2,512,new_customers,Not Loyal
+2367,M10704,71,1,111.55,5,1,4,514,new_customers,Not Loyal
+2368,M10705,71,1,40.18,5,1,2,512,new_customers,Not Loyal
+2369,M10706,71,1,68.12,5,1,3,513,new_customers,Not Loyal
+2370,M10707,71,1,37.81,5,1,2,512,new_customers,Not Loyal
+2371,M10708,71,1,38.27,5,1,2,512,new_customers,Not Loyal
+2372,M10709,71,1,26.85,5,1,1,511,new_customers,Not Loyal
+2373,M10710,71,1,42.39,5,1,2,512,new_customers,Not Loyal
+2374,M10711,72,1,45.3,5,1,2,512,new_customers,Not Loyal
+2375,M10712,72,1,30.01,5,1,2,512,new_customers,Not Loyal
+2376,M10713,72,1,38.74,5,1,2,512,new_customers,Not Loyal
+2377,M10714,72,1,73.79,5,1,3,513,new_customers,Not Loyal
+2378,M10715,72,1,51.02,5,1,2,512,new_customers,Not Loyal
+2379,M10716,72,1,31.86,5,1,2,512,new_customers,Not Loyal
+2380,M10717,72,1,41.45,5,1,2,512,new_customers,Not Loyal
+2381,M10718,72,2,77.61,5,2,3,523,potential_loyalists,Loyal
+2382,M10719,72,1,73.3,5,1,3,513,new_customers,Not Loyal
+2383,M10720,72,1,69.24,5,1,3,513,new_customers,Not Loyal
+2384,M10721,73,1,42.44,5,1,2,512,new_customers,Not Loyal
+2385,M10722,73,2,86.23,5,2,3,523,potential_loyalists,Loyal
+2386,M10723,73,1,152.09,5,1,5,515,new_customers,Not Loyal
+2387,M10724,73,1,89.43,5,1,3,513,new_customers,Not Loyal
+2388,M10725,73,1,66.9,5,1,3,513,new_customers,Not Loyal
+2389,M10726,73,1,51.52,5,1,2,512,new_customers,Not Loyal
+2390,M10727,73,1,79.15,5,1,3,513,new_customers,Not Loyal
+2391,M10728,73,1,91.66,5,1,3,513,new_customers,Not Loyal
+2392,M10729,73,1,54.78,5,1,2,512,new_customers,Not Loyal
+2393,M10730,73,1,47.87,5,1,2,512,new_customers,Not Loyal
+2394,M10731,73,1,12.89,5,1,1,511,new_customers,Not Loyal
+2395,M10732,73,1,45.88,5,1,2,512,new_customers,Not Loyal
+2396,M10733,73,2,92.63,5,2,3,523,potential_loyalists,Loyal
+2397,M10734,73,1,53.5,5,1,2,512,new_customers,Not Loyal
+2398,M10735,73,1,22.89,5,1,1,511,new_customers,Not Loyal
+2399,M10736,73,1,31.87,5,1,2,512,new_customers,Not Loyal
+2400,M10737,74,1,61.91,5,1,3,513,new_customers,Not Loyal
+2401,M10738,74,2,42.6,5,2,2,522,potential_loyalists,Loyal
+2402,M10739,74,1,45.94,5,1,2,512,new_customers,Not Loyal
+2403,M10740,74,1,84.71,5,1,3,513,new_customers,Not Loyal
+2404,M10741,74,2,105.78,5,2,4,524,potential_loyalists,Loyal
+2405,M10742,74,1,45.89,5,1,2,512,new_customers,Not Loyal
+2406,M10743,74,1,152.76,5,1,5,515,new_customers,Not Loyal
+2407,M10744,74,1,67.99,5,1,3,513,new_customers,Not Loyal
+2408,M10745,75,1,275.68,5,1,5,515,new_customers,Not Loyal
+2409,M10746,75,1,198,5,1,5,515,new_customers,Not Loyal
+2410,M10747,75,2,121.15,5,2,4,524,potential_loyalists,Loyal
+2411,M10748,75,1,15.52,5,1,1,511,new_customers,Not Loyal
+2412,M10749,75,1,80.96,5,1,3,513,new_customers,Not Loyal
+2413,M10750,75,1,38.86,5,1,2,512,new_customers,Not Loyal
+2414,M10751,75,1,43.16,5,1,2,512,new_customers,Not Loyal
+2415,M10752,76,1,40.02,5,1,2,512,new_customers,Not Loyal
+2416,M10753,76,1,21.88,5,1,1,511,new_customers,Not Loyal
+2417,M10754,76,1,59.87,5,1,2,512,new_customers,Not Loyal
+2418,M10755,76,1,76.88,5,1,3,513,new_customers,Not Loyal
+2419,M10756,76,2,134.99,5,2,4,524,potential_loyalists,Loyal
+2420,M10757,76,1,91.84,5,1,3,513,new_customers,Not Loyal
+2421,M10758,76,1,61.45,5,1,3,513,new_customers,Not Loyal
+2422,M10759,76,2,83.48,5,2,3,523,potential_loyalists,Loyal
+2423,M10760,76,1,81.77,5,1,3,513,new_customers,Not Loyal
+2424,M10761,76,1,92.61,5,1,3,513,new_customers,Not Loyal
+2425,M10762,76,1,46.37,5,1,2,512,new_customers,Not Loyal
+2426,M10763,76,1,102.71,5,1,4,514,new_customers,Not Loyal
+2427,M10764,77,2,176.42,5,2,5,525,potential_loyalists,Loyal
+2428,M10765,77,1,127.95,5,1,4,514,new_customers,Not Loyal
+2429,M10766,77,1,40.46,5,1,2,512,new_customers,Not Loyal
+2430,M10767,77,1,50.21,5,1,2,512,new_customers,Not Loyal
+2431,M10768,77,1,47.61,5,1,2,512,new_customers,Not Loyal
+2432,M10769,77,1,52.35,5,1,2,512,new_customers,Not Loyal
+2433,M10770,77,1,101.36,5,1,4,514,new_customers,Not Loyal
+2434,M10771,77,1,62.98,5,1,3,513,new_customers,Not Loyal
+2435,M10772,77,1,44.99,5,1,2,512,new_customers,Not Loyal
+2436,M10773,77,1,25.88,5,1,1,511,new_customers,Not Loyal
+2437,M10774,78,1,44.99,5,1,2,512,new_customers,Not Loyal
+2438,M10775,78,1,42.99,5,1,2,512,new_customers,Not Loyal
+2439,M10776,78,1,45.97,5,1,2,512,new_customers,Not Loyal
+2440,M10777,79,1,42.99,5,1,2,512,new_customers,Not Loyal
+2441,M10778,79,1,42.99,5,1,2,512,new_customers,Not Loyal
+2442,M10779,80,1,42.99,5,1,2,512,new_customers,Not Loyal
+2443,M10780,80,2,176.66,5,2,5,525,potential_loyalists,Loyal
+2444,M10781,80,1,29.8,5,1,1,511,new_customers,Not Loyal
+2445,M10782,80,1,42.99,5,1,2,512,new_customers,Not Loyal
+2446,M10783,80,1,43.08,5,1,2,512,new_customers,Not Loyal
+2447,M10784,81,1,22.88,5,1,1,511,new_customers,Not Loyal
+2448,M10785,81,1,55.82,5,1,2,512,new_customers,Not Loyal
+2449,M10786,81,1,53.96,5,1,2,512,new_customers,Not Loyal
+2450,M10787,81,1,42.99,5,1,2,512,new_customers,Not Loyal
+2451,M10788,81,1,69.34,5,1,3,513,new_customers,Not Loyal
+2452,M10789,81,1,52.97,5,1,2,512,new_customers,Not Loyal
+2453,M10790,81,1,120.95,5,1,4,514,new_customers,Not Loyal
+2454,M10791,81,2,170.89,5,2,5,525,potential_loyalists,Loyal
+2455,M10792,81,1,107.56,5,1,4,514,new_customers,Not Loyal
+2456,M10793,81,1,209.79,5,1,5,515,new_customers,Not Loyal
+2457,M10794,82,1,92.45,5,1,3,513,new_customers,Not Loyal
+2458,M10795,82,1,49.99,5,1,2,512,new_customers,Not Loyal
+2459,M10796,82,1,89.78,5,1,3,513,new_customers,Not Loyal
+2460,M10797,82,1,13.89,5,1,1,511,new_customers,Not Loyal
+2461,M10798,82,1,40.43,5,1,2,512,new_customers,Not Loyal
+2462,M10799,82,1,42.99,5,1,2,512,new_customers,Not Loyal
+2463,M10800,82,1,72.36,5,1,3,513,new_customers,Not Loyal
+2464,M10801,82,1,50.91,5,1,2,512,new_customers,Not Loyal
+2465,M10802,82,1,42.99,5,1,2,512,new_customers,Not Loyal
+2466,M10803,82,1,45.6,5,1,2,512,new_customers,Not Loyal
+2467,M10804,82,2,193.8,5,2,5,525,potential_loyalists,Loyal
+2468,M10805,83,1,57.98,5,1,2,512,new_customers,Not Loyal
+2469,M10806,83,1,43.85,5,1,2,512,new_customers,Not Loyal
+2470,M10807,83,1,64.31,5,1,3,513,new_customers,Not Loyal
+2471,M10808,83,1,42.79,5,1,2,512,new_customers,Not Loyal
+2472,M10809,83,5,233.17,5,5,5,555,champions,Loyal
+2473,M10810,83,2,110.19,5,2,4,524,potential_loyalists,Loyal
+2474,M10811,84,1,29.87,5,1,1,511,new_customers,Not Loyal
+2475,M10812,84,1,75.99,5,1,3,513,new_customers,Not Loyal
+2476,M10813,84,1,42.99,5,1,2,512,new_customers,Not Loyal
+2477,M10814,84,1,42.99,5,1,2,512,new_customers,Not Loyal
+2478,M10815,84,1,42.99,5,1,2,512,new_customers,Not Loyal
+2479,M10816,84,1,45,5,1,2,512,new_customers,Not Loyal
+2480,M10817,84,1,105.25,5,1,4,514,new_customers,Not Loyal
+2481,M10818,84,1,70.97,5,1,3,513,new_customers,Not Loyal
+2482,M10819,84,2,178.95,5,2,5,525,potential_loyalists,Loyal
+2483,M10820,84,1,85.44,5,1,3,513,new_customers,Not Loyal
+2484,M10821,84,1,59.88,5,1,2,512,new_customers,Not Loyal
+2485,M10822,84,1,80.98,5,1,3,513,new_customers,Not Loyal
+2486,M10823,84,1,40.96,5,1,2,512,new_customers,Not Loyal
+2487,M10824,84,1,59.33,5,1,2,512,new_customers,Not Loyal
+2488,M10825,84,1,125.73,5,1,4,514,new_customers,Not Loyal
+2489,M10826,85,1,58.98,5,1,2,512,new_customers,Not Loyal
+2490,M10827,85,1,42.99,5,1,2,512,new_customers,Not Loyal
+2491,M10828,85,1,24.79,5,1,1,511,new_customers,Not Loyal
+2492,M10829,85,1,42.99,5,1,2,512,new_customers,Not Loyal
+2493,M10830,85,1,41.45,5,1,2,512,new_customers,Not Loyal
+2494,M10831,85,1,55.48,5,1,2,512,new_customers,Not Loyal
+2495,M10832,85,1,42.99,5,1,2,512,new_customers,Not Loyal
+2496,M10833,85,1,73.13,5,1,3,513,new_customers,Not Loyal
+2497,M10834,85,1,39.99,5,1,2,512,new_customers,Not Loyal
+2498,M10835,85,1,87.25,5,1,3,513,new_customers,Not Loyal
+2499,M10836,85,1,90.43,5,1,3,513,new_customers,Not Loyal
+2500,M10837,85,1,77.38,5,1,3,513,new_customers,Not Loyal
+2501,M10838,85,1,49.99,5,1,2,512,new_customers,Not Loyal
+2502,M10839,86,1,46.98,5,1,2,512,new_customers,Not Loyal
+2503,M10840,86,1,40.41,5,1,2,512,new_customers,Not Loyal
+2504,M10841,86,1,42.99,5,1,2,512,new_customers,Not Loyal
+2505,M10842,86,1,46.94,5,1,2,512,new_customers,Not Loyal
+2506,M10843,86,1,90.36,5,1,3,513,new_customers,Not Loyal
+2507,M10844,86,1,53.99,5,1,2,512,new_customers,Not Loyal
+2508,M10845,86,1,59.41,5,1,2,512,new_customers,Not Loyal
+2509,M10846,86,1,66.49,5,1,3,513,new_customers,Not Loyal
+2510,M10847,86,2,83.29,5,2,3,523,potential_loyalists,Loyal
+2511,M10848,86,1,65.72,5,1,3,513,new_customers,Not Loyal
+2512,M10849,86,1,55.3,5,1,2,512,new_customers,Not Loyal
+2513,M10850,87,1,41.36,5,1,2,512,new_customers,Not Loyal
+2514,M10851,87,1,45.46,5,1,2,512,new_customers,Not Loyal
+2515,M10852,87,1,42.99,5,1,2,512,new_customers,Not Loyal
+2516,M10853,87,1,119.58,5,1,4,514,new_customers,Not Loyal
+2517,M10854,87,1,45.48,5,1,2,512,new_customers,Not Loyal
+2518,M10855,87,2,53.99,5,2,2,522,potential_loyalists,Loyal
+2519,M10856,87,1,42.44,5,1,2,512,new_customers,Not Loyal
+2520,M10857,87,1,85.55,5,1,3,513,new_customers,Not Loyal
+2521,M10858,87,1,120.9,5,1,4,514,new_customers,Not Loyal
+2522,M10859,88,1,22.85,5,1,1,511,new_customers,Not Loyal
+2523,M10860,88,1,53.99,5,1,2,512,new_customers,Not Loyal
+2524,M10861,88,1,43.96,5,1,2,512,new_customers,Not Loyal
+2525,M10862,88,1,54.89,5,1,2,512,new_customers,Not Loyal
+2526,M10863,88,1,142.94,5,1,4,514,new_customers,Not Loyal
+2527,M10864,88,2,207.18,5,2,5,525,potential_loyalists,Loyal
+2528,M10865,88,1,59.79,5,1,2,512,new_customers,Not Loyal
+2529,M10866,88,1,52.63,5,1,2,512,new_customers,Not Loyal
+2530,M10867,88,1,50.85,5,1,2,512,new_customers,Not Loyal
+2531,M10868,88,1,42.99,5,1,2,512,new_customers,Not Loyal
+2532,M10869,88,1,53.46,5,1,2,512,new_customers,Not Loyal
+2533,M10870,88,1,53.99,5,1,2,512,new_customers,Not Loyal
+2534,M10871,88,1,42.99,5,1,2,512,new_customers,Not Loyal
+2535,M10872,88,1,142.03,5,1,4,514,new_customers,Not Loyal
+2536,M10873,88,1,42.98,5,1,2,512,new_customers,Not Loyal
+2537,M10874,88,1,55.86,5,1,2,512,new_customers,Not Loyal
+2538,M10875,88,1,129.47,5,1,4,514,new_customers,Not Loyal
+2539,M10876,88,1,54.83,5,1,2,512,new_customers,Not Loyal
+2540,M10877,88,1,82.59,5,1,3,513,new_customers,Not Loyal
+2541,M10878,88,1,50.36,5,1,2,512,new_customers,Not Loyal
+2542,M10879,88,1,22.89,5,1,1,511,new_customers,Not Loyal
+2543,M10880,88,1,51.69,5,1,2,512,new_customers,Not Loyal
+2544,M10881,88,1,141.69,5,1,4,514,new_customers,Not Loyal
+2545,M10882,88,1,89.42,5,1,3,513,new_customers,Not Loyal
+2546,M10883,88,1,84.5,5,1,3,513,new_customers,Not Loyal
+2547,M10884,88,1,120.48,5,1,4,514,new_customers,Not Loyal
+2548,M10885,88,1,77.33,5,1,3,513,new_customers,Not Loyal
+2549,M10886,88,1,61.44,5,1,3,513,new_customers,Not Loyal
+2550,M10887,88,1,53.04,5,1,2,512,new_customers,Not Loyal
+2551,M10888,88,2,91.19,5,2,3,523,potential_loyalists,Loyal
+2552,M10889,88,1,53.99,5,1,2,512,new_customers,Not Loyal
+2553,M10890,88,1,34.87,5,1,2,512,new_customers,Not Loyal
+2554,M10891,88,1,54.77,5,1,2,512,new_customers,Not Loyal
+2555,M10892,88,1,89.04,5,1,3,513,new_customers,Not Loyal
+2556,M10893,88,1,44.96,5,1,2,512,new_customers,Not Loyal
+2557,M10894,88,1,48.01,5,1,2,512,new_customers,Not Loyal
+2558,M10895,89,1,63.46,5,1,3,513,new_customers,Not Loyal
+2559,M10896,89,1,53.99,5,1,2,512,new_customers,Not Loyal
+2560,M10897,89,1,102.48,5,1,4,514,new_customers,Not Loyal
+2561,M10898,89,1,53.99,5,1,2,512,new_customers,Not Loyal
+2562,M10899,89,1,82.32,5,1,3,513,new_customers,Not Loyal
+2563,M10900,89,2,97.42,5,2,3,523,potential_loyalists,Loyal
+2564,M10901,89,2,82.28,5,2,3,523,potential_loyalists,Loyal
+2565,M10902,89,1,55.76,5,1,2,512,new_customers,Not Loyal
+2566,M10903,89,1,121.3,5,1,4,514,new_customers,Not Loyal
+2567,M10904,89,1,46.78,5,1,2,512,new_customers,Not Loyal
+2568,M10905,89,1,159.8,5,1,5,515,new_customers,Not Loyal
+2569,M10906,89,1,42.18,5,1,2,512,new_customers,Not Loyal
+2570,M10907,89,1,35.38,5,1,2,512,new_customers,Not Loyal
+2571,M10908,89,1,113.92,5,1,4,514,new_customers,Not Loyal
+2572,M10909,89,1,87.89,5,1,3,513,new_customers,Not Loyal
+2573,M10910,89,1,44.51,5,1,2,512,new_customers,Not Loyal
+2574,M10911,89,1,120.48,5,1,4,514,new_customers,Not Loyal
+2575,M10912,89,1,94.33,5,1,3,513,new_customers,Not Loyal
+2576,M10913,89,1,82.8,5,1,3,513,new_customers,Not Loyal
+2577,M10914,89,1,149.2,5,1,4,514,new_customers,Not Loyal
+2578,M10915,89,1,170.6,5,1,5,515,new_customers,Not Loyal
+2579,M10916,89,1,55.75,5,1,2,512,new_customers,Not Loyal
+2580,M10917,89,1,93.88,5,1,3,513,new_customers,Not Loyal
+2581,M10918,89,1,120.48,5,1,4,514,new_customers,Not Loyal
+2582,M10919,89,1,110.16,5,1,4,514,new_customers,Not Loyal
+2583,M10920,89,1,54.89,5,1,2,512,new_customers,Not Loyal
+2584,M10921,89,1,84.02,5,1,3,513,new_customers,Not Loyal
+2585,M10922,89,1,53.99,5,1,2,512,new_customers,Not Loyal
+2586,M10923,89,1,42.99,5,1,2,512,new_customers,Not Loyal
+2587,M10924,90,1,37.9,5,1,2,512,new_customers,Not Loyal
+2588,M10925,90,2,235.49,5,2,5,525,potential_loyalists,Loyal
+2589,M10926,90,1,37.84,5,1,2,512,new_customers,Not Loyal
+2590,M10927,90,2,130.82,5,2,4,524,potential_loyalists,Loyal
+2591,M10928,90,1,59.4,5,1,2,512,new_customers,Not Loyal
+2592,M10929,91,1,14.79,4,1,1,411,promising,Not Loyal
+2593,M10930,91,1,44.82,4,1,2,412,promising,Not Loyal
+2594,M10931,91,1,43.44,4,1,2,412,promising,Not Loyal
+2595,M10932,91,1,56.42,4,1,2,412,promising,Not Loyal
+2596,M10933,91,1,113.25,4,1,4,414,promising,Not Loyal
+2597,M10934,91,1,43.89,4,1,2,412,promising,Not Loyal
+2598,M10935,92,1,46.4,4,1,2,412,promising,Not Loyal
+2599,M10936,92,1,35.36,4,1,2,412,promising,Not Loyal
+2600,M10937,93,1,84.9,4,1,3,413,promising,Not Loyal
+2601,M10938,93,1,74.94,4,1,3,413,promising,Not Loyal
+2602,M10939,93,1,89.7,4,1,3,413,promising,Not Loyal
+2603,M10940,93,1,51.27,4,1,2,412,promising,Not Loyal
+2604,M10941,93,1,42.37,4,1,2,412,promising,Not Loyal
+2605,M10942,94,1,61.07,4,1,3,413,promising,Not Loyal
+2606,M10943,94,2,116.66,4,2,4,424,potential_loyalists,Loyal
+2607,M10944,94,1,82.89,4,1,3,413,promising,Not Loyal
+2608,M10945,94,1,90.32,4,1,3,413,promising,Not Loyal
+2609,M10946,95,2,168.36,4,2,5,425,potential_loyalists,Loyal
+2610,M10947,95,1,45.44,4,1,2,412,promising,Not Loyal
+2611,M10948,95,1,73.93,4,1,3,413,promising,Not Loyal
+2612,M10949,96,3,223.64,4,3,5,435,potential_loyalists,Loyal
+2613,M10950,96,3,231.67,4,3,5,435,potential_loyalists,Loyal
+2614,M10951,96,2,117.88,4,2,4,424,potential_loyalists,Loyal
+2615,M10952,96,1,24.68,4,1,1,411,promising,Not Loyal
+2616,M10953,96,1,51.94,4,1,2,412,promising,Not Loyal
+2617,M10954,96,1,48.65,4,1,2,412,promising,Not Loyal
+2618,M10955,96,1,62.74,4,1,3,413,promising,Not Loyal
+2619,M10956,96,1,83.67,4,1,3,413,promising,Not Loyal
+2620,M10957,96,1,61.91,4,1,3,413,promising,Not Loyal
+2621,M10958,96,1,94.18,4,1,3,413,promising,Not Loyal
+2622,M10959,96,1,42.38,4,1,2,412,promising,Not Loyal
+2623,M10960,96,1,72.34,4,1,3,413,promising,Not Loyal
+2624,M10961,96,1,46.99,4,1,2,412,promising,Not Loyal
+2625,M10962,96,1,89.88,4,1,3,413,promising,Not Loyal
+2626,M10963,96,1,93.8,4,1,3,413,promising,Not Loyal
+2627,M10964,96,1,40.03,4,1,2,412,promising,Not Loyal
+2628,M10965,97,1,100.93,4,1,4,414,promising,Not Loyal
+2629,M10966,97,1,102.73,4,1,4,414,promising,Not Loyal
+2630,M10967,97,2,166.93,4,2,5,425,potential_loyalists,Loyal
+2631,M10968,97,1,122.24,4,1,4,414,promising,Not Loyal
+2632,M10969,97,1,57.94,4,1,2,412,promising,Not Loyal
+2633,M10970,97,5,158.96,4,5,5,455,loyal_customers,Loyal
+2634,M10971,98,1,55.31,4,1,2,412,promising,Not Loyal
+2635,M10972,98,1,45.18,4,1,2,412,promising,Not Loyal
+2636,M10973,98,2,94.34,4,2,3,423,potential_loyalists,Loyal
+2637,M10974,99,1,50.98,4,1,2,412,promising,Not Loyal
+2638,M10975,99,1,107.81,4,1,4,414,promising,Not Loyal
+2639,M10976,99,2,82.76,4,2,3,423,potential_loyalists,Loyal
+2640,M10977,101,2,80.78,4,2,3,423,potential_loyalists,Loyal
+2641,M10978,101,1,106.43,4,1,4,414,promising,Not Loyal
+2642,M10979,101,1,105.34,4,1,4,414,promising,Not Loyal
+2643,M10980,101,2,48.27,4,2,2,422,potential_loyalists,Loyal
+2644,M10981,101,1,178.14,4,1,5,415,promising,Not Loyal
+2645,M10982,102,1,48.94,4,1,2,412,promising,Not Loyal
+2646,M10983,102,1,87.37,4,1,3,413,promising,Not Loyal
+2647,M10984,102,1,46.35,4,1,2,412,promising,Not Loyal
+2648,M10985,102,1,293.67,4,1,5,415,promising,Not Loyal
+2649,M10986,103,1,55.54,4,1,2,412,promising,Not Loyal
+2650,M10987,103,1,86.45,4,1,3,413,promising,Not Loyal
+2651,M10988,103,2,84.35,4,2,3,423,potential_loyalists,Loyal
+2652,M10989,103,1,75.84,4,1,3,413,promising,Not Loyal
+2653,M10990,103,1,42.89,4,1,2,412,promising,Not Loyal
+2654,M10991,103,1,56.3,4,1,2,412,promising,Not Loyal
+2655,M10992,103,1,81.95,4,1,3,413,promising,Not Loyal
+2656,M10993,104,1,65.93,4,1,3,413,promising,Not Loyal
+2657,M10994,104,1,27.87,4,1,1,411,promising,Not Loyal
+2658,M10995,104,3,158.48,4,3,5,435,potential_loyalists,Loyal
+2659,M10996,104,1,61.87,4,1,3,413,promising,Not Loyal
+2660,M10997,104,1,27.85,4,1,1,411,promising,Not Loyal
+2661,M10998,104,1,51.95,4,1,2,412,promising,Not Loyal
+2662,M10999,104,1,82.96,4,1,3,413,promising,Not Loyal
+2663,M11000,107,1,69.93,4,1,3,413,promising,Not Loyal
+2664,M11001,107,4,255.51,4,4,5,445,loyal_customers,Loyal
+2665,M11002,110,1,34.9,4,1,2,412,promising,Not Loyal
+2666,M11003,110,2,162.67,4,2,5,425,potential_loyalists,Loyal
+2667,M11004,110,1,95.84,4,1,3,413,promising,Not Loyal
+2668,M11005,110,1,90.44,4,1,3,413,promising,Not Loyal
+2669,M11006,111,2,33.5,4,2,2,422,potential_loyalists,Loyal
+2670,M11007,111,1,61.77,4,1,3,413,promising,Not Loyal
+2671,M11008,111,1,124.34,4,1,4,414,promising,Not Loyal
+2672,M11009,111,2,89.79,4,2,3,423,potential_loyalists,Loyal
+2673,M11010,111,1,93.85,4,1,3,413,promising,Not Loyal
+2674,M11011,111,1,45.43,4,1,2,412,promising,Not Loyal
+2675,M11012,111,1,44.47,4,1,2,412,promising,Not Loyal
+2676,M11013,111,3,187.4,4,3,5,435,potential_loyalists,Loyal
+2677,M11014,111,1,89.92,4,1,3,413,promising,Not Loyal
+2678,M11015,111,1,41.89,4,1,2,412,promising,Not Loyal
+2679,M11016,112,1,57.97,4,1,2,412,promising,Not Loyal
+2680,M11017,112,1,41.58,4,1,2,412,promising,Not Loyal
+2681,M11018,114,1,107.86,4,1,4,414,promising,Not Loyal
+2682,M11019,115,2,89.71,4,2,3,423,potential_loyalists,Loyal
+2683,M11020,115,2,77.44,4,2,3,423,potential_loyalists,Loyal
+2684,M11021,116,1,80.95,4,1,3,413,promising,Not Loyal
+2685,M11022,117,1,113.78,4,1,4,414,promising,Not Loyal
+2686,M11023,117,2,85.2,4,2,3,423,potential_loyalists,Loyal
+2687,M11024,118,1,63.55,4,1,3,413,promising,Not Loyal
+2688,M11025,118,1,28.88,4,1,1,411,promising,Not Loyal
+2689,M11026,119,2,98.6,4,2,3,423,potential_loyalists,Loyal
+2690,M11027,119,3,43.2,4,3,2,432,potential_loyalists,Loyal
+2691,M11028,119,1,129.68,4,1,4,414,promising,Not Loyal
+2692,M11029,119,1,45.89,4,1,2,412,promising,Not Loyal
+2693,M11030,120,1,68.38,4,1,3,413,promising,Not Loyal
+2694,M11031,120,1,85.72,4,1,3,413,promising,Not Loyal
+2695,M11032,120,1,46.97,4,1,2,412,promising,Not Loyal
+2696,M11033,121,1,51.01,4,1,2,412,promising,Not Loyal
+2697,M11034,121,1,77.94,4,1,3,413,promising,Not Loyal
+2698,M11035,121,1,65.94,4,1,3,413,promising,Not Loyal
+2699,M11036,121,1,46.39,4,1,2,412,promising,Not Loyal
+2700,M11037,121,1,22.08,4,1,1,411,promising,Not Loyal
+2701,M11038,121,1,49.82,4,1,2,412,promising,Not Loyal
+2702,M11039,121,1,41.98,4,1,2,412,promising,Not Loyal
+2703,M11040,121,4,259.63,4,4,5,445,loyal_customers,Loyal
+2704,M11041,121,1,32.55,4,1,2,412,promising,Not Loyal
+2705,M11042,121,1,26.9,4,1,1,411,promising,Not Loyal
+2706,M11043,121,2,294.86,4,2,5,425,potential_loyalists,Loyal
+2707,M11044,121,1,46.18,4,1,2,412,promising,Not Loyal
+2708,M11045,121,1,43.8,4,1,2,412,promising,Not Loyal
+2709,M11046,121,1,186.62,4,1,5,415,promising,Not Loyal
+2710,M11047,121,1,45.95,4,1,2,412,promising,Not Loyal
+2711,M11048,121,1,41.46,4,1,2,412,promising,Not Loyal
+2712,M11049,121,1,40.38,4,1,2,412,promising,Not Loyal
+2713,M11050,121,1,58.97,4,1,2,412,promising,Not Loyal
+2714,M11051,122,1,40.05,4,1,2,412,promising,Not Loyal
+2715,M11052,122,1,43.18,4,1,2,412,promising,Not Loyal
+2716,M11053,122,1,47.43,4,1,2,412,promising,Not Loyal
+2717,M11054,122,1,91.96,4,1,3,413,promising,Not Loyal
+2718,M11055,122,1,48.62,4,1,2,412,promising,Not Loyal
+2719,M11056,122,1,75.59,4,1,3,413,promising,Not Loyal
+2720,M11057,122,1,59.96,4,1,2,412,promising,Not Loyal
+2721,M11058,122,1,50.34,4,1,2,412,promising,Not Loyal
+2722,M11059,122,1,79.91,4,1,3,413,promising,Not Loyal
+2723,M11060,122,1,42.7,4,1,2,412,promising,Not Loyal
+2724,M11061,122,1,53.17,4,1,2,412,promising,Not Loyal
+2725,M11062,122,1,45.54,4,1,2,412,promising,Not Loyal
+2726,M11063,122,1,40.79,4,1,2,412,promising,Not Loyal
+2727,M11064,122,1,80.54,4,1,3,413,promising,Not Loyal
+2728,M11065,122,1,93.46,4,1,3,413,promising,Not Loyal
+2729,M11066,122,1,52.28,4,1,2,412,promising,Not Loyal
+2730,M11067,122,1,57.1,4,1,2,412,promising,Not Loyal
+2731,M11068,122,1,43.98,4,1,2,412,promising,Not Loyal
+2732,M11069,122,1,40.95,4,1,2,412,promising,Not Loyal
+2733,M11070,122,1,25.89,4,1,1,411,promising,Not Loyal
+2734,M11071,122,2,66.36,4,2,3,423,potential_loyalists,Loyal
+2735,M11072,126,1,41.59,4,1,2,412,promising,Not Loyal
+2736,M11073,127,1,41.73,4,1,2,412,promising,Not Loyal
+2737,M11074,128,1,100.28,4,1,4,414,promising,Not Loyal
+2738,M11075,128,1,4.9,4,1,1,411,promising,Not Loyal
+2739,M11076,129,1,83.08,4,1,3,413,promising,Not Loyal
+2740,M11077,129,1,103.14,4,1,4,414,promising,Not Loyal
+2741,M11078,129,1,56.78,4,1,2,412,promising,Not Loyal
+2742,M11079,129,1,21.68,4,1,1,411,promising,Not Loyal
+2743,M11080,130,1,6.86,4,1,1,411,promising,Not Loyal
+2744,M11081,130,1,12,4,1,1,411,promising,Not Loyal
+2745,M11082,130,1,12,4,1,1,411,promising,Not Loyal
+2746,M11083,130,1,43.99,4,1,2,412,promising,Not Loyal
+2747,M11084,130,1,168.16,4,1,5,415,promising,Not Loyal
+2748,M11085,131,3,172.41,4,3,5,435,potential_loyalists,Loyal
+2749,M11086,131,1,81.16,4,1,3,413,promising,Not Loyal
+2750,M11087,131,1,127.88,4,1,4,414,promising,Not Loyal
+2751,M11088,131,1,71.54,4,1,3,413,promising,Not Loyal
+2752,M11089,131,1,63.99,4,1,3,413,promising,Not Loyal
+2753,M11090,131,1,96.51,4,1,3,413,promising,Not Loyal
+2754,M11091,131,1,42.78,4,1,2,412,promising,Not Loyal
+2755,M11092,131,1,74.78,4,1,3,413,promising,Not Loyal
+2756,M11093,131,1,68.62,4,1,3,413,promising,Not Loyal
+2757,M11094,131,1,85.43,4,1,3,413,promising,Not Loyal
+2758,M11095,131,1,69.54,4,1,3,413,promising,Not Loyal
+2759,M11096,131,1,14.38,4,1,1,411,promising,Not Loyal
+2760,M11097,131,1,129.1,4,1,4,414,promising,Not Loyal
+2761,M11098,131,1,55.65,4,1,2,412,promising,Not Loyal
+2762,M11099,131,1,67.18,4,1,3,413,promising,Not Loyal
+2763,M11100,132,1,36.44,4,1,2,412,promising,Not Loyal
+2764,M11101,132,1,24.08,4,1,1,411,promising,Not Loyal
+2765,M11102,132,1,35.97,4,1,2,412,promising,Not Loyal
+2766,M11103,132,1,80.78,4,1,3,413,promising,Not Loyal
+2767,M11104,132,1,33.98,4,1,2,412,promising,Not Loyal
+2768,M11105,135,2,109.45,4,2,4,424,potential_loyalists,Loyal
+2769,M11106,135,1,148.37,4,1,4,414,promising,Not Loyal
+2770,M11107,140,1,46.39,4,1,2,412,promising,Not Loyal
+2771,M11108,143,1,39.96,4,1,2,412,promising,Not Loyal
+2772,M11109,143,1,40.88,4,1,2,412,promising,Not Loyal
+2773,M11110,153,1,38.97,4,1,2,412,promising,Not Loyal
+2774,M11111,160,1,43.4,4,1,2,412,promising,Not Loyal
+2775,M11112,184,1,15.9,3,1,1,311,about_to_sleep,Not Loyal
+2776,M11113,192,1,28.88,3,1,1,311,about_to_sleep,Not Loyal
+2777,M11114,197,1,59.85,3,1,2,312,about_to_sleep,Not Loyal
+2778,M11115,230,1,2467.88,3,1,5,315,about_to_sleep,Not Loyal
+2779,M11116,236,1,42.97,3,1,2,312,about_to_sleep,Not Loyal
+2780,M11117,17,1,82.69,5,1,3,513,new_customers,Not Loyal
+2781,M11118,43,1,40.28,5,1,2,512,new_customers,Not Loyal
+2782,M11119,49,1,110.27,5,1,4,514,new_customers,Not Loyal
+2783,M11120,65,1,74.45,5,1,3,513,new_customers,Not Loyal
+2784,M11121,68,1,22.39,5,1,1,511,new_customers,Not Loyal
+2785,M11122,70,1,246,5,1,5,515,new_customers,Not Loyal
+2786,M11123,72,1,199.9,5,1,5,515,new_customers,Not Loyal
+2787,M11124,76,1,79.34,5,1,3,513,new_customers,Not Loyal
+2788,M11125,77,1,59.99,5,1,2,512,new_customers,Not Loyal
+2789,M11126,77,1,73.88,5,1,3,513,new_customers,Not Loyal
+2790,M11127,77,1,73.88,5,1,3,513,new_customers,Not Loyal
+2791,M11128,82,1,53.48,5,1,2,512,new_customers,Not Loyal
+2792,M11129,83,1,61.33,5,1,3,513,new_customers,Not Loyal
+2793,M11130,87,1,28.79,5,1,1,511,new_customers,Not Loyal
+2794,M11131,87,1,57.99,5,1,2,512,new_customers,Not Loyal
+2795,M11132,87,1,59.99,5,1,2,512,new_customers,Not Loyal
+2796,M11133,87,1,57.99,5,1,2,512,new_customers,Not Loyal
+2797,M11134,87,1,53.99,5,1,2,512,new_customers,Not Loyal
+2798,M11135,87,1,45,5,1,2,512,new_customers,Not Loyal
+2799,M11136,87,1,120.48,5,1,4,514,new_customers,Not Loyal
+2800,M11137,87,1,132,5,1,4,514,new_customers,Not Loyal
+2801,M11138,87,1,88.06,5,1,3,513,new_customers,Not Loyal
+2802,M11139,89,1,40.14,5,1,2,512,new_customers,Not Loyal
+2803,M11140,89,1,77.7,5,1,3,513,new_customers,Not Loyal
+2804,M11141,89,1,21.26,5,1,1,511,new_customers,Not Loyal
+2805,M11142,89,1,33.75,5,1,2,512,new_customers,Not Loyal
+2806,M11143,89,1,68.83,5,1,3,513,new_customers,Not Loyal
+2807,M11144,89,1,37.92,5,1,2,512,new_customers,Not Loyal
+2808,M11145,89,1,11.97,5,1,1,511,new_customers,Not Loyal
+2809,M11146,89,1,45,5,1,2,512,new_customers,Not Loyal
+2810,M11147,89,1,19.37,5,1,1,511,new_customers,Not Loyal
+2811,M11150,90,1,38.69,5,1,2,512,new_customers,Not Loyal
+2812,M11151,101,1,15.8,4,1,1,411,promising,Not Loyal
+2813,M11152,101,1,45.87,4,1,2,412,promising,Not Loyal
+2814,M11153,110,1,58.99,4,1,2,412,promising,Not Loyal
+2815,M11154,110,1,11,4,1,1,411,promising,Not Loyal
+2816,M11155,110,1,42.88,4,1,2,412,promising,Not Loyal
+2817,M11156,118,1,231.86,4,1,5,415,promising,Not Loyal
+2818,M11157,119,1,59.7,4,1,2,412,promising,Not Loyal
+2819,M11158,121,1,224.8,4,1,5,415,promising,Not Loyal
