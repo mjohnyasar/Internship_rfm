@@ -16,7 +16,7 @@ st.subheader("(Data: Coworce )")
 #st.image("champions.png",width=600,caption="Explore the groups ")
 st.image("https://d35fo82fjcw0y8.cloudfront.net/2018/03/01013508/Incontent_image.png",width=600,caption="It is made of 3 main criterias? ")
 st.image("https://d35fo82fjcw0y8.cloudfront.net/2018/03/01013239/Header-e1551869702205.png",width=600,caption="Explore the groups ")
-st.image("rfm_explanation.PNG",width=600,caption="Explnation")
+st.image("rfm_explanation.PNG",width=600,caption="Explanation")
 
 
 st.write("## CUSTOMER RFM POINTS")
@@ -30,7 +30,7 @@ st.info(" Total Number of Customers  : {}".format(len_df))
 
 label1="first 2 digit"
 label2="second 2 digit"
-a=st.slider(label1, min_value=1, max_value=28, value=14,step=1, label_visibility="visible");
+a=st.slider(label1, min_value=0, max_value=28, value=14,step=1, label_visibility="visible");
 b=st.slider(label2, min_value=0, max_value=19, value=10,step=1, label_visibility="visible")
 c=a*100+b
 st.write("CHOSEN CUSTOMER NO :", c)
