@@ -4,7 +4,7 @@ import streamlit as st
 import seaborn as sns
 #import matplotlib.pyplot as plt
 
-data_rfm = pd.read_excel("/content/drive/MyDrive/ColabNotebooks/Internship/Group2/RFM/rfm.xlsx") 
+data_rfm = pd.read_excel("rfm.xlsx") 
 df=data_rfm.copy().set_index("customer_no")
 len_df=len(df)
 
@@ -12,8 +12,8 @@ len_df=len(df)
 st.header(" CUSTOMER RFM POINT INSPECTION")
 st.subheader("(Data: Coworce )")
 
-#st.image("/content/drive/MyDrive/ColabNotebooks/Internship/Group2/RFM/rfm_metrics.png",width=600, caption="It is made of 3 main criterias?")
-#st.image("/content/drive/MyDrive/ColabNotebooks/Internship/Group2/RFM/champions.png",width=600,caption="Explore the groups ")
+#st.image("rfm_metrics.png",width=600, caption="It is made of 3 main criterias?")
+#st.image("champions.png",width=600,caption="Explore the groups ")
 st.image("https://d35fo82fjcw0y8.cloudfront.net/2018/03/01013508/Incontent_image.png",width=600,caption="It is made of 3 main criterias? ")
 st.image("https://d35fo82fjcw0y8.cloudfront.net/2018/03/01013239/Header-e1551869702205.png",width=600,caption="Explore the groups ")
 
