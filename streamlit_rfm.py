@@ -4,7 +4,7 @@ import streamlit as st
 import seaborn as sns
 #import matplotlib.pyplot as plt
 
-data_rfm = pd.read_excel("rfm.xlsx") 
+data_rfm = pd.read_csv("rfm.csv") 
 df=data_rfm.copy().set_index("customer_no")
 len_df=len(df)
 
