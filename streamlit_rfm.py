@@ -16,7 +16,7 @@ st.subheader("(Data: Coworce )")
 #st.image("champions.png",width=600,caption="Explore the groups ")
 st.image("https://d35fo82fjcw0y8.cloudfront.net/2018/03/01013508/Incontent_image.png",width=600,caption="It is made of 3 main criterias? ")
 st.image("https://d35fo82fjcw0y8.cloudfront.net/2018/03/01013239/Header-e1551869702205.png",width=600,caption="Explore the groups ")
-
+st.image("rfm_explanation.png",width=600,caption="Explore the groups ")
 
 
 st.write("## CUSTOMER RFM POINTS")
