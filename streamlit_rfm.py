@@ -50,41 +50,6 @@ st.subheader("Results of Segment Filter:")
 st.write(df.loc[(df['Segment']==segments)])
 
 
-#___________________ Customer Loyalty Analysis____________________________
-
-st.subheader(" Customer Loyalty Analysis ")
-st.write("Any customer who has a recency score equal or greater than 4 and also has a Frequency score equal or greater than 2, accepted as LOYAL")
-
-# Pie chart, where the slices will be ordered and plotted counter-clockwise:
-labels = 'Not Loyal', 'Loyal'
-
-is_loyal=df[df["Is_Loyal"]=="Loyal"]
-loyal_y=len(df[df["Is_Loyal"]=="Loyal"]["Is_Loyal"])
-loyal_n=len(df[df["Is_Loyal"]=="Not Loyal"]["Is_Loyal"])
-
-sizes = [loyal_n, loyal_y]
-explode = (0,0.1)  # only "explode" the 2nd slice 
-
-fig1, ax1 = plt.subplots()
-ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
-        shadow=True, startangle=90)
-ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-
-st.pyplot(fig1)
-
-st.write("""
-How to Increase Customer Loyalty
-
-1.Make customer service a priority – even on social
-According to a Microsoft study, 90% of consumers across the globe consider customer service to be important in their choice of a brand.
-
-2.Reward your customers
-One of the best ways to keep customers coming back is to reward them for their loyalty. Set up a loyalty program that gives customers discounts, gifts and exclusive offers
-
-3. Ask for advice and listen to it
-When your mom gave you advice as a teenager, you rolled your eyes, got defensive and probably said something like, “She doesn’t know what she’s talking about.”
-""")
-
 
 #___________________ Customer Loyalty Analysis____________________________
 if  st.sidebar.checkbox("Customer Loyalty Analysis"):
