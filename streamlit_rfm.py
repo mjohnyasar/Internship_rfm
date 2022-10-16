@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import seaborn as sns
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 data_rfm = pd.read_csv("rfm.csv") 
 df=data_rfm.copy()
@@ -48,6 +48,9 @@ st.subheader("Results of Customer Filter:")
 st.write(df.loc[(df['customer_id']==customer_id)])
 st.subheader("Results of Segment Filter:")
 st.write(df.loc[(df['Segment']==segments)])
+
+
+
 *________________________________________________
 
 st.subheader(" Please choose the customer_no ")
@@ -74,72 +77,71 @@ sns.histplot(data=df[["Frequency"]])
 sns.histplot(data=df[["Monetary"]])
 
 
-#________________________________
-numeric=df.select_dtypes(include=['int64','float64']).columns
-def plot_hist(f1,feature):
-    fig = plt.figure(figsize=(10, 4))
-    plt.hist(f1[feature], bins = 50)
-    plt.xlabel(feature)
-    plt.ylabel("Frequency")
-    plt.title("{} distribution with hist".format(feature))
-    plt.show()
-    st.write(fig)      # st.pyplot(fig) 
-#for n in numeric:
-#   plot_hist(df,n)
-#______________________________________
-
-def hist_plot(f1, feature):
-    fig, ax=plt.subplots(figsize=(10, 4))
-    ax.hist([feature],bins=50)
-    plt.xlabel(feature)
-    plt.ylabel("Frequency")
-    plt.title("{} distribution with hist".format(feature))
-    plt.xlabel(feature)
-    st.write(fig)
-
-# for n in numeric:
-#    hist_plot(df,n)
-
-#______________________________________
-objects=df.drop(["customer_id"],axis=1).select_dtypes(include=['object']).columns
-
-def countPlot(f1,feature):
-    fig = plt.figure(figsize=(10, 4))
-    sns.countplot(x = feature, data = f1)
-    st.pyplot(fig)
-# for n in objects:
-#    countPlot(df,n)
 
 
+#___________________ Customer Loyalty Analysis____________________________
+
+st.subheader(" Customer Loyalty Analysis ")
+st.write("Any customer who has a recency score equal or greater than 4 and also has a Frequency score equal or greater than 2, accepted as LOYAL")
+
+# Pie chart, where the slices will be ordered and plotted counter-clockwise:
+labels = 'Not Loyal', 'Loyal'
+
+is_loyal=df[df["Is_Loyal"]=="Loyal"]
+loyal_y=len(df[df["Is_Loyal"]=="Loyal"]["Is_Loyal"])
+loyal_n=len(df[df["Is_Loyal"]=="Not Loyal"]["Is_Loyal"])
+
+sizes = [loyal_n, loyal_y]
+explode = (0,0.1)  # only "explode" the 2nd slice (i.e. 'Hogs')
+
+fig1, ax1 = plt.subplots()
+ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
+        shadow=True, startangle=90)
+ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+st.pyplot(fig1)
+
+st.write("""
+How to Increase Customer Loyalty
+
+1.Make customer service a priority – even on social
+According to a Microsoft study, 90% of consumers across the globe consider customer service to be important in their choice of a brand.
+
+2.Reward your customers
+One of the best ways to keep customers coming back is to reward them for their loyalty. Set up a loyalty program that gives customers discounts, gifts and exclusive offers
+
+3. Ask for advice and listen to it
+When your mom gave you advice as a teenager, you rolled your eyes, got defensive and probably said something like, “She doesn’t know what she’s talking about.”
+""")
 
 
-#------------------------------------------
-# Violin plot
-#------------------------------------------
-#       ['customer_id', 'Recency', 'Frequency', 'Monetary', 'Recency_score',
-#       'Frequency_score', 'Monetary_score', 'RFM_SCORE', 'Segment','Is_Loyal']
+#___________________ Customer Churn Analysis____________________________
 
+st.subheader(" Customer Churn Analysis ")
+# Churn ( passive)  If there are more than 6 months from the last purchase 
+st.write("Customer churn is the percentage of customers that stopped using your company's product or service during a certain time frame")
 
-def violinStrip_plot():
-    st.header("Violin & Strip Plot")
-    sd = st.selectbox(
-        "Select a Plot", #Drop Down Menu Name
-        [
-            "Violin Plot", #First option in menu
-            "Strip Plot"   #Seconf option in menu
-        ]
-    )
+labels = 'Active','Churn ( Passive)'
+total_c=2819  #  total_customer
+churn_c=921  #   churn_customer
+active_c=total_c-churn_c
 
-    fig = plt.figure(figsize=(12, 6))
+sizes = [active_c, churn_c]
+explode = (0,0.1)  # only "explode" the 2nd slice )
 
-    if sd == "Violin Plot":
-        sns.violinplot(x = "Monetary", y = "Frequency", data = df)
-    
-    elif sd == "Strip Plot":
-        sns.stripplot(x = "Monetary", y = "Recency", data = df)
+fig2, ax1 = plt.subplots()
+ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90)
+ax1.axis('equal')    # Equal aspect ratio ensures that pie is drawn as a circle.
+ax1.set_title("The Last 6 months passive customer ratio ")
+st.pyplot(fig2)
 
-    st.pyplot(fig)
+st.write("""How to Reduce Customer Churn
+1. Focus your attention on your best customers.
+Rather than simply focusing on offering incentives to customers who are considering churning, it could be even more beneficial to pool your resources into your loyal, profitable customers.
 
-#violinStrip_plot()
+2. Analyze churn as it occurs.
+Use your churned customers as a means of understanding why customers are leaving. Analyze how and when churn occurs in a customer's lifetime with your company, and use that data to put into place preemptive measures.
 
-  #------------------------------------------
+3. Show your customers that you care.
+Instead of waiting to connect with your customers until they reach out to you, try a more proactive approach. Communicate with them all the perks you offer and show them you care about their experience, and they'll be sure to stick around.
+""")
