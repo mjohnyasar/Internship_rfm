@@ -18,6 +18,7 @@ st.image("https://d35fo82fjcw0y8.cloudfront.net/2018/03/01013508/Incontent_image
 st.image("https://d35fo82fjcw0y8.cloudfront.net/2018/03/01013239/Header-e1551869702205.png",width=600,caption="Explore the groups ")
 st.image("rfm_explanation.PNG",width=600,caption="Explanation")
 st.image("treemap.jpg",width=600,caption="Explanation")
+st.image("rfm_distribution.png",width=600,caption="Explanation")
 
 st.write("## CUSTOMER RFM POINTS")
 st.write()
