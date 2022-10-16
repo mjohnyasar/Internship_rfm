@@ -49,7 +49,7 @@ st.write(df.loc[(df['customer_id']==customer_id)])
 st.subheader("Results of Segment Filter:")
 st.write(df.loc[(df['Segment']==segments)])
 
-
+st.sidebar.subheader("Please Select the Analysis")
 
 #___________________ Customer Loyalty Analysis____________________________
 if  st.sidebar.checkbox("Customer Loyalty Analysis"):
