@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 
 data_rfm = pd.read_csv("rfm.csv") 
 df=data_rfm.copy()
-#df=data_rfm.copy().set_index("customer_no")
 len_df=len(df)
 
 
@@ -50,35 +49,6 @@ st.subheader("Results of Segment Filter:")
 st.write(df.loc[(df['Segment']==segments)])
 
 
-
-*________________________________________________
-
-st.subheader(" Please choose the customer_no ")
-
-st.info(" Total Number of Customers  : {}".format(len_df))
-
-label1="first 2 digit"
-label2="second 2 digit"
-a=st.slider(label1, min_value=0, max_value=28, value=14,step=1, label_visibility="visible");
-b=st.slider(label2, min_value=0, max_value=19, value=10,step=1, label_visibility="visible")
-c=a*100+b
-st.write("CHOSEN CUSTOMER NO :", c)
-
-
-dff=df.iloc[c-1]
-st.table(dff)
-st.write(dff)
-
-dff=df[["Recency","Frequency","Monetary"]]
-dff.hist()
-
-sns.histplot(data=df[["Recency"]])
-sns.histplot(data=df[["Frequency"]])
-sns.histplot(data=df[["Monetary"]])
-
-
-
-
 #___________________ Customer Loyalty Analysis____________________________
 
 st.subheader(" Customer Loyalty Analysis ")
@@ -92,7 +62,7 @@ loyal_y=len(df[df["Is_Loyal"]=="Loyal"]["Is_Loyal"])
 loyal_n=len(df[df["Is_Loyal"]=="Not Loyal"]["Is_Loyal"])
 
 sizes = [loyal_n, loyal_y]
-explode = (0,0.1)  # only "explode" the 2nd slice (i.e. 'Hogs')
+explode = (0,0.1)  # only "explode" the 2nd slice 
 
 fig1, ax1 = plt.subplots()
 ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
